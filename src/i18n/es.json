@@ -1,0 +1,72 @@
+{
+  "nav": { "home": "Inicio", "services": "Servicios", "track_record": "Experiencia", "about": "Sobre nosotros", "blog": "Blog", "team": "Equipo", "careers": "Carreras", "contact": "Contacto" },
+  "hero": {
+    "badge": "GEMBA Team · División de Servicios Industriales",
+    "title1": "Especialistas en reactores y",
+    "title_accent": "cambio de catalizadores",
+    "title2": "en toda Europa",
+    "subtitle": "Técnicos industriales certificados y experimentados con más de 10 años de experiencia combinada. Recomendados por líderes de la industria incluyendo NICO Industrial Services y Mourik.",
+    "cta": "Nuestros servicios",
+    "cta2": "Contáctenos"
+  },
+  "stats": { "crew": "Tamaño del equipo", "years": "Años combinados", "safety": "Registro de seguridad", "availability": "Disponibilidad" },
+  "services": {
+    "page_title": "Servicios industriales",
+    "subtitle": "Servicios técnicos especializados para refinerías e instalaciones petroquímicas en toda Europa — con seguridad, precisión y fiabilidad.",
+    "items": [
+      { "title": "Técnicos de reactores", "desc": "Técnicos certificados desplegados en refinerías de petróleo en Europa, operando bajo los más estrictos procedimientos HSE." },
+      { "title": "Cambio de catalizadores", "desc": "Operaciones completas de cambio de catalizadores — descarga, cribado, carga — ejecutadas con precisión y cumplimiento total." },
+      { "title": "Seguridad y cumplimiento", "desc": "Nuestro equipo posee certificaciones europeas en entrada a espacios confinados, aparejo y carretillas elevadoras." },
+      { "title": "Personal especializado", "desc": "Equipo base de 4 especialistas BA con contratos permanentes, escalable hasta 12 personas bajo demanda. Inglés fluido." },
+      { "title": "Certificados y experimentados", "desc": "Oficialmente recomendados por Mourik con cartas de referencia. 10+ años de experiencia en las refinerías más grandes del mundo." },
+      { "title": "Escalables y flexibles", "desc": "Desde soporte con un solo técnico hasta movilización completa del equipo en Europa. Nos adaptamos a sus requisitos." }
+    ]
+  },
+  "track_record": {
+    "page_title": "Dónde hemos trabajado",
+    "subtitle": "Nuestros equipos han completado proyectos exitosos en algunas de las refinerías más exigentes del mundo.",
+    "refineries": [
+      { "name": "Esso Fawley Refinery", "loc": "Southampton, Reino Unido" },
+      { "name": "Shell Energy & Chemicals Park", "loc": "Rotterdam, Países Bajos" },
+      { "name": "Shell Rheinland Refinery (Godorf)", "loc": "Colonia, Alemania" },
+      { "name": "BP Rotterdam Refinery", "loc": "Rotterdam, Países Bajos" },
+      { "name": "ORLEN Lietuva Refinery", "loc": "Mazeikiai, Lituania" },
+      { "name": "Neste Porvoo Refinery", "loc": "Porvoo, Finlandia" },
+      { "name": "Rompetrol Petromidia", "loc": "Constanza, Rumanía" },
+      { "name": "Bazan Group Refinery", "loc": "Haifa, Israel" },
+      { "name": "OMV Schwechat Refinery", "loc": "Schwechat, Austria" },
+      { "name": "Bayernoil Refinery", "loc": "Baviera, Alemania" },
+      { "name": "Huntsman Holland BV", "loc": "Rotterdam, Países Bajos" },
+      { "name": "Tata Steel IJmuiden", "loc": "IJmuiden, Países Bajos" }
+    ],
+    "more": "+ muchos más en Europa"
+  },
+  "about": {
+    "page_title": "Sobre nosotros", "title": "GEMBA Industrial Services",
+    "p1": "GEMBA Industrial Services es una división especializada de GEMBA Team EOOD que proporciona equipos certificados de técnicos de reactores y servicios de cambio de catalizadores para refinerías en Europa.",
+    "p2": "Nuestro equipo aporta más de 10 años de experiencia combinada, incluyendo 5 años como empleados de NICO Industrial Services UK y Mourik. Contamos con cartas de referencia oficiales de Mourik.",
+    "p3": "Nuestro equipo base de 4 especialistas BA posee cualificaciones europeas en espacios confinados, aparejo y carretillas. Dominamos el inglés y operamos bajo los más altos estándares HSE, escalable a 12 personas.",
+    "certs": ["Espacios confinados", "Aparejo certificado", "Carretillas certificadas", "Equipo BA", "SCC/VCA (TÜV Rheinland)", "Referencia Mourik"],
+    "countries": ["🇧🇬 Bulgaria", "🇬🇧 Reino Unido", "🇱🇹 Lituania", "🇳🇱 Países Bajos", "🇩🇪 Alemania", "🇫🇮 Finlandia", "🇦🇹 Austria", "🇷🇴 Rumanía", "🇮🇱 Israel"]
+  },
+  "blog": { "page_title": "Noticias y análisis", "coming": "Próximamente", "posts": [] },
+  "team": { "page_title": "Equipo", "leadership": "Liderazgo", "name": "Slavcho Ivanov", "role": "Director General y Especialista Principal en Reactores", "bio": "Más de 10 años de experiencia práctica en operaciones de cambio de catalizadores en grandes refinerías europeas incluyendo Shell, ExxonMobil, BP, Neste y ORLEN. Certificado SCC/VCA (TÜV Rheinland), cualificación BA/N2. Anteriormente empleado de NICO Industrial Services UK y Mourik.", "tagline": "Liderando desde el frente — dentro del reactor, no detrás de un escritorio." },
+  "careers": {
+    "page_title": "Carreras", "intro_title": "Únete a nuestro equipo",
+    "intro": "Buscamos técnicos industriales experimentados. Si tienes experiencia en refinerías y las certificaciones adecuadas, queremos saber de ti.",
+    "open_positions": "Posiciones abiertas", "tech_title": "Técnico de Reactor / Especialista BA",
+    "tech_desc": "Buscamos técnicos de reactor y especialistas BA experimentados para operaciones de cambio de catalizadores en refinerías europeas.",
+    "we_need": "Requisitos", "needs": ["Experiencia en cambio de catalizadores", "Certificación de espacios confinados", "Cualificación BA/N2 preferida", "Inglés fluido", "Disponibilidad para viajar", "Pasaporte válido y permiso de trabajo UE"],
+    "we_offer": "Lo que ofrecemos", "offers": ["Tarifas diarias competitivas", "Viaje y alojamiento cubiertos", "Trabajo en refinerías de primer nivel", "Empleo a largo plazo", "Desarrollo profesional"],
+    "no_role_title": "¿No ves tu puesto?", "no_role": "Siempre buscamos técnicos cualificados. Envíanos tu CV.", "send_cv": "Enviar CV", "apply": "Aplicar"
+  },
+  "contact": {
+    "page_title": "Contacto", "title": "¿Listos para trabajar juntos?",
+    "subtitle": "¿Busca técnicos de reactor o un equipo completo para cambio de catalizadores? Contáctenos.",
+    "email_label": "Email", "email": "contacts@gembaindustrial.com",
+    "phone_label": "Teléfono", "phone": "+359 897 598 378",
+    "location_label": "Ubicación", "location": "Varna, Bulgaria", "operating": "Desplegando equipos en toda Europa",
+    "form": { "name": "Tu nombre", "email": "Tu email", "subject": "Asunto", "message": "Tu mensaje", "send": "Enviar", "sending": "Enviando...", "success": "¡Mensaje enviado!", "error": "Algo salió mal. Inténtalo de nuevo." }
+  },
+  "footer": { "company": "GEMBA Industrial Services", "parent": "División industrial de GEMBA Team EOOD", "eik": "EIK: 208656371", "location": "Varna, Bulgaria", "privacy": "Privacidad", "terms": "Términos", "rights": "Todos los derechos reservados" }
+}

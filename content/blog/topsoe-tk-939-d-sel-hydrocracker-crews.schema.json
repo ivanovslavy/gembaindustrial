@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Topsoe TK-939 D-sel: Notes for Hydrocracker Crews",
+    "description": "Topsoe's May 2026 case study credits TK-939 D-sel with $7.6M of extra profit per cycle at a European refinery. Here is what the same decision looks like at the manway.",
+    "image": "https://gembaindustrial.com/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero.jpg",
+    "datePublished": "2026-05-26",
+    "dateModified": "2026-05-26",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/topsoe-tk-939-d-sel-hydrocracker-crews",
+    "articleSection": "Industry Commentary",
+    "keywords": "topsoe, tk-939-d-sel, hydrocracker, catalyst-changeout, middle-distillate, niw-catalyst, contractors, turnaround"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Topsoe TK-939 D-sel and what type of unit does it sit in?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TK-939 D-sel is a low zeolitic NiW (nickel-tungsten) hydrocracking catalyst from Topsoe, designed for high middle-distillate selectivity with low overcracking. It is used in single-stage and two-stage hydrocrackers — typically in the cracking-active bed of a mild hydrocracker — to maximise diesel yield from vacuum gas oil and similar feeds. Topsoe positions it alongside TK-949 and TK-969 in the D-sel family of diesel-selectivity catalysts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What were the headline numbers in the May 2026 Topsoe customer case?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A European refinery, anonymised in the write-up, switched to TK-939 D-sel and over an 18-month cycle produced an extra 450,000 barrels of diesel — about 830 barrels per day above its previous baseline — at a cloud point 5 to 8°C lower than the prior catalyst delivered. Middle distillate yield rose by 4 wt%. Topsoe puts the cycle-level profit gain at $7.6 million."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does the choice of NiW vs NiMo catalyst matter for the changeout crew?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both NiW and NiMo catalysts are sulphided, pyrophoric in air once the protective sulphide layer is breached, and require inert entry under nitrogen. But the rate of self-heating in air, the temperature profile during passivation, and the visual cues at the bed surface differ between the two families. NiW typically sits in a deeper sulphide state at end of run and can give a sharper exotherm when air first reaches the residual dust during passivation. A crew lead reading a previous-cycle NiMo passivation pattern can misjudge an NiW residue."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does a high-yield catalyst choice change the catalyst-changeout schedule?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A selectivity-skewed run accumulates more coke at the top of the bed and less HPNA-bearing fouling at the bottom, so the heaviest skinning often sits higher in the reactor than crews expect. Skinned beds take longer to break under inert entry than clean ones, extending nitrogen hours and putting pressure on BA shift rotation and cylinder swap-out. A schedule built off the previous cycle's dump time, without an allowance for the skinning profile of a D-sel run, will run long."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should be in the day-of-job pack for a D-sel hydrocracker loading shift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The pack should reference the Topsoe loading procedure by document number and revision date, the bed-by-bed scheme (depth and density for each layer), the catalyst codes by drum, the inert load (grading and balls), the scale-basket configuration, the maximum drop height, the vibration time and amplitude, the bed-level verification frequency, the unload route for off-spec material, and the post-load drop test method. A pack that names only the catalyst and bed depth is missing two-thirds of what the loading shift needs."
+        }
+      }
+    ]
+  }
+}

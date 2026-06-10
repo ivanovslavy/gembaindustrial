@@ -1,0 +1,58 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "When Caramel Explodes: The Givaudan Reactor Lesson",
+    "description": "The CSB's final report on the 2024 Givaudan explosion: a stuck vent valve and a relief system four times too small. Here is the longer version.",
+    "image": "https://gembaindustrial.com/images/blog/givaudan-caramel-runaway-reactor-csb/hero.jpg",
+    "datePublished": "2026-06-02",
+    "dateModified": "2026-06-02",
+    "author": { "@type": "Organization", "name": "GEMBA Industrial crew", "url": "https://gembaindustrial.com/en/about" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": { "@type": "ImageObject", "url": "https://gembaindustrial.com/favicon.svg" }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/givaudan-caramel-runaway-reactor-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, runaway-reaction, pressure-relief, reactive-hazard, batch-reactor, facility-siting, control-room, contractors, process-safety"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the 2024 Givaudan Sense Colour explosion in Louisville?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB's final report (investigation 2024-06-I-KY, released May 27, 2026) found that a 2,500-gallon reactor making caramel coloring underwent a runaway decomposition of its sugar ingredient. The decomposition generated non-condensable gases faster than the vessel could vent, the emergency pressure relief system was far too small to cope, and the reactor ruptured. Two workers were killed and three seriously injured. The Board found Givaudan had not recognized the potential for a runaway reaction in the process."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How undersized was the reactor's pressure relief system?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to the CSB, the emergency relief system would have needed to be roughly four times larger to safely handle the pressure the runaway reaction produced. It had been undersized since it was installed in 2021, because the runaway-reaction scenario it needed to protect against was never identified in a process hazard analysis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why didn't the workers evacuate before the explosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the reactor's cooling vent valve stuck shut, staff stayed at the panel to troubleshoot the problem rather than evacuating. The CSB calculated they had more than three minutes to get out. Two of the workers who died were in a control room located about 40 feet from the reactor, which was not blast-resistant and collapsed in the explosion."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the Givaudan explosion mean for refinery and petrochemical crews?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Runaway exotherms that outrun an undersized relief device are an old failure mode that also appears in hydroprocessing temperature runaways, peroxide and monomer service, and water-into-hot-oil events. The contractor takeaways: a relief valve passing a bench test does not confirm its setpoint and orifice are right for every scenario; temporary turnaround facilities and muster points need real siting distance from live vessels; and recurring nuisance faults like a sticking valve should be treated as defects, not worked around."
+        }
+      }
+    ]
+  }
+}

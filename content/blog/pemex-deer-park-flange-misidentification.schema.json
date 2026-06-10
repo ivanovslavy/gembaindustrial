@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Wrong Flange, Right Unit: Reading the PEMEX Deer Park Report",
+    "description": "What the U.S. Chemical Safety Board found about the October 10, 2024 fatal H₂S release at PEMEX Deer Park — and what contractor crews should take from it about positive equipment identification and mid-shift reassignment.",
+    "image": "https://gembaindustrial.com/images/blog/pemex-deer-park-flange-misidentification/hero.jpg",
+    "datePublished": "2026-04-24",
+    "dateModified": "2026-04-24",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/pemex-deer-park-flange-misidentification",
+    "articleSection": "On-the-Job Stories & Commentary",
+    "keywords": "csb, pemex, deer-park, h2s, flange, permit-to-work, refinery-safety, line-opening"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does the CSB recommend for positive equipment identification?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB recommends standardised, visible markings on every line segment and flange that requires opening — not just on pipe-cutting work — together with a documented pre-job walk-down in which the crew and the issuing authority touch the actual flange together. A clearly placed tag, legible from the crew's working position, plus a line-list that distinguishes the target from any parallel lines within working reach. The Board's PEMEX Deer Park report singles out the absence of a standardised flange-opening procedure as a root-cause contributor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did a bundled work permit contribute to the incident?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A permit that covers multiple jobs across varying hazard profiles invites the crew to treat each sub-task as a continuation of the previous one. When the hazard state changes mid-shift — in this case, reassignment from an isolated shutdown unit to a partially operational H₂S unit — a bundled permit does not force a stop, a re-brief, or a fresh hazard walk. The CSB report faults PEMEX Deer Park specifically for not building hold points into the permit that would have triggered a pause at the hazard transition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a crew lead do when reassigned mid-shift to a different hazard profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Treat the reassignment as a new job. Stop, request an updated permit (not an addendum), perform a joint pre-job walk-down with the issuing authority and the new unit's operator present at the actual flange, re-brief the crew on the unit-specific hazards (H₂S, pyrophoric residues, trapped pressure, amine), and verify the isolation boundary yourself. Muscle memory from the previous job — especially 'isolated, drained, safe to unbolt' — is the dangerous state the CSB identified in the PEMEX Deer Park shift."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does SCC/VCA training cover this failure mode?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SCC/VCA curricula cover permit-to-work and confined-space principles at a generic level, including the expectation that work is stopped when the hazard profile changes. They do not drill the specific reassignment-mid-shift scenario the PEMEX report describes, nor the positive-equipment-identification practice at the granularity of 'a parallel line five feet away'. Crews who have lived through an annual refresher should read the CSB report alongside their SCC/VCA notes — the report fills a specific gap the card does not cover."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I read the CSB's full PEMEX Deer Park report?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The final investigation report, public statements, and supporting animation are on the U.S. Chemical Safety and Hazard Investigation Board's website at csb.gov. Search for 'PEMEX Deer Park Amine Unit H₂S Release' or navigate through the investigations index to the October 10, 2024 incident. The final report was released on February 23, 2026; the animation explaining the release path is worth showing at a toolbox talk."
+        }
+      }
+    ]
+  }
+}

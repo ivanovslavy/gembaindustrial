@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Forgotten Work Lights: The Dow Plaquemine FME Lesson",
+    "description": "The CSB's February 2026 report on the Dow Plaquemine ethylene oxide explosion comes down to one detail: portable work lights left inside a reflux drum. Here is what the closure form missed.",
+    "image": "https://gembaindustrial.com/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero.jpg",
+    "datePublished": "2026-04-28",
+    "dateModified": "2026-04-28",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/forgotten-work-lights-dow-plaquemine-fme",
+    "articleSection": "Safety & Compliance Field Guide",
+    "keywords": "csb, foreign-material-exclusion, fme, confined-space-entry, turnaround, contractors, ethylene-oxide, dow-plaquemine"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the 2023 Dow Plaquemine ethylene oxide explosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Per the CSB's final report released on 26 February 2026, portable work lights were left inside a reflux drum during a May 2023 turnaround. Over the following weeks the lights degraded into metal debris that punctured a rupture disc. Ethylene oxide entered the relief piping, which had silently lost its nitrogen inerting and filled with air. The mixture ignited, the flame front travelled roughly 50 feet of piping back into the drum's vapour space, and more than 31,000 pounds of EtO were released."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is foreign material exclusion (FME) on a turnaround?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FME is a discipline of tracking every tool, light, rag, and soft good that enters a vessel and reconciling them when work is done. On a tightly run job, every item is logged at the manway by count and serial, the standby man owns the list, and a nominated person performs a final pre-closure check with a mirror or borescope before the manway is bolted up. The standby's count is the assertion that nothing was left inside."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did the CSB say about contractor accountability at Dow Plaquemine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB noted that contractors were frequently the last in the vessel and that accountability for final cleanup was unclear. Multiple trades cycled through the reflux drum during the May 2023 work and the closure form treated the vessel as a single object that was either clean or not at one moment, rather than a vessel that had been entered and exited by many people across a week."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a vessel closure form include beyond a tickbox?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A closure protocol that survives audit specifies how the vessel will be checked: a pre-entry tool log, a reconciliation at every exit, a pre-closure walk by a nominated person using a mirror or borescope rather than a flashlight at arm's length, and a post-closure verification countersigned by the unit operator. NFPA 326 and ASSP Z117.1 both treat closure as a documented hand-off rather than a tickbox."
+        }
+      }
+    ]
+  }
+}

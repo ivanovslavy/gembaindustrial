@@ -1,0 +1,371 @@
+[
+  {
+    "slug": "geismar-hydrogen-fluoride-gasket-csb",
+    "date": "2026-06-09",
+    "lastUpdated": "2026-06-09",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "hydrogen-fluoride",
+      "hf-alkylation",
+      "mechanical-integrity",
+      "management-of-change",
+      "gasket-failure",
+      "permit-to-work",
+      "line-breaking",
+      "contractors",
+      "process-safety"
+    ],
+    "title": {
+      "en": "The Gasket They Meant to Replace: Geismar's HF Lesson",
+      "bg": "Уплътнението, което смятаха да сменят: Урокът от Geismar с HF",
+      "es": "La junta que pensaban reemplazar: La lección de HF de Geismar"
+    },
+    "excerpt": {
+      "en": "Three HF releases in under three years at Honeywell Geismar. The CSB found every one was preventable. Here is the longer version for the crews who break HF lines.",
+      "bg": "Три изпускания на HF за по-малко от три години в Honeywell Geismar. CSB установи, че всяко от тях е било предотвратимо. Ето по-дългата версия за екипите, които отварят HF линии.",
+      "es": "Tres fugas de HF en menos de tres años en Honeywell Geismar. La CSB concluyó que todas eran evitables. Aquí está la versión larga para los equipos que abren líneas de HF."
+    },
+    "readingTime": 13,
+    "hero": "/images/blog/geismar-hydrogen-fluoride-gasket-csb/hero.jpg",
+    "heroRetina": "/images/blog/geismar-hydrogen-fluoride-gasket-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-issues-final-report-on-toxic-hydrogen-fluoride-incidents/",
+    "source_type": "csb_investigation",
+    "source_date": "2025-05-27",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2792,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "givaudan-caramel-runaway-reactor-csb",
+    "date": "2026-06-02",
+    "lastUpdated": "2026-06-02",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "runaway-reaction",
+      "pressure-relief",
+      "reactive-hazard",
+      "batch-reactor",
+      "facility-siting",
+      "control-room",
+      "contractors",
+      "process-safety"
+    ],
+    "title": {
+      "en": "When Caramel Explodes: The Givaudan Reactor Lesson",
+      "bg": "Когато карамелът избухва: Урокът от реактора на Givaudan",
+      "es": "Cuando el caramelo explota: La lección del reactor de Givaudan"
+    },
+    "excerpt": {
+      "en": "The CSB's final report on the 2024 Givaudan explosion: a stuck vent valve and a relief system four times too small. Here is the longer version.",
+      "bg": "Окончателният доклад на CSB за експлозията в Givaudan от 2024 г.: заклещен вентилационен клапан и предпазна система четири пъти по-малка от необходимото. Ето по-дългата версия.",
+      "es": "El informe final de la CSB sobre la explosión de Givaudan de 2024: una válvula de venteo atascada y un sistema de alivio cuatro veces más pequeño de lo necesario. Aquí está la versión larga."
+    },
+    "readingTime": 9,
+    "hero": "/images/blog/givaudan-caramel-runaway-reactor-csb/hero.jpg",
+    "heroRetina": "/images/blog/givaudan-caramel-runaway-reactor-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-releases-final-report-on-fatal-2024-explosion-at-givaudan-facility-in-louisville-kentucky/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-05-27",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 1730,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "topsoe-tk-939-d-sel-hydrocracker-crews",
+    "date": "2026-05-26",
+    "lastUpdated": "2026-05-26",
+    "author": "GEMBA Industrial crew",
+    "category": "Industry Commentary",
+    "cluster": "industry-commentary",
+    "tags": [
+      "topsoe",
+      "tk-939-d-sel",
+      "hydrocracker",
+      "catalyst-changeout",
+      "middle-distillate",
+      "niw-catalyst",
+      "contractors",
+      "turnaround"
+    ],
+    "title": {
+      "en": "Topsoe TK-939 D-sel: Notes for Hydrocracker Crews",
+      "bg": "Topsoe TK-939 D-sel: Бележки за хидрокрекинг екипи",
+      "es": "Topsoe TK-939 D-sel: Notas para equipos de hidrocracker"
+    },
+    "excerpt": {
+      "en": "Topsoe's May 2026 case study credits TK-939 D-sel with $7.6M of extra profit per cycle at a European refinery. Here is what the same decision looks like at the manway.",
+      "bg": "Customer case-ът на Topsoe от май 2026 г. приписва на TK-939 D-sel $7.6 млн. допълнителна печалба на цикъл в европейска рафинерия. Ето как изглежда същото решение при manway-а.",
+      "es": "El caso de cliente de Topsoe de mayo de 2026 atribuye a TK-939 D-sel un beneficio extra de 7,6 M$ por ciclo en una refinería europea. Esto es lo que la misma decisión parece en la boca de hombre."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero.jpg",
+    "heroRetina": "/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero@2x.jpg",
+    "source_url": "https://www.topsoe.com/our-resources/knowledge/customer-cases",
+    "source_type": "catalyst_bulletin",
+    "source_date": "2026-05-18",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2100,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "pce-lake-worth-buried-tank-benzene",
+    "date": "2026-05-19",
+    "lastUpdated": "2026-05-19",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "osha",
+      "confined-space-entry",
+      "permit-to-work",
+      "benzene",
+      "toluene",
+      "tank-cleaning",
+      "contractors",
+      "respiratory-protection",
+      "hazard-communication"
+    ],
+    "title": {
+      "en": "Buried Tank, No Permit: The PCE Lake Worth Lesson",
+      "bg": "Заровен резервоар, без разрешение: Урокът от PCE Lake Worth",
+      "es": "Tanque enterrado, sin permiso: La lección de PCE Lake Worth"
+    },
+    "excerpt": {
+      "en": "OSHA's March 2026 citation against a Florida tank contractor: 12 violations, a buried gasoline tank, benzene exposure. Here is what the training card misses.",
+      "bg": "Цитирането на OSHA от март 2026 г. срещу флоридски tank контрагент: 12 нарушения, заровен бензинов резервоар, експозиция на бензен. Ето какво пропуска обучителната карта.",
+      "es": "La citación de OSHA de marzo de 2026 contra un contratista de tanques de Florida: 12 violaciones, un tanque de gasolina enterrado, exposición a benceno. Esto es lo que la tarjeta de formación pasa por alto."
+    },
+    "readingTime": 9,
+    "hero": "/images/blog/pce-lake-worth-buried-tank-benzene/hero.jpg",
+    "heroRetina": "/images/blog/pce-lake-worth-buried-tank-benzene/hero@2x.jpg",
+    "source_url": "https://www.osha.gov/news/newsreleases/atlanta/20260303",
+    "source_type": "osha_incident",
+    "source_date": "2026-03-03",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 1880,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "catalyst-refiners-h2s-decommissioning-csb",
+    "date": "2026-05-12",
+    "lastUpdated": "2026-05-12",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "hydrogen-sulfide",
+      "decommissioning",
+      "tank-cleaning",
+      "chemical-compatibility",
+      "contractors",
+      "catalyst-refiners",
+      "ames-goldsmith"
+    ],
+    "title": {
+      "en": "When Cleaning Made the Gas: The Catalyst Refiners Lesson",
+      "bg": "Когато почистването създаде газа: Урокът от Catalyst Refiners",
+      "es": "Cuando la limpieza generó el gas: La lección de Catalyst Refiners"
+    },
+    "excerpt": {
+      "en": "On April 22, 2026, two workers died at Ames Goldsmith's Catalyst Refiners plant in Nitro, West Virginia when nitric acid met a tank-cleaning agent during decommissioning. Here is the longer version.",
+      "bg": "На 22 април 2026 г. двама работници загинаха в завода на Ames Goldsmith Catalyst Refiners в Нитро, Западна Вирджиния, когато азотна киселина се смеси с агент за почистване на резервоар по време на извеждане от експлоатация. Ето по-дългата версия.",
+      "es": "El 22 de abril de 2026, dos trabajadores murieron en la planta de Catalyst Refiners de Ames Goldsmith en Nitro, Virginia Occidental, cuando el ácido nítrico se mezcló con un agente de limpieza de tanques durante el desmantelamiento. Aquí está la versión larga."
+    },
+    "readingTime": 11,
+    "hero": "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg",
+    "heroRetina": "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-opens-investigation-into-fatal-chemical-incident-at-catalyst-refiners-facility-in-west-virginia-/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-04-23",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2280,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "argon-pit-asphyxiation-bacchus-csb",
+    "date": "2026-05-05",
+    "lastUpdated": "2026-05-05",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "argon",
+      "inert-gas-asphyxiation",
+      "confined-space-entry",
+      "autoclave",
+      "contractors",
+      "oxygen-monitoring",
+      "northrop-grumman-bacchus"
+    ],
+    "title": {
+      "en": "When the Pit Fills with Argon: The Bacchus Lesson",
+      "bg": "Когато ямата се напълни с аргон: Урокът от Bacchus",
+      "es": "Cuando el foso se llena de argón: La lección de Bacchus"
+    },
+    "excerpt": {
+      "en": "On January 30, 2023, two workers died in an argon-flooded pit beneath an autoclave at Northrop Grumman Bacchus. The CSB's Volume 4 report puts the lesson in one sentence — here is the longer version.",
+      "bg": "На 30 януари 2023 г. двама работници загинаха в яма, изпълнена с аргон, под автоклав в Northrop Grumman Bacchus. Докладът на CSB във Volume 4 свежда урока до едно изречение — ето по-дългата версия.",
+      "es": "El 30 de enero de 2023, dos trabajadores murieron en un foso inundado de argón bajo un autoclave en Northrop Grumman Bacchus. El informe Volume 4 de la CSB resume la lección en una frase — aquí está la versión larga."
+    },
+    "readingTime": 13,
+    "hero": "/images/blog/argon-pit-asphyxiation-bacchus-csb/hero.jpg",
+    "heroRetina": "/images/blog/argon-pit-asphyxiation-bacchus-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-releases-volume-4-of-incident-reports/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-02-18",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2700,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "forgotten-work-lights-dow-plaquemine-fme",
+    "date": "2026-04-28",
+    "lastUpdated": "2026-04-28",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "csb",
+      "foreign-material-exclusion",
+      "fme",
+      "confined-space-entry",
+      "turnaround",
+      "contractors",
+      "ethylene-oxide",
+      "dow-plaquemine"
+    ],
+    "title": {
+      "en": "Forgotten Work Lights: The Dow Plaquemine FME Lesson",
+      "bg": "Забравени работни лампи: Урокът от FME при Dow Plaquemine",
+      "es": "Lámparas de trabajo olvidadas: La lección FME de Dow Plaquemine"
+    },
+    "excerpt": {
+      "en": "The CSB's February 2026 report on the Dow Plaquemine ethylene oxide explosion comes down to one detail: portable work lights left inside a reflux drum. Here is what the closure form missed.",
+      "bg": "Докладът на CSB от февруари 2026 г. за експлозията на етиленов оксид в Dow Plaquemine се свежда до един детайл: преносими работни лампи, оставени в reflux drum. Ето какво е пропуснал closure form-ът.",
+      "es": "El informe de febrero de 2026 de la CSB sobre la explosión de óxido de etileno en Dow Plaquemine se reduce a un detalle: lámparas de trabajo portátiles dejadas dentro de un reflux drum. Esto es lo que pasó por alto el formulario de cierre."
+    },
+    "readingTime": 9,
+    "hero": "/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero.jpg",
+    "heroRetina": "/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-releases-investigation-report-on-the-2023-explosion-and-toxic-ethylene-oxide-release-at-dow-plant-in-plaquemine-louisiana/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-02-26",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 1900,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "honeywell-johnson-matthey-catalyst-crews",
+    "date": "2026-04-24",
+    "lastUpdated": "2026-04-24",
+    "author": "GEMBA Industrial crew",
+    "category": "Industry Commentary",
+    "cluster": "industry-commentary",
+    "tags": [
+      "honeywell",
+      "johnson-matthey",
+      "catalyst-technologies",
+      "uop",
+      "turnaround",
+      "contractors",
+      "syngas",
+      "hydrogen"
+    ],
+    "title": {
+      "en": "Honeywell-Johnson Matthey: Notes for Catalyst Crews",
+      "bg": "Honeywell-Johnson Matthey: Бележки за катализаторни екипи",
+      "es": "Honeywell-Johnson Matthey: Notas para equipos de catalizadores"
+    },
+    "excerpt": {
+      "en": "Honeywell's amended GBP1.325bn deal for Johnson Matthey's Catalyst Technologies closes by end of August 2026. Here's what changeout crews should track now.",
+      "bg": "Изменената сделка на Honeywell от 1.325 млрд. британски лири за Catalyst Technologies на Johnson Matthey приключва до края на август 2026 г. Ето какво трябва да следят changeout екипите сега.",
+      "es": "El acuerdo modificado de Honeywell por 1.325 mil millones de libras para Catalyst Technologies de Johnson Matthey cierra a finales de agosto de 2026. Esto es lo que los equipos de changeout deben seguir ahora."
+    },
+    "readingTime": 9,
+    "hero": "/images/blog/honeywell-johnson-matthey-catalyst-crews/hero.jpg",
+    "heroRetina": "/images/blog/honeywell-johnson-matthey-catalyst-crews/hero@2x.jpg",
+    "source_url": "https://www.honeywell.com/us/en/press/2026/02/honeywell-enters-into-amended-agreement-to-acquire-johnson-matthey-s-catalyst-technologies-business",
+    "source_type": "industry_publication",
+    "source_date": "2026-02-23",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 1942,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "pemex-deer-park-flange-misidentification",
+    "date": "2026-04-24",
+    "lastUpdated": "2026-04-24",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "hydrogen-sulfide",
+      "permit-to-work",
+      "contractors",
+      "turnaround"
+    ],
+    "title": {
+      "en": "Wrong Flange, Right Unit: Reading the PEMEX Deer Park Report",
+      "bg": "Грешен фланец, правилно звено: Прочит на доклада от PEMEX Deer Park",
+      "es": "Brida equivocada, unidad correcta: Lectura del informe de PEMEX Deer Park"
+    },
+    "excerpt": {
+      "en": "The CSB's final report on the 2024 PEMEX Deer Park H2S release: what actually happened, what the training card misses, and what crew leads can do now.",
+      "bg": "Окончателният доклад на CSB за изпускането на H₂S в PEMEX Deer Park през 2024 г.: какво всъщност се случи, какво пропуска обучителната карта и какво могат да направят ръководителите на екипите сега.",
+      "es": "El informe final de la CSB sobre la liberación de H₂S de 2024 en PEMEX Deer Park: qué ocurrió realmente, qué pasa por alto la tarjeta de formación y qué pueden hacer los jefes de equipo ahora."
+    },
+    "readingTime": 8,
+    "hero": "/images/blog/pemex-deer-park-flange-misidentification/hero.jpg",
+    "heroRetina": "/images/blog/pemex-deer-park-flange-misidentification/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-releases-investigation-report-on-fatal-hydrogen-sulfide-release-at-the-pemex-deer-park-refinery-in-texas/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-02-23",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 1769,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "turnaround-planning-execution",
+    "date": "2026-04-15",
+    "author": "GEMBA Industrial",
+    "category": "Refinery Operations",
+    "tags": [
+      "turnaround",
+      "refinery",
+      "maintenance",
+      "catalyst",
+      "planning"
+    ],
+    "title": {
+      "en": "Turnaround Planning and Execution: Inside the Most Critical Weeks in Refinery Operations",
+      "bg": "Планиране и изпълнение на технологичен престой: Вътре в най-критичните седмици в работата на рафинерията",
+      "es": "Planificación y ejecución de paradas: Dentro de las semanas más críticas en las operaciones de refinería"
+    },
+    "excerpt": {
+      "en": "A refinery turnaround is not just a maintenance event — it is a precisely coordinated shutdown that determines whether a plant runs profitably for the next four to six years. Here is how we approach them.",
+      "bg": "Технологичният престой на рафинерия не е просто събитие по поддръжка — той е прецизно координирано спиране, което определя дали предприятието ще работи рентабилно през следващите четири до шест години. Ето как ние подхождаме към тях.",
+      "es": "Una parada de refinería no es simplemente un evento de mantenimiento, es un cierre coordinado con precisión que determina si una planta funciona de forma rentable durante los próximos cuatro a seis años. Así es como los afrontamos."
+    },
+    "hero": "/images/blog/turnaround-planning-execution/hero.webp",
+    "heroRetina": "/images/blog/turnaround-planning-execution/hero@2x.webp",
+    "hero_status": "generated"
+  }
+]

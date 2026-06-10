@@ -1,0 +1,74 @@
+<VirtualHost *:80>
+    ServerName gembaindustrial.com
+    ServerAlias www.gembaindustrial.com
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</VirtualHost>
+
+<VirtualHost *:443>
+    ServerName gembaindustrial.com
+    ServerAlias www.gembaindustrial.com
+
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/gembaindustrial.com/cert.pem
+    SSLCertificateKeyFile /etc/ssl/gembaindustrial.com/key.pem
+
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    # Redirect www -> apex (canonical host) to avoid duplicate content on host variants.
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^www\.gembaindustrial\.com$ [NC]
+    RewriteRule ^(.*)$ https://gembaindustrial.com$1 [L,R=301]
+
+    ProxyPreserveHost On
+    ProxyPass /api http://127.0.0.1:3080/api
+    ProxyPassReverse /api http://127.0.0.1:3080/api
+
+    DocumentRoot /gembaindustrial.com/dist
+
+    DirectoryIndex index.html
+    # Prevent mod_dir from 301-redirecting /en -> /en/ (keeps canonical URLs clean).
+    # The rewrite rules below internally serve /en/index.html at /en instead.
+    DirectorySlash Off
+
+    <Directory /gembaindustrial.com/dist>
+        Options -Indexes +FollowSymLinks
+        AllowOverride All
+        Require all granted
+        RewriteEngine On
+        RewriteBase /
+
+        # Canonicalize bare root to /en so Google indexes /en, not / (fixes duplicate-without-canonical).
+        RewriteRule ^$ /en [L,R=301]
+
+        # Real file? Serve it as-is (assets, favicon, sitemap.xml, robots.txt, etc.).
+        RewriteCond %{REQUEST_FILENAME} -f
+        RewriteRule ^ - [L]
+
+        # If the request maps to a directory that has index.html, internally rewrite to it
+        # (no 301). Handles /en, /en/, /en/services, /en/blog/slug, etc.
+        RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+        RewriteRule ^(.+?)/?$ /$1/index.html [L]
+
+        # SPA fallback for everything else: serve root index.html (which redirects to /en).
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule . /index.html [L]
+    </Directory>
+
+    <Directory /gembaindustrial.com/dist/assets>
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </Directory>
+
+    <IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+    </IfModule>
+
+    ErrorLog ${APACHE_LOG_DIR}/gembaindustrial-error.log
+    CustomLog ${APACHE_LOG_DIR}/gembaindustrial-access.log combined
+</VirtualHost>

@@ -1,0 +1,121 @@
+---
+title: "When Cleaning Made the Gas: The Catalyst Refiners Lesson"
+slug: "catalyst-refiners-h2s-decommissioning-csb"
+date: "2026-05-12"
+lastUpdated: "2026-05-12"
+author: "GEMBA Industrial crew"
+cluster: "on-the-job"
+category: "On-the-Job Stories"
+tags:
+  - "csb"
+  - "hydrogen-sulfide"
+  - "decommissioning"
+  - "tank-cleaning"
+  - "chemical-compatibility"
+  - "contractors"
+  - "catalyst-refiners"
+  - "ames-goldsmith"
+readingTime: 11
+excerpt: "On April 22, 2026, two workers died at Ames Goldsmith's Catalyst Refiners plant in Nitro, West Virginia when nitric acid met a tank-cleaning agent during decommissioning. Here is the longer version."
+hero: "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg"
+heroRetina: "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero@2x.jpg"
+---
+
+![A weathered steel chemical-storage tank wall, sun on the side, rust streaks running from the vents — the kind of vessel that is no longer in active service but still has residue on the inside.](/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg)
+
+*Image: Eric Prouzet on Unsplash.*
+
+The plant was supposed to be empty by June. On the morning of April 22, 2026, a crew at Catalyst Refiners' facility in Nitro, West Virginia — a subsidiary of Ames Goldsmith Corporation, a silver-recovery and ethylene-oxide-catalyst reprocessor — was cleaning a tank as part of the site's decommissioning. Two chemicals met inside the vessel that should never have shared a volume: nitric acid and a proprietary cleaning agent the company calls M2000A. The reaction generated hydrogen sulfide. Within minutes, two employees were dead and 21 more were on their way to hospital, one in critical condition. The U.S. Chemical Safety and Hazard Investigation Board opened a full investigation the next day. CSB Chairperson Steve Owens framed the case in one sentence in the April 23 press release: *"We are opening an investigation into this tragic incident to determine how it happened and identify ways to help prevent something like this from happening again."* The final report will not land for twelve to twenty-four months. This piece is the version a crew lead can use this week.
+
+## What is known from the public record
+
+Catalyst Refiners' Nitro plant (1580 First Avenue South, on the Kanawha River between the communities of Institute and Nitro) reclaimed silver from spent catalyst and reprocessed ethylene-oxide catalysts back into usable inventory. Both lines of business handle metallic sulfides and organic-sulfur-bearing intermediates as a matter of routine. Ames Goldsmith announced the plant's closure earlier this year and had been working through a phased shutdown with a June 2026 target for full decommissioning.
+
+The bare facts from the CSB release, Ames Goldsmith's corporate statement, and reporting in *Chemistry World*, WV MetroNews, and West Virginia Public Broadcasting:
+
+- The incident began around 9:30 a.m. local time on April 22, 2026, during equipment cleaning and decommissioning of a tank.
+- Nitric acid (HNO₃) and a proprietary cleaning agent the company calls M2000A were mixed during the work.
+- The reaction released hydrogen sulfide. Per the company's statement, the fumes remained contained to the building; no off-site release was detected by fence-line monitoring.
+- Two employees died on site. Twenty-one others were hospitalised, one in critical condition. Over thirty people total sought medical care.
+- The West Virginia Department of Environmental Protection ran air monitoring across the site. The CSB opened a parallel investigation. OSHA enforcement involvement is expected. A precautionary shelter-in-place order covered the surrounding community for several hours.
+
+The names of the deceased are in the public record. This blog refers to them as the two entrants — the lesson does not depend on who.
+
+## Why nitric acid and a tank cleaner should never share a tank
+
+Nitric acid is a strong mineral acid and a strong oxidiser. M2000A is a proprietary cleaning chemistry — its composition is not in the public record, but cleaning agents used in silver-recovery service are almost universally sulfide- or thiol-bearing: thiosulfate, dithionite, organic mercaptans, or related species that bind reactive metals strongly enough to lift them off vessel walls. The sulfur–metal affinity is the whole point of the chemistry. The sulfur is what makes the cleaner work.
+
+Put that sulfur in contact with a concentrated oxidising acid and the chemistry runs in a direction every undergraduate inorganic textbook covers: the acid oxidises the sulfide species, the sulfur leaves the parent molecule, and the residual reactive sulfur evolves as hydrogen sulfide (along with sulfur dioxide and oxides of nitrogen, depending on stoichiometry and temperature). In a small tank with residual product clinging to the inner wall, you can generate H₂S faster than a plant building's ventilation can clear it. The CSB has not yet published the precise mechanism. They will. The SDS for both materials lists the other class as *incompatible* in print. SDS sheets, however, do not get read in the heat of a decommissioning schedule.
+
+Hydrogen sulfide is the most lethal of the routinely encountered industrial gases by sheer fatality count. At 100 ppm it is immediately dangerous to life and health. At 300 ppm — entirely realistic in a sealed building with active generation — workers lose the ability to smell it within seconds of entering. At 700 ppm, a single breath knocks a person unconscious. Our [earlier piece on PEMEX Deer Park](/en/blog/pemex-deer-park-flange-misidentification) covered the misidentified-flange version of this exposure curve. Catalyst Refiners is the version where the gas was generated by the work itself, not released from a process line.
+
+## Decommissioning is the highest-risk operational state
+
+The most consistent finding in the process-safety literature for the last forty years is this: incidents cluster around transition states. Startup, shutdown, turnaround, mothball, restart, decommissioning. The Center for Chemical Process Safety's *Guidelines for Process Safety During the Transient Operating Mode* (CCPS, 2021) compiled industry data showing that non-routine operations — roughly 5 to 10 percent of operating hours — account for upwards of 50 percent of major incident frequency. Bluefield Process Safety's commentary on this incident put it bluntly: *startup, shutdown, and non-routine activities are the most dangerous times in a chemical processing facility.*
+
+Decommissioning sits at the worst end of the transient curve for four structural reasons:
+
+1. **Inventory is in unusual states.** An operating tank has a known composition. A tank being decommissioned has a residue — possibly stratified, concentrated, with a layer of sediment on the floor. The SDS for the *product* the tank held in normal service is not the SDS for the residue.
+
+2. **Procedural muscle memory is absent.** Operations run the same procedures hundreds of times a year. Decommissioning runs once. The first time you do the job is also the last time.
+
+3. **Schedule pressure points the wrong way.** A normal turnaround has the plant restart waiting on the work — pressure pushes toward *correctness* because a faulty restart loses production. Decommissioning has nothing waiting downstream. The pressure points toward *speed*. Pressure with no countervailing force takes shortcuts.
+
+4. **Institutional knowledge thins out.** Operators leave for new postings as the plant winds down. The people who knew what was in tank 47 in 2018 are not standing on the deck in 2026.
+
+For contractors, decommissioning is attractive work — predictable volumes, long timelines, a client who wants the job done quickly. It is also where the per-hour fatality rate looks worst. Transition state is the state in which mistakes get made.
+
+![Brown and black industrial pipework — the kind of feeder, drain, and vent lines that connect a tank to the rest of the building and that are still pressure-bearing during decommissioning.](/images/blog/catalyst-refiners-h2s-decommissioning-csb/mid.jpg)
+
+*Image: Joe Dudeck on Unsplash.*
+
+## What the training card does not cover for tank cleaning
+
+Standard hazard-communication training covers the SDS, GHS labels, and incompatible-storage principles. What it does not cover well — and what the Nitro incident forces back into focus — is the *operational chemistry of the in-tank residue.*
+
+**The residue is the hazard, not the product.** When a tank holds Material A in normal service, the operating permit references Material A's SDS. When the same tank is being cleaned, the residue may include partially reacted intermediates, scale, sludge, and water — none of which appear on Material A's SDS. The cleaning agent is selected on the assumption that it will react with the residue. *That reaction* is the chemistry that matters.
+
+**Jar tests are an absent rite.** Before mixing a litre of cleaner with a tonne of residue, the laboratory equivalent is a 50 ml test on the bench, with a thermocouple in it, watched for an hour. In a decommissioning project, the closest equivalent is "we used this cleaner on the same kind of tank at the other site." That is not the same thing.
+
+**Ventilation is sized for empty.** Most plant buildings are ventilated on an *air changes per hour* basis derived from worst-case operating conditions, not from worst-case generation rates of a chemistry that is not supposed to be running. If the in-building chemistry is generating a kilogram of H₂S per minute, no commercial roof fan installed for ordinary process loss keeps up.
+
+**Personal H₂S monitors live with the entrants, not the bystanders.** The crew member at the manway has a four-gas badge. The supervisor at the doorway taking notes does not. The driver of the forklift moving an empty tote does not. If the gas is generated by the work, it reaches the bystander first — the bystander is downwind in still indoor air.
+
+**"Stop work" needs a clearer trigger than odour.** Hydrogen sulfide at low concentration has the rotten-egg smell every safety video describes. Above 100 ppm the smell goes. Above 300 ppm it never registered. A "stop work if you smell it" rule trains the crew to wait for a signal that disappears exactly when the danger is highest. The trigger has to be a number on a badge, not a perception in the nose.
+
+## What a crew lead can do on the next decommissioning entry
+
+The CSB will eventually publish a report. The crew lead does not have to wait. Here is the punch list this incident adds to the standard tank-cleaning permit:
+
+1. **Treat the cleaning chemistry and the residue as a planned reaction, not an incidental one.** Write the expected products on the permit. Confirm none is acutely toxic, flammable, or pyrophoric at the expected concentration. If the SDS for either chemical lists the other as *incompatible*, stop and re-engineer the cleaning method.
+
+2. **Bench-test before bulk addition.** A 100 ml jar test with a sample of the residue, the cleaning agent at the same concentration, and a temperature probe tells you in 30 minutes whether the reaction runs hot, generates a gas, or does something the procedure does not name.
+
+3. **Continuous H₂S, SO₂, and NOₓ monitoring across the building floor, not just at the manway.** Multiple stationary monitors, action level at 5 ppm H₂S (below the 10 ppm OSHA ceiling), and a vibrating-alarm wristband on every person inside the building envelope.
+
+4. **A written incompatibility matrix in the cleaning project's master permit.** Every chemical brought into the building appears in the matrix, with each pair marked compatible / incompatible / unknown. *Unknown* is treated like *incompatible.*
+
+5. **Ventilation sized for the worst-case generation rate, not the historical air-change rate.** Calculate the gas volume produced if the cleaning agent contacts the whole residue at once, and size extraction accordingly. Confirm the fan starts on tested power before the cleaning agent comes off the pallet.
+
+6. **A separate decommissioning HAZOP, not a clipboard JHA.** A real hazard-and-operability study, with the original process engineers if they are still reachable, focused on the residue rather than on the original product. CCPS guidance is explicit on this.
+
+None of these six items is novel. All six appear in CCPS *Transient Operating Mode* guidance, in OSHA 1910.119 PSM appendices, and in the chemical-engineering curriculum at any accredited university. The novelty is in carrying the list across the threshold of a plant that is closing in eight weeks — where the procedural rigour is naturally winding down at exactly the moment the chemistry is winding up.
+
+## The thing the report will not put in writing
+
+The plant was due to close in June. The chemicals were due to leave. The hazard was supposed to be leaving with them. Decommissioning incidents read in retrospect as cruel because the work is voluntary — no one was going to operate this tank again — and the same people who would have spent the next month winding down their job spent it instead at a memorial service.
+
+Treat decommissioning as the highest-risk window of the asset's life, not the lowest. Read the residue's SDS, not the product's. Run the jar test. Put the monitor on the bystander. And when the cleaning chemistry and the residue meet for the first time, do it on a workbench with a fume hood between you and the reaction — not on the deck of a tank with a building full of people downwind.
+
+The CSB will tell us what went wrong at Catalyst Refiners. The procedural change that prevents the next one is available now.
+
+## Credit and further reading
+
+- U.S. Chemical Safety and Hazard Investigation Board, *CSB Opens Investigation into Fatal Chemical Incident at Catalyst Refiners Facility in West Virginia*, press release, April 23, 2026. ([CSB release](https://www.csb.gov/us-chemical-safety-board-opens-investigation-into-fatal-chemical-incident-at-catalyst-refiners-facility-in-west-virginia-/))
+- Ames Goldsmith Corporation, public statement on the Catalyst Refiners incident, April 22, 2026, as reported by WV MetroNews. ([WV MetroNews](https://wvmetronews.com/2026/04/22/ames-goldsmith-confirms-fatal-tragedy-in-kanawha-county-plant-occurred-during-decommissioning-work/))
+- *Chemistry World*, "Fatal incident at US catalyst refiner under investigation," April 2026. ([Chemistry World](https://www.chemistryworld.com/news/fatal-incident-at-us-catalyst-refiner-under-investigation/4023351.article))
+- Bluefield Process Safety, "Two Dead in West Virginia," April 2026 — commentary on decommissioning as a transient-mode hazard. ([Bluefield](https://bluefieldsafety.com/2026/04/two-dead-in-west-virginia/))
+- Center for Chemical Process Safety, *Guidelines for Process Safety During the Transient Operating Mode* (Wiley, 2021). The reference text on startup, shutdown, and decommissioning risk.
+- OSHA 29 CFR 1910.119 — Process Safety Management of Highly Hazardous Chemicals. The U.S. regulatory baseline for management of change during decommissioning campaigns.
+
+GEMBA Industrial's BA specialists run breathing-apparatus standby, atmospheric monitoring, and confined-space rescue cover for refinery, petrochemical, and catalyst-plant work across the EU — including decommissioning campaigns where the residue chemistry is the principal hazard. SCC/VCA-certified crews, four-person core scalable to twelve, with the incompatibility matrix on the permit before any cleaning agent comes off the pallet. If your next mothballing window includes a tank that has not been opened in years, [get in touch](https://gembaindustrial.com/en/contact) — we would rather have the conversation about *what is inside the tank* before the jar test, not after.

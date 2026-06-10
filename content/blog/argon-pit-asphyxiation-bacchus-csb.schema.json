@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "When the Pit Fills with Argon: The Bacchus Lesson",
+    "description": "On January 30, 2023, two workers died in an argon-flooded pit beneath an autoclave at Northrop Grumman Bacchus. The CSB's Volume 4 report puts the lesson in one sentence — here is the longer version.",
+    "image": "https://gembaindustrial.com/images/blog/argon-pit-asphyxiation-bacchus-csb/hero.jpg",
+    "datePublished": "2026-05-05",
+    "dateModified": "2026-05-05",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/argon-pit-asphyxiation-bacchus-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, argon, inert-gas-asphyxiation, confined-space-entry, autoclave, contractors, oxygen-monitoring, northrop-grumman-bacchus"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened in the argon asphyxiation incident at Northrop Grumman Bacchus in 2023?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 30 January 2023, two employees descended into a service pit beneath an autoclave at Northrop Grumman Bacchus Propulsion Systems in Magna, Utah. Argon — used to control the curing atmosphere of composite parts processed in the autoclave above — had collected in the pit and depleted the oxygen. Both workers were asphyxiated. The U.S. Chemical Safety Board summarised the incident in its Volume 4 of Chemical Incident Reports, released on 18 February 2026."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is argon especially dangerous in confined spaces?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Argon is roughly 1.4 times denser than air and is colourless, odourless and tasteless. It does not warn the senses. It pools in pits, sumps and drain points and stays there. HSE's L101 Approved Code of Practice notes that inhaling an oxygen-free atmosphere causes loss of consciousness in a matter of seconds because such an atmosphere not only fails to provide oxygen but also strips oxygen already present in the bloodstream, while disrupting the body's normal breathe reflex by washing out CO₂."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why are contractors over-represented in inert-gas asphyxiation fatalities?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB's June 2003 Safety Bulletin on the Hazards of Nitrogen Asphyxiation reviewed 85 incidents and 80 deaths in the United States and found that over 60% of the fatalities were contractors. The pattern is structural: contractors are the workforce sent into spaces during turnarounds and shutdowns, exactly when inert gas is in active use and when atmospheric-testing assumptions are passed across organisational boundaries that are easy to break."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a confined-space permit for an inert-gas job include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Beyond the standard permit elements, an inert-gas entry permit should require: atmospheric testing at the deepest point of the space using a probe extension, positive isolation of every inert-gas source physically connected to the volume (slip blind or double-block-and-bleed, photographed), an interlock with adjacent equipment that uses the same gas, continuous oxygen monitoring with vibrating-alarm escalation, a named on-site rescue team with SCBA and a rehearsed scenario for 'person down at the deepest point', and a standby attendant whose only duty is to attend the entry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the regulatory basis for inert-atmosphere confined-space work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In the United States, OSHA 29 CFR 1910.146 governs permit-required confined spaces. In the United Kingdom, the Confined Spaces Regulations 1997 are supported by HSE's Approved Code of Practice L101, which addresses inert atmospheres directly. The U.S. Chemical Safety Board has published a 2003 Safety Bulletin on nitrogen asphyxiation hazards that remains the most cited industry summary, and IOGP Report 491 provides contractor-facing guidance for inert-atmosphere protection during turnarounds."
+        }
+      }
+    ]
+  }
+}

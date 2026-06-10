@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Gasket They Meant to Replace: Geismar's HF Lesson",
+    "description": "Three HF releases in under three years at Honeywell Geismar. The CSB found every one was preventable. Here is the longer version for the crews who break HF lines.",
+    "image": "https://gembaindustrial.com/images/blog/geismar-hydrogen-fluoride-gasket-csb/hero.jpg",
+    "datePublished": "2026-06-09",
+    "dateModified": "2026-06-09",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/geismar-hydrogen-fluoride-gasket-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, hydrogen fluoride, hf alkylation, mechanical integrity, management of change, gasket failure, permit to work, line breaking, contractors, process safety"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened in the Honeywell Geismar hydrogen fluoride incidents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The U.S. Chemical Safety Board investigated three hydrogen fluoride (HF) releases at Honeywell's Geismar, Louisiana facility in under three years. On October 21, 2021, a failed flanged connection released about 39 pounds of anhydrous HF during startup and killed a process operator whose PPE was not sufficient to protect against HF. On January 23, 2023, a corroded reboiler ruptured during startup, releasing over 800 pounds of HF and more than 1,600 pounds of chlorine, prompting nearby facilities to shelter in place. On June 7, 2024, a flanged line that had not been adequately emptied of HF released under a pound and caused second-degree facial burns to a contract worker. The CSB concluded all three were preventable using systems Honeywell already had."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is residual hydrogen fluoride dangerous when breaking a line that was drained?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Anhydrous HF boils near 19.5 C (67 F), so even a trace amount left in a low point or dead leg can flash to vapor and reach a worker's face when a flange is opened. HF is a weak acid that penetrates intact skin before causing much pain, then releases fluoride ions that bind calcium and magnesium in tissue, causing deep burns and, for larger exposures, systemic hypocalcemia that can be fatal. Pain can be delayed up to 24 hours at lower concentrations. A line can read 'drained' at the panel and still hold HF at the specific joint being opened, which is why crews must independently verify each joint is empty and depressured before breaking it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did the CSB find was the root cause at Geismar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB found that all three incidents resulted from ineffective implementation of safety management systems Honeywell already had. A corroding gasket flagged in 2007 was managed 'by attrition' rather than proactively replaced, and the gasket that killed a worker in 2021 was still in service 14 years later. A reboiler replacement project was approved but never funded or executed after the only engineer who understood the vessel's condition left the company in April 2022 and the project was never reassigned. Inspectors also did not use available HF monitors and acid-indicating paint. The CSB recommended OSHA amend its Process Safety Management standard to require reviews of organizational changes that affect process safety."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the Geismar HF lesson apply to refinery HF alkylation units?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "About 42 U.S. refineries ran HF alkylation as of late 2024, roughly a third of the operating fleet. In an HF alky unit, hydrofluoric acid is the catalyst that converts light olefins to high-octane blendstock, so it circulates in large inventory and is not consumed. The documented period of greatest exposure potential is equipment maintenance, meaning turnarounds staffed by contractor crews. Each Geismar failure has a turnaround analogue: a deferred gasket or vessel, knowledge that walks off site when staff leave, and a 'drained' line that still holds HF at the joint. Crews should treat a permit as the start of verification and independently confirm isolation at each flange before breaking it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a crew lead check before breaking an HF line?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Verify the specific joint is empty and at zero pressure using a monitor at the flange, not just that the line is 'drained' upstream. Confirm calcium gluconate gel is staged at the unit and the standby team knows the burn protocol, including that HF pain can be delayed. Find out what was deferred from the last turnaround on that line, since deferred corrosion work means borrowed time. Assume that any operator or engineer knowledge that left the site since the last job left with them, and re-verify the basics. Confirm corrosion-detection tools such as HF monitors and acid-indicating paint are actually being used."
+        }
+      }
+    ]
+  }
+}

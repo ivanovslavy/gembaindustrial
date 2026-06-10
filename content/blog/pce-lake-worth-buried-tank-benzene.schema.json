@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Buried Tank, No Permit: The PCE Lake Worth Lesson",
+    "description": "OSHA's March 2026 citation against a Florida tank contractor: 12 violations, a buried gasoline tank, benzene exposure. Here is what the training card misses.",
+    "image": "https://gembaindustrial.com/images/blog/pce-lake-worth-buried-tank-benzene/hero.jpg",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/pce-lake-worth-buried-tank-benzene",
+    "articleSection": "Safety & Compliance Field Guide",
+    "keywords": "osha, confined-space-entry, permit-to-work, benzene, toluene, tank-cleaning, contractors, respiratory-protection, hazard-communication"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What did OSHA cite PCE Petroleum Contractors for in the Lake Worth fatality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 3 March 2026, OSHA's Atlanta region issued release 26-108-ATL citing PCE Petroleum Contractors Enterprises Inc. with twelve serious violations and a proposed penalty of $60,242 after a worker died of benzene and toluene exposure inside a subterranean gasoline storage tank at a Lake Worth, Florida worksite in July 2025. The cited categories cover failure to develop a written permit-required confined-space entry program, failure to evaluate the atmosphere before entry, failure to issue the required permit, absence of a written respiratory protection program for full-face respirator users, and absence of a hazard communication program."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is a four-gas meter insufficient for a gasoline tank entry?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A four-gas meter reads oxygen, lower-explosive-limit flammables, carbon monoxide, and hydrogen sulfide. A drained gasoline tank typically reads zero or near-zero on H2S and CO, and may read below 10% LEL after a short purge, while still containing hundreds of parts per million of benzene and toluene the meter does not see. Atmospheric evaluation under 29 CFR 1910.146(d)(5) must cover the specific contaminants the entrant may be exposed to, which for any fuel tank means a PID for total VOC at minimum and benzene-specific monitoring against the 1 ppm 8-hour TWA limit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is a full-face air-purifying respirator the wrong choice for a buried fuel tank?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Air-purifying respirator cartridges have limited capacity for organic vapours. Inside a gasoline tank, the bottom sludge and residual film continue to off-gas benzene and toluene under the entrant's body heat, and cartridge load climbs during work. The selected protection for a tank entry on a fuel-storage asset is supplied-air breathing apparatus, either SCBA or airline with escape bottle. The selection must be made on data through a written respiratory protection program under 29 CFR 1910.134(c) rather than on habit at the manway."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between a written PRCS program and a confined-space permit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The permit-required confined-space program required by 29 CFR 1910.146(c) is the site-level document that identifies the spaces, classifies them, sets testing protocols, defines roles, lists equipment, and lays out the rescue plan. A confined-space entry permit is the per-entry instance produced under that program. If the written program does not exist, no single permit issued for a one-off job can substitute for it, because the rescue, testing, and respiratory selections all derive from the program."
+        }
+      }
+    ]
+  }
+}

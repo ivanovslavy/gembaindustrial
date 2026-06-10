@@ -1,0 +1,15 @@
+[Unit]
+Description=GEMBA Industrial Website (gembaindustrial.com)
+After=network.target
+
+[Service]
+Type=simple
+User=slavy
+WorkingDirectory=/gembaindustrial.com
+ExecStart=/usr/bin/npx vite preview --port 3080 --host 127.0.0.1
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

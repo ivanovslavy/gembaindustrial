@@ -1,0 +1,92 @@
+{
+  "nav": { "home": "Home", "services": "Services", "track_record": "Track Record", "about": "About", "blog": "Blog", "team": "Team", "careers": "Careers", "contact": "Contact" },
+  "hero": {
+    "badge": "GEMBA Team · Industrial Services Division",
+    "title1": "Specialist Reactor &",
+    "title_accent": "Catalyst Changeout",
+    "title2": "Crews Across Europe",
+    "subtitle": "Certified, experienced industrial technicians with over 10 years of combined field experience. Trusted by industry leaders including NICO Industrial Services and Mourik, with a proven track record at the world's largest refineries.",
+    "cta": "Our Services",
+    "cta2": "Contact Us"
+  },
+  "stats": {
+    "crew": "Crew Size",
+    "years": "Years Combined",
+    "safety": "Safety Record",
+    "availability": "Availability"
+  },
+  "services": {
+    "page_title": "Industrial Services",
+    "subtitle": "Specialised technical services delivered to refineries and petrochemical facilities across Europe — with safety, precision, and reliability at the core.",
+    "items": [
+      { "title": "Reactor Technician Services", "desc": "Certified reactor technicians deployed to petroleum refineries across Europe, operating under the strictest HSE and safety procedures." },
+      { "title": "Catalyst Changeout", "desc": "Full catalyst changeout operations — unloading, screening, sock-loading and dense-loading — executed with precision and in full compliance with refinery protocols." },
+      { "title": "Safety & Compliance", "desc": "Our crew holds European-issued certifications in Confined Space Entry, Rigging, and Forklift operation. We deliver to the highest safety standards, every time." },
+      { "title": "Specialist Personnel Supply", "desc": "Core crew of 4 BA specialists on permanent contracts, scalable up to 12 personnel on demand. Fluent English. Ready for immediate international deployment." },
+      { "title": "Certified & Experienced", "desc": "Officially recommended by industry leaders including Mourik, with reference letters on file. 10+ years of combined experience at some of the world's largest refineries." },
+      { "title": "Scalable & Flexible", "desc": "From single-technician support to full crew mobilisation across Europe. We scale to your project requirements with short notice." }
+    ]
+  },
+  "track_record": {
+    "page_title": "Where We Have Worked",
+    "subtitle": "Our crews have delivered successful projects at some of the most demanding refinery and petrochemical facilities in the world.",
+    "refineries": [
+      { "name": "Esso Fawley Refinery", "loc": "Southampton, UK" },
+      { "name": "Shell Energy & Chemicals Park", "loc": "Rotterdam, Netherlands" },
+      { "name": "Shell Rheinland Refinery (Godorf)", "loc": "Cologne, Germany" },
+      { "name": "BP Rotterdam Refinery", "loc": "Rotterdam, Netherlands" },
+      { "name": "ORLEN Lietuva Refinery", "loc": "Mazeikiai, Lithuania" },
+      { "name": "Neste Porvoo Refinery", "loc": "Porvoo, Finland" },
+      { "name": "Rompetrol Petromidia", "loc": "Constanta, Romania" },
+      { "name": "Bazan Group Refinery", "loc": "Haifa, Israel" },
+      { "name": "OMV Schwechat Refinery", "loc": "Schwechat, Austria" },
+      { "name": "Bayernoil Refinery", "loc": "Bavaria, Germany" },
+      { "name": "Huntsman Holland BV", "loc": "Rotterdam, Netherlands" },
+      { "name": "Tata Steel IJmuiden", "loc": "IJmuiden, Netherlands" }
+    ],
+    "more": "+ many more across Europe"
+  },
+  "about": {
+    "page_title": "About Us",
+    "title": "GEMBA Industrial Services",
+    "p1": "GEMBA Industrial Services is a specialist division of GEMBA Team EOOD providing certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe.",
+    "p2": "Our team brings over 10 years of combined field experience, including 5 years each as full-time employees with NICO Industrial Services UK and Mourik — two of Europe's leading industrial service companies. We hold official reference letters from Mourik confirming the quality of our work.",
+    "p3": "Our core crew of 4 BA-qualified specialists holds European-certified qualifications in Confined Space Entry, Rigging, and Forklift operation. We are fully fluent in English and operate to the highest HSE standards on every project, scalable to 12 personnel on demand.",
+    "certs": ["Confined Space Entry", "Rigging Certified", "Forklift Certified", "BA Entry Team", "SCC/VCA (TÜV Rheinland)", "Mourik Reference"],
+    "countries": ["🇧🇬 Bulgaria", "🇬🇧 United Kingdom", "🇱🇹 Lithuania", "🇳🇱 Netherlands", "🇩🇪 Germany", "🇫🇮 Finland", "🇦🇹 Austria", "🇷🇴 Romania", "🇮🇱 Israel"]
+  },
+  "blog": {
+    "page_title": "Insights & Updates",
+    "coming": "Coming soon",
+    "posts": []
+  },
+  "team": {
+    "page_title": "Team", "leadership": "Leadership",
+    "name": "Slavcho Ivanov", "role": "Managing Director & Lead Reactor Specialist",
+    "bio": "Over 10 years of hands-on experience in catalyst changeout operations and reactor servicing at major European refineries including Shell, ExxonMobil, BP, Neste, and ORLEN. SCC/VCA certified (TÜV Rheinland), BA/N2 inert entry qualified, with certifications in confined space operations, crane operation, rigging, and forklift handling. Previously employed by NICO Industrial Services UK and Mourik.",
+    "tagline": "Leading from the front — inside the reactor, not behind a desk."
+  },
+  "careers": {
+    "page_title": "Careers", "intro_title": "Join Our Crew",
+    "intro": "We're looking for experienced industrial technicians who thrive in demanding environments. If you have refinery experience and the right certifications, we want to hear from you.",
+    "open_positions": "Open positions",
+    "tech_title": "Reactor Technician / BA Specialist",
+    "tech_desc": "We're looking for experienced reactor technicians and BA specialists for catalyst changeout operations at European refineries. Deployment across Europe with competitive daily rates.",
+    "we_need": "Requirements",
+    "needs": ["Experience in catalyst changeout or reactor servicing", "Confined space entry certification", "BA/N2 inert entry qualification preferred", "Fluent English", "Willingness to travel internationally", "Valid passport and work permit for EU"],
+    "we_offer": "What we offer",
+    "offers": ["Competitive daily rates", "Travel and accommodation covered", "Work at world-class refineries", "Long-term employment with GEMBA EOOD", "Professional development"],
+    "no_role_title": "Don't see your role?", "no_role": "We're always looking for skilled industrial technicians. Send us your CV.",
+    "send_cv": "Send your CV", "apply": "Apply now"
+  },
+  "contact": {
+    "page_title": "Contact", "title": "Ready to Work Together?",
+    "subtitle": "Looking for specialist reactor technicians or a complete catalyst changeout crew? Contact us to discuss your project requirements.",
+    "email_label": "Email", "email": "contacts@gembaindustrial.com",
+    "phone_label": "Phone", "phone": "+359 897 598 378",
+    "location_label": "Location", "location": "Varna, Bulgaria",
+    "operating": "Deploying crews across Europe",
+    "form": { "name": "Your name", "email": "Your email", "subject": "Subject", "message": "Your message", "send": "Send message", "sending": "Sending...", "success": "Message sent successfully!", "error": "Something went wrong. Please try again." }
+  },
+  "footer": { "company": "GEMBA Industrial Services", "parent": "Industrial division of GEMBA Team EOOD", "eik": "EIK: 208656371", "location": "Varna, Bulgaria", "privacy": "Privacy", "terms": "Terms", "rights": "All rights reserved" }
+}

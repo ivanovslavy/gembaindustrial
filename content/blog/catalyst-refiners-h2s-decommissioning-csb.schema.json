@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "When Cleaning Made the Gas: The Catalyst Refiners Lesson",
+    "description": "On April 22, 2026, two workers died at Ames Goldsmith's Catalyst Refiners plant in Nitro, West Virginia when nitric acid met a tank-cleaning agent during decommissioning. Here is the longer version.",
+    "image": "https://gembaindustrial.com/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg",
+    "datePublished": "2026-05-12",
+    "dateModified": "2026-05-12",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/catalyst-refiners-h2s-decommissioning-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, hydrogen-sulfide, decommissioning, tank-cleaning, chemical-compatibility, contractors, catalyst-refiners, ames-goldsmith"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the Catalyst Refiners plant in Nitro, West Virginia in April 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On the morning of April 22, 2026, during tank cleaning as part of the Catalyst Refiners (Ames Goldsmith Corporation) plant's decommissioning in Nitro, West Virginia, nitric acid was mixed with a proprietary cleaning agent the company calls M2000A. The reaction released hydrogen sulfide inside a building where employees were working. Two employees died and 21 others were hospitalised, one in critical condition. The U.S. Chemical Safety and Hazard Investigation Board opened an investigation on April 23, 2026. A precautionary shelter-in-place order covered the surrounding community for several hours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is decommissioning considered the highest-risk operational state?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Center for Chemical Process Safety's Guidelines for Process Safety During the Transient Operating Mode (2021) compiled data showing non-routine operations (5 to 10 percent of operating hours) account for upwards of 50 percent of major incident frequency. Decommissioning is the worst transient state because inventory is in unusual states with no SDS for the residue, procedural muscle memory is absent (the work runs only once), schedule pressure points toward speed with nothing downstream pulling toward correctness, and institutional knowledge thins out as operators leave the site."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does mixing nitric acid with a sulfur-bearing cleaning agent generate hydrogen sulfide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cleaning agents used in silver-recovery service are typically sulfide- or thiol-bearing — thiosulfate, dithionite, organic mercaptans — because the sulfur-metal affinity is what lifts reactive metal residues off vessel walls. When that sulfur contacts a concentrated oxidising acid like nitric acid, the acid oxidises the sulfide species, the sulfur leaves the parent molecule, and the residual reactive sulfur evolves as hydrogen sulfide along with sulfur dioxide and oxides of nitrogen. Safety data sheets for these material classes list the other as incompatible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What controls should a decommissioning tank-cleaning permit require?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Beyond the standard tank-cleaning permit elements: treat the cleaning chemistry and the residue as a planned reaction with expected products listed on the permit; run a 100 ml jar test of cleaner plus residue before any bulk addition; continuous H2S, SO2 and NOx monitoring across the building floor (not just at the manway) with a 5 ppm action level and a vibrating-alarm wristband on every person in the building; a written compatibility matrix covering every chemical brought into the building; ventilation sized for the worst-case generation rate not the historical air-change rate; and a separate decommissioning HAZOP (not a clipboard JHA) focused on the residue rather than the original product."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does hydrogen sulfide cause death so quickly at process-relevant concentrations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hydrogen sulfide is immediately dangerous to life and health at 100 ppm. At around 300 ppm — entirely realistic in a sealed building with active generation from a chemical reaction — workers lose the ability to smell it (olfactory fatigue) within seconds of entering, removing the rotten-egg warning that low-concentration H2S provides. At 700 ppm a single breath knocks a person unconscious. A 'stop work if you smell it' rule therefore trains the crew to wait for a signal that disappears exactly when the danger is highest; the trigger has to be a number on a continuous monitor, not a perception in the nose."
+        }
+      }
+    ]
+  }
+}

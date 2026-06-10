@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Honeywell-Johnson Matthey: Notes for Catalyst Crews",
+    "description": "Honeywell's amended GBP1.325bn deal for Johnson Matthey's Catalyst Technologies closes by end of August 2026. What changeout crews should track in the next 90 days.",
+    "image": "https://gembaindustrial.com/images/blog/honeywell-johnson-matthey-catalyst-crews/hero.jpg",
+    "datePublished": "2026-04-24",
+    "dateModified": "2026-04-24",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/honeywell-johnson-matthey-catalyst-crews",
+    "articleSection": "Industry Commentary",
+    "keywords": "honeywell, johnson matthey, catalyst technologies, refinery, hydrogen, methanol, ammonia, turnaround, contractor"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When does the Honeywell acquisition of Johnson Matthey's Catalyst Technologies close?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The amended agreement announced on February 23, 2026 sets a long stop date of July 21, 2026, with a possible extension to August 21, 2026 if regulatory conditions are met. Both parties expect completion by end of August 2026."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does my catalyst spec change after the deal closes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not on day one. The catalyst inside the vessel and the loading procedure remain the same. Trade names and procurement part numbers may be rationalised over the following 12 to 24 months as Honeywell UOP integrates the KATALCO and PURASPEC families. Specify both the JM trade code and the underlying technical data sheet on every purchase order placed before close."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a contractor crew lead verify before a 2026 or 2027 catalyst changeout on a JM-supplied unit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Five items: identify every JM catalyst code in the unit by part number and current age; get the named technical-service contact for the next loading event in writing; re-document the catalyst spec alongside the trade name; re-paper the spent-catalyst chain of custody for the post-close counterparty; and update the day-of-job pack so it anticipates a UOP-branded technical advisor arriving with a JM-branded loading procedure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why was the deal value reduced from GBP1.8 billion to GBP1.325 billion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Johnson Matthey cited \"the deferral of key sustainable solutions licensing projects and reduced profitability from the supply of catalysts due to the challenging market environment\" during 2025/26. The lower price reflects slower than expected new-plant licensing activity and softer catalyst supply margins compared with the May 2025 valuation assumptions."
+        }
+      }
+    ]
+  }
+}

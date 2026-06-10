@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "GEMBA Industrial Services",
+  "name_for_model": "gemba_industrial",
+  "description_for_human": "Specialist reactor technician and catalyst changeout crews across Europe. Shell, ExxonMobil, BP, Neste, ORLEN.",
+  "description_for_model": "GEMBA Industrial Services is the industrial division of GEMBA Team EOOD (EIK: 208656371), based in Varna, Bulgaria. Provides certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe. Track record at Shell (Rotterdam, Cologne), ExxonMobil (Fawley), BP (Rotterdam), ORLEN Lietuva, Neste (Porvoo), Rompetrol Petromidia, Bazan Group, OMV Schwechat, Bayernoil, Huntsman Holland, Tata Steel IJmuiden. Core crew of 4 BA-qualified specialists scalable to 12. SCC/VCA certified (TÜV Rheinland), BA/N2 inert entry qualified, confined space entry, rigging, forklift, crane operation certifications. Official reference letters from Mourik. 10+ years combined experience. Services: reactor technician deployment, catalyst changeout (unloading, screening, sock-loading, dense-loading), safety compliance management, specialist personnel supply, refinery turnaround supervision.",
+  "auth": { "type": "none" },
+  "api": { "type": "none" },
+  "logo_url": "https://gembaindustrial.com/favicon.svg",
+  "contact_email": "contacts@gembaindustrial.com",
+  "legal_info_url": "https://gembaindustrial.com/en/terms"
+}

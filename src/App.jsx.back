@@ -1,0 +1,312 @@
+import { useEffect, useState } from 'react'
+import './App.css'
+
+const Logo = ({ size = 48 }) => (
+  <svg width={size} height={size} viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stopColor="#4F46E5">
+          <animate attributeName="stop-color" values="#4F46E5;#06B6D4;#4F46E5" dur="6s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="100%" stopColor="#06B6D4">
+          <animate attributeName="stop-color" values="#06B6D4;#4F46E5;#06B6D4" dur="6s" repeatCount="indefinite"/>
+        </stop>
+      </linearGradient>
+    </defs>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 256 256" to="360 256 256" dur="30s" repeatCount="indefinite"/>
+      <circle cx="256" cy="256" r="220" fill="none" stroke="url(#gGrad)" strokeWidth="12" opacity="0.3"/>
+      {[[256,36,"#4F46E5"],[411,100,"#06B6D4"],[476,256,"#4F46E5"],[411,411,"#06B6D4"],[256,476,"#4F46E5"],[100,411,"#06B6D4"],[36,256,"#4F46E5"],[100,100,"#06B6D4"]].map(([cx,cy,fill],i) => (
+        <circle key={i} cx={cx} cy={cy} r="7" fill={fill}/>
+      ))}
+    </g>
+    <circle cx="256" cy="256" r="170" fill="none" stroke="url(#gGrad)" strokeWidth="16"/>
+    <path d="M256 130 A126 126 0 1 0 382 256 L300 256" fill="none" stroke="url(#gGrad)" strokeWidth="28" strokeLinecap="round"/>
+    <circle cx="256" cy="130" r="12" fill="#4F46E5"/>
+    <circle cx="382" cy="256" r="12" fill="#06B6D4"/>
+    <circle cx="256" cy="382" r="12" fill="#4F46E5"/>
+    <circle cx="130" cy="256" r="12" fill="#06B6D4"/>
+    <circle cx="300" cy="256" r="10" fill="#6366F1"/>
+  </svg>
+)
+
+const IconReactor = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="20" cy="20" r="10" stroke="url(#si1)" strokeWidth="2"/>
+    <circle cx="20" cy="20" r="4" fill="url(#si1)"/>
+    <path d="M20 4 L20 10 M20 30 L20 36 M4 20 L10 20 M30 20 L36 20" stroke="url(#si1)" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M7.5 7.5 L11.5 11.5 M28.5 28.5 L32.5 32.5 M32.5 7.5 L28.5 11.5 M11.5 28.5 L7.5 32.5" stroke="url(#si1)" strokeWidth="1.5" strokeLinecap="round"/>
+    <defs><linearGradient id="si1" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconCatalyst = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 6 L12 22 C12 28 16 32 20 32 C24 32 28 28 28 22 L28 6" stroke="url(#si2)" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 6 L32 6" stroke="url(#si2)" strokeWidth="2" strokeLinecap="round"/>
+    <circle cx="16" cy="16" r="2" fill="url(#si2)"/>
+    <circle cx="24" cy="14" r="2" fill="url(#si2)"/>
+    <circle cx="20" cy="22" r="2" fill="url(#si2)"/>
+    <path d="M20 32 L20 36" stroke="url(#si2)" strokeWidth="2" strokeLinecap="round"/>
+    <defs><linearGradient id="si2" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconSafety = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 4 L34 10 L34 22 C34 29 27 35 20 37 C13 35 6 29 6 22 L6 10 Z" stroke="url(#si3)" strokeWidth="2" strokeLinejoin="round"/>
+    <path d="M14 20 L18 24 L26 16" stroke="url(#si3)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+    <defs><linearGradient id="si3" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconTeam = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="20" cy="12" r="5" stroke="url(#si4)" strokeWidth="2"/>
+    <path d="M10 32 C10 26 14 22 20 22 C26 22 30 26 30 32" stroke="url(#si4)" strokeWidth="2" strokeLinecap="round"/>
+    <circle cx="32" cy="14" r="3.5" stroke="url(#si4)" strokeWidth="1.5"/>
+    <path d="M35 28 C35 24 33 22 30 22" stroke="url(#si4)" strokeWidth="1.5" strokeLinecap="round"/>
+    <circle cx="8" cy="14" r="3.5" stroke="url(#si4)" strokeWidth="1.5"/>
+    <path d="M5 28 C5 24 7 22 10 22" stroke="url(#si4)" strokeWidth="1.5" strokeLinecap="round"/>
+    <defs><linearGradient id="si4" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconCert = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="6" y="6" width="28" height="22" rx="3" stroke="url(#si5)" strokeWidth="2"/>
+    <path d="M12 14 L28 14 M12 19 L22 19" stroke="url(#si5)" strokeWidth="1.5" strokeLinecap="round"/>
+    <circle cx="28" cy="30" r="6" fill="#0D1220" stroke="url(#si5)" strokeWidth="2"/>
+    <path d="M25 30 L27 32 L31 28" stroke="url(#si5)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    <defs><linearGradient id="si5" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconScale = () => (
+  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 6 L20 34 M8 20 L32 20" stroke="url(#si6)" strokeWidth="2" strokeLinecap="round"/>
+    <circle cx="20" cy="6" r="3" fill="url(#si6)"/>
+    <circle cx="8" cy="20" r="3" fill="url(#si6)"/>
+    <circle cx="32" cy="20" r="3" fill="url(#si6)"/>
+    <circle cx="20" cy="34" r="3" fill="url(#si6)"/>
+    <circle cx="11" cy="11" r="2" fill="url(#si6)" opacity="0.5"/>
+    <circle cx="29" cy="11" r="2" fill="url(#si6)" opacity="0.5"/>
+    <circle cx="11" cy="29" r="2" fill="url(#si6)" opacity="0.5"/>
+    <circle cx="29" cy="29" r="2" fill="url(#si6)" opacity="0.5"/>
+    <defs><linearGradient id="si6" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconMail = () => (
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <rect x="3" y="6" width="22" height="16" rx="2" stroke="url(#mi1)" strokeWidth="1.8"/>
+    <path d="M3 9 L14 16 L25 9" stroke="url(#mi1)" strokeWidth="1.8" strokeLinecap="round"/>
+    <defs><linearGradient id="mi1" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconPhone = () => (
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <path d="M8 4 L12 4 L14 9 L11 11 C12 14 14 16 17 17 L19 14 L24 16 L24 20 C24 22 22 24 20 24 C12 24 4 16 4 8 C4 6 6 4 8 4Z" stroke="url(#pi1)" strokeWidth="1.8" strokeLinejoin="round"/>
+    <defs><linearGradient id="pi1" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const IconPin = () => (
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <path d="M14 3 C10 3 7 6 7 10 C7 16 14 25 14 25 C14 25 21 16 21 10 C21 6 18 3 14 3Z" stroke="url(#li1)" strokeWidth="1.8"/>
+    <circle cx="14" cy="10" r="3" stroke="url(#li1)" strokeWidth="1.8"/>
+    <defs><linearGradient id="li1" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+  </svg>
+)
+
+const services = [
+  { icon: <IconReactor/>, title: "Reactor Technician Services", desc: "Certified reactor technicians deployed to petroleum refineries across Europe and North America, operating under the strictest HSE and safety procedures." },
+  { icon: <IconCatalyst/>, title: "Catalyst Changeout", desc: "Full catalyst changeout operations — unloading, screening, sock-loading and dense-loading — executed with precision and in full compliance with refinery protocols." },
+  { icon: <IconSafety/>, title: "Safety & Compliance", desc: "Our crew holds European-issued certifications in Confined Space Entry, Rigging, and Forklift operation. We deliver to the highest safety standards, every time." },
+  { icon: <IconTeam/>, title: "Specialist Personnel Supply", desc: "Core crew of 4 BA specialists on permanent contracts, scalable up to 12 personnel on demand. Fluent English. Ready for immediate international deployment." },
+  { icon: <IconCert/>, title: "Certified & Experienced", desc: "Recommended by industry leaders including Mourik. We have worked at some of the world's largest refineries — Esso Fawley, Shell Pernis, BP Rotterdam, and many more." },
+  { icon: <IconScale/>, title: "Scalable & Flexible", desc: "From single-technician support to full crew mobilisation across Europe and North America. We scale to your project requirements with short notice." },
+]
+
+const stats = [
+  { value: "4–12", label: "Crew Size" },
+  { value: "EU+NA", label: "Operations" },
+  { value: "100%", label: "Safety Record" },
+  { value: "24/7", label: "Availability" },
+]
+
+const refineries = [
+  "Esso Fawley, UK",
+  "Shell Pernis, Netherlands",
+  "BP Rotterdam, Netherlands",
+  "ORLEN Lietuva, Lithuania",
+  "Mourik Group, Europe",
+]
+
+export default function App() {
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 60)
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  return (
+    <div className="app">
+      <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
+        <div className="nav__inner">
+          <div className="nav__brand">
+            <Logo size={36}/>
+            <span className="nav__name">GEMBA <em>Industrial</em></span>
+          </div>
+          <a href="#contact" className="nav__cta">Get in Touch</a>
+        </div>
+      </nav>
+
+      <section className="hero">
+        <div className="hero__bg">
+          <div className="hero__grid"/>
+          <div className="hero__glow hero__glow--1"/>
+          <div className="hero__glow hero__glow--2"/>
+        </div>
+        <div className="hero__content">
+          <div className="hero__logo"><Logo size={100}/></div>
+          <div className="hero__badge">GEMBA EOOD · Industrial Services Division</div>
+          <h1 className="hero__title">
+            Specialist Reactor &amp;<br/>
+            <span className="hero__title--accent">Catalyst Changeout</span><br/>
+            Crews Across Europe
+          </h1>
+          <p className="hero__sub">
+            Certified, experienced industrial technicians deployed to petroleum refineries 
+            across Europe and North America. Trusted by industry leaders including Mourik, 
+            with a proven track record at Esso Fawley, Shell Pernis, BP Rotterdam and beyond.
+          </p>
+          <div className="hero__actions">
+            <a href="#services" className="btn btn--primary">Our Services</a>
+            <a href="#contact" className="btn btn--ghost">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section className="stats">
+        {stats.map((s,i) => (
+          <div className="stat" key={i}>
+            <div className="stat__value">{s.value}</div>
+            <div className="stat__label">{s.label}</div>
+          </div>
+        ))}
+      </section>
+
+      <section className="services" id="services">
+        <div className="section__inner">
+          <div className="section__header">
+            <div className="section__tag">What We Do</div>
+            <h2 className="section__title">Industrial Services</h2>
+            <p className="section__sub">Specialised technical services delivered to refineries and petrochemical facilities across Europe and North America — with safety, precision, and reliability at the core of everything we do.</p>
+          </div>
+          <div className="services__grid">
+            {services.map((s,i) => (
+              <div className="service-card" key={i}>
+                <div className="service-card__icon">{s.icon}</div>
+                <h3 className="service-card__title">{s.title}</h3>
+                <p className="service-card__desc">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="refineries">
+        <div className="section__inner">
+          <div className="section__header">
+            <div className="section__tag">Track Record</div>
+            <h2 className="section__title">Where We Have Worked</h2>
+            <p className="section__sub">Our crews have delivered successful projects at some of the most demanding refineries in the world.</p>
+          </div>
+          <div className="refineries__list">
+            {refineries.map((r,i) => (
+              <div className="refinery-item" key={i}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <circle cx="8" cy="8" r="7" stroke="url(#ri)" strokeWidth="1.2"/>
+                  <path d="M5 8 L7 10 L11 6" stroke="url(#ri)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <defs><linearGradient id="ri" x1="0" y1="0" x2="16" y2="16" gradientUnits="userSpaceOnUse"><stop stopColor="#4F46E5"/><stop offset="1" stopColor="#06B6D4"/></linearGradient></defs>
+                </svg>
+                {r}
+              </div>
+            ))}
+            <div className="refinery-item refinery-item--more">+ many more across Europe</div>
+          </div>
+        </div>
+      </section>
+
+      <section className="about" id="about">
+        <div className="section__inner about__inner">
+          <div className="about__visual">
+            <div className="about__logo-wrap"><Logo size={180}/></div>
+          </div>
+          <div className="about__text">
+            <div className="section__tag">About Us</div>
+            <h2 className="section__title">GEMBA EOOD</h2>
+            <p>GEMBA EOOD is a Bulgarian-registered industrial services company providing specialist reactor technicians and catalyst changeout crews to petroleum refineries across Europe and North America.</p>
+            <p>Our core team of 4 BA-qualified specialists holds European-certified qualifications in Confined Space Entry, Rigging, and Forklift operation. We are fluent in English and operate to the highest safety and quality standards on every project.</p>
+            <p>We are trusted by industry leaders including Mourik and have a proven track record at some of the world's largest refinery facilities. Our crew is available for immediate international deployment and can scale up to 12 personnel on demand.</p>
+            <div className="about__certs">
+              <div className="cert-badge">Confined Space Entry</div>
+              <div className="cert-badge">Rigging Certified</div>
+              <div className="cert-badge">Forklift Certified</div>
+              <div className="cert-badge">European Certified</div>
+            </div>
+            <div className="about__flags">
+              <span>🇧🇬 Bulgaria</span>
+              <span>🇬🇧 United Kingdom</span>
+              <span>🇱🇹 Lithuania</span>
+              <span>🇳🇱 Netherlands</span>
+              <span>🇪🇺 Europe</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact" id="contact">
+        <div className="contact__bg"><div className="hero__glow hero__glow--1"/></div>
+        <div className="section__inner">
+          <div className="section__header">
+            <div className="section__tag">Get In Touch</div>
+            <h2 className="section__title">Ready to Work Together?</h2>
+            <p className="section__sub">Looking for specialist reactor technicians or a complete catalyst changeout crew? Contact us to discuss your project requirements — we respond promptly.</p>
+          </div>
+          <div className="contact__cards">
+            <a className="contact-card" href="mailto:gemba.eood@proton.me">
+              <div className="contact-card__icon"><IconMail/></div>
+              <div className="contact-card__label">Email</div>
+              <div className="contact-card__value">gemba.eood@proton.me</div>
+            </a>
+            <a className="contact-card" href="tel:+359897598378">
+              <div className="contact-card__icon"><IconPhone/></div>
+              <div className="contact-card__label">Phone</div>
+              <div className="contact-card__value">+359 897 598 378</div>
+            </a>
+            <div className="contact-card">
+              <div className="contact-card__icon"><IconPin/></div>
+              <div className="contact-card__label">Registered Office</div>
+              <div className="contact-card__value">Varna, Bulgaria · EIK: 208656371</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <div className="footer__inner">
+          <div className="footer__brand">
+            <Logo size={24}/>
+            <span>GEMBA EOOD © {new Date().getFullYear()}</span>
+          </div>
+          <div className="footer__info">Industrial Services Division · EIK: 208656371 · Varna, Bulgaria</div>
+        </div>
+      </footer>
+    </div>
+  )
+}
