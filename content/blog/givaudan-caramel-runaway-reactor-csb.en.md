@@ -7,26 +7,30 @@ reactor at a Louisville, Kentucky plant stuck shut. The reactor was
 cooking sugar into caramel coloring — about as far from "hazardous
 process" as most people would picture. The crew did what crews do when a
 valve misbehaves: they stayed at the panel and tried to work the problem.
+
 The U.S. Chemical Safety Board later calculated they had more than three
 minutes to walk out. Two of them never did.
 
 The CSB released its final report on the Givaudan Sense Colour explosion
 on May 27, 2026 (investigation **2024-06-I-KY**). Two workers were
-killed, three more seriously hurt, and a section of the reactor was
+killed. Three more were seriously hurt. And a section of the reactor was
 thrown past the fence line into a neighbor's yard. The Board's
 chairperson summed it up in five words: "a catastrophe waiting to
-happen." This is the longer version, read from the chair of the people
+happen." This is the longer version — read from the chair of the people
 who work on equipment like this for a living.
 
 ## What the report actually says
 
 Reactor 6 was running a batch of caramel coloring when the sugar
 ingredient began to decompose. Decomposition is not the same as the
-normal cook — it is a runaway. The sugar broke down and generated
-non-condensable gases faster than the vessel could vent them, and the
-pressure climbed past anything the reactor was built to hold. The
-emergency relief system that was supposed to be the last line of defense
-opened, and it was not close to big enough.
+normal cook — it is a runaway. Think of it like a campfire that suddenly
+catches its own fuel and roars out of control. The sugar broke down and
+generated non-condensable gases — gases that will not turn back into
+liquid — faster than the vessel could vent them. The pressure climbed
+past anything the reactor was built to hold.
+
+The emergency relief system that was supposed to be the last line of
+defense opened. And it was nowhere near big enough.
 
 The CSB's number on that is blunt: the relief system would have needed to
 be roughly **four times larger** to handle the pressure this reaction
@@ -43,7 +47,7 @@ Read that twice. The relief device was not undersized because someone
 did the math wrong. It was undersized because the runaway reaction it
 needed to protect against was never on anyone's list. You cannot size a
 relief valve for a scenario you have not identified. The supervisory
-investigator put the same point in plainer language: the company "did not
+investigator said the same thing in plainer language: the company "did not
 understand the severe reactive hazards associated with the sugar
 ingredients used in its caramel coloring process."
 
@@ -58,30 +62,31 @@ decomposition temperature or what happens past it.
 
 That is the "what looked routine went sideways" pattern in its purest
 form. Nobody walks into a caramel-coloring batch expecting a detonation.
-The reactive hazard was real the whole time; it just never got written
-down, never got tested, never made it into a process hazard analysis. The
+The reactive hazard was real the whole time. It just never got written
+down, never got tested, never made it into a process hazard analysis —
+the formal study a plant does to find the ways a process can go wrong. The
 CSB's recommendation list now includes third-party reactivity testing on
 the sugar ingredients — the kind of test that, done once before 2021,
 would have flagged the relief sizing problem on paper instead of in a
 neighborhood.
 
 For anyone doing contract work across multiple sites, this is the harder
-lesson than "size your relief valves." It is: the benign-looking units
-are where the gaps live. The reactors with skull-and-crossbones culture
-around them get the analyses. The "it's just sugar" vessels get
-overlooked, and a relief header sized off an assumption rides along for
-three years until the day the assumption breaks.
+lesson — harder than "size your relief valves." It is this: the
+benign-looking units are where the gaps live. The reactors that everyone
+treats with skull-and-crossbones caution get the analyses. The "it's just
+sugar" vessels get overlooked, and a relief header sized off an assumption
+rides along for three years until the day the assumption breaks.
 
 ## The vent valve nobody fixed
 
 Two facts from the investigation sit badly next to each other. First,
 the vent valve that was used to cool the reactor had reportedly been
 malfunctioning for months before the explosion; the final report did not
-pin down why it failed on the day. Second, a similar explosion had
+pin down exactly why it failed on the day. Second, a similar explosion had
 already happened at this same facility back in 2003.
 
-So the immediate trigger — a stuck cooling valve — was a known bad actor,
-and the failure mode — a reactor going over pressure — had a precedent on
+So the immediate trigger — a stuck cooling valve — was a known bad actor.
+And the failure mode — a reactor going over pressure — had a precedent on
 site going back two decades. Neither got run to ground. That is not a
 story about a freak component. It is a story about a maintenance backlog
 and a near-miss memory that both got quietly normalized.
@@ -89,9 +94,10 @@ and a near-miss memory that both got quietly normalized.
 Crews see this constantly. A valve that "sticks sometimes" becomes a
 valve you work around. A relief device that nobody has revalidated
 becomes a relief device everyone assumes is fine. The standard procedure
-is to treat a recurring nuisance fault as a defect report, not a knack —
-but the day-to-day pressure to keep the batch moving pushes the other
-way, and it keeps pushing until the nuisance fault is the headline.
+is to treat a recurring nuisance fault as a defect report, not a knack you
+learn to live with. But the day-to-day pressure to keep the batch moving
+pushes the other way — and it keeps pushing until the nuisance fault is
+the headline.
 
 ![Bank of industrial process pipework and valves running along a unit](/images/blog/givaudan-caramel-runaway-reactor-csb/mid.jpg)
 
@@ -99,20 +105,20 @@ way, and it keeps pushing until the nuisance fault is the headline.
 
 ## From the contractor's chair
 
-GEMBA's crews are breathing-apparatus and confined-space people; we are
-in and around vessels like Reactor 6 on turnarounds, not running the
-batch recipe. So take this as a contractor reading a public report, not a
-post-mortem of the operator. Three things in this one transfer directly
-to anyone who works on or near process equipment.
+GEMBA's crews are breathing-apparatus and confined-space people. We are
+in and around vessels like Reactor 6 on turnarounds — we are not running
+the batch recipe. So take this as a contractor reading a public report,
+not a post-mortem of the operator. Three things in this one transfer
+directly to anyone who works on or near process equipment.
 
 **Do not inherit the relief assumption.** When you pull a relief valve
-for a turnaround, test it, and reinstall it, you are confirming that the
-device works to its setpoint. You are not confirming that the setpoint
-and orifice are right for every scenario the vessel can see. Those are
-different questions owned by different people, and the Givaudan report is
-what it looks like when the second question never got asked. If a client
-hands you a relief device to service, the device passing the bench test
-tells you nothing about whether it would have saved anyone here.
+for a turnaround, test it, and reinstall it, you are confirming one thing:
+that the device works to its setpoint. You are not confirming that the
+setpoint and the orifice are right for every scenario the vessel can see.
+Those are different questions, owned by different people, and the Givaudan
+report is what it looks like when the second question never got asked. If
+a client hands you a relief device to service, the device passing the
+bench test tells you nothing about whether it would have saved anyone here.
 
 **Watch where the people are.** The two workers who died were in a
 control room located about 40 feet from Reactor 6, and the room was not
@@ -128,33 +134,34 @@ that there were more than three minutes to get out, and the instinct was
 to stay and troubleshoot. That instinct is not stupidity — it is the same
 competence that makes someone good at the job. SCC/VCA refresher training
 drills the "stop, leave, account for everyone" response precisely because
-the natural pull when equipment misbehaves is to lean in and fix it. The
-training exists to override the instinct, and the Givaudan timeline is
-the cost of the instinct winning.
+the natural pull, when equipment misbehaves, is to lean in and fix it. The
+training exists to override the instinct. And the Givaudan timeline is the
+cost of the instinct winning.
 
 ## This is not a food-plant problem
 
 It is easy to file Givaudan under "weird stuff that happens at food
-factories" and move on. That would be a mistake. A runaway exotherm that
-outruns its relief device is one of the oldest failure modes in process
+factories" and move on. That would be a mistake. A runaway exotherm — a
+reaction that makes heat faster than the system can shed it — that outruns
+its relief device is one of the oldest failure modes in process
 chemistry, and refineries and petrochemical units carry their own
 versions. Hydroprocessing reactors hold a temperature-runaway scenario
-that crews drill around during startup. Peroxide accumulation in ether
-and diene streams, autopolymerization in monomer service, water hitting
-hot oil — the chemistry differs, the shape of the event does not. A
+that crews drill around during startup. Peroxide buildup in ether and
+diene streams, autopolymerization in monomer service, water hitting hot
+oil — the chemistry differs, but the shape of the event does not. A
 reaction speeds up, generates gas or heat faster than the system can
-shed it, and the relief path becomes the only thing between the vessel
-and the fence line.
+shed it, and the relief path becomes the only thing standing between the
+vessel and the fence line.
 
 What makes the Givaudan case useful is that it strips the problem down to
-its bones. There was no exotic catalyst, no high-pressure hydrogen, no
+the bones. There was no exotic catalyst, no high-pressure hydrogen, no
 sour gas — just sugar and a relief device sized for the wrong scenario.
 If a reactive runaway can hide inside a caramel batch for three years,
-the question for every other unit is not whether the relief is installed
-and tested. It is whether anyone has revisited the scenario the relief
-was sized against since the last time the feed, the recipe, or the
+then the question for every other unit is not whether the relief is
+installed and tested. It is whether anyone has revisited the scenario the
+relief was sized against since the last time the feed, the recipe, or the
 throughput changed. Relief sizing does not expire on a date stamp. It
-expires quietly, the first time reality drifts away from the assumption
+expires quietly — the first time reality drifts away from the assumption
 on the original calculation sheet.
 
 ## The lesson, for a crew lead and a first-year tech
