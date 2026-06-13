@@ -1,27 +1,3 @@
----
-title: "When Caramel Explodes: The Givaudan Reactor Lesson"
-slug: "givaudan-caramel-runaway-reactor-csb"
-date: "2026-06-02"
-lastUpdated: "2026-06-02"
-author: "GEMBA Industrial crew"
-cluster: "on-the-job"
-category: "On-the-Job Stories"
-tags:
-  - "csb"
-  - "runaway-reaction"
-  - "pressure-relief"
-  - "reactive-hazard"
-  - "batch-reactor"
-  - "facility-siting"
-  - "control-room"
-  - "contractors"
-  - "process-safety"
-readingTime: 9
-excerpt: "The CSB's final report on the 2024 Givaudan explosion: a stuck vent valve and a relief system four times too small. Here is the longer version."
-hero: "/images/blog/givaudan-caramel-runaway-reactor-csb/hero.jpg"
-heroRetina: "/images/blog/givaudan-caramel-runaway-reactor-csb/hero@2x.jpg"
----
-
 ![Industrial refinery complex at dusk, process towers and vessels lit against a darkening sky](/images/blog/givaudan-caramel-runaway-reactor-csb/hero.jpg)
 
 *Image: Naturalist Boat on Unsplash.*

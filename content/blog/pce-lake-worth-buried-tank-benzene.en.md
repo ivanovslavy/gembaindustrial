@@ -1,26 +1,3 @@
----
-title: "Buried Tank, No Permit: The PCE Lake Worth Lesson"
-slug: "pce-lake-worth-buried-tank-benzene"
-date: "2026-05-19"
-lastUpdated: "2026-05-19"
-author: "GEMBA Industrial crew"
-cluster: "safety-compliance"
-tags:
-  - osha
-  - confined-space-entry
-  - permit-to-work
-  - benzene
-  - toluene
-  - tank-cleaning
-  - contractors
-  - respiratory-protection
-  - hazard-communication
-readingTime: 9
-excerpt: "OSHA's March 2026 citation against a Florida tank contractor: 12 violations, a buried gasoline tank, benzene exposure. Here is what the training card misses."
-hero: "/images/blog/pce-lake-worth-buried-tank-benzene/hero.jpg"
-heroRetina: "/images/blog/pce-lake-worth-buried-tank-benzene/hero@2x.jpg"
----
-
 ![Large industrial fuel storage tanks set against a green landscape — the kind of fuel-storage asset behind every tank-cleaning entry.](/images/blog/pce-lake-worth-buried-tank-benzene/hero.jpg)
 
 *Image: Energie-portal.sk on Unsplash.*

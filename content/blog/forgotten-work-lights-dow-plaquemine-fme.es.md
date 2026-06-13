@@ -1,25 +1,3 @@
----
-title: "Lámparas de trabajo olvidadas: La lección FME de Dow Plaquemine"
-slug: "forgotten-work-lights-dow-plaquemine-fme"
-date: "2026-04-28"
-lastUpdated: "2026-04-28"
-author: "GEMBA Industrial crew"
-cluster: "safety-compliance"
-tags:
-  - csb
-  - foreign-material-exclusion
-  - fme
-  - confined-space-entry
-  - turnaround
-  - contractors
-  - ethylene-oxide
-  - dow-plaquemine
-readingTime: 9
-excerpt: "El informe de febrero de 2026 de la CSB sobre la explosión de óxido de etileno en Dow Plaquemine se reduce a un detalle: lámparas de trabajo portátiles dejadas dentro de un reflux drum. Esto es lo que pasó por alto el formulario de cierre."
-hero: "/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero.jpg"
-heroRetina: "/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero@2x.jpg"
----
-
 ![Planta química iluminada de noche, vista desde lejos — una vista tranquila del tipo de unidad donde la degradación lenta pasa desapercibida.](/images/blog/forgotten-work-lights-dow-plaquemine-fme/hero.jpg)
 
 *Imagen: PilMo Kang en Unsplash.*

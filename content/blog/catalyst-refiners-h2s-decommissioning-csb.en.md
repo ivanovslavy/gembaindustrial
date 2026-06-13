@@ -1,26 +1,3 @@
----
-title: "When Cleaning Made the Gas: The Catalyst Refiners Lesson"
-slug: "catalyst-refiners-h2s-decommissioning-csb"
-date: "2026-05-12"
-lastUpdated: "2026-05-12"
-author: "GEMBA Industrial crew"
-cluster: "on-the-job"
-category: "On-the-Job Stories"
-tags:
-  - "csb"
-  - "hydrogen-sulfide"
-  - "decommissioning"
-  - "tank-cleaning"
-  - "chemical-compatibility"
-  - "contractors"
-  - "catalyst-refiners"
-  - "ames-goldsmith"
-readingTime: 11
-excerpt: "On April 22, 2026, two workers died at Ames Goldsmith's Catalyst Refiners plant in Nitro, West Virginia when nitric acid met a tank-cleaning agent during decommissioning. Here is the longer version."
-hero: "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg"
-heroRetina: "/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero@2x.jpg"
----
-
 ![A weathered steel chemical-storage tank wall, sun on the side, rust streaks running from the vents — the kind of vessel that is no longer in active service but still has residue on the inside.](/images/blog/catalyst-refiners-h2s-decommissioning-csb/hero.jpg)
 
 *Image: Eric Prouzet on Unsplash.*

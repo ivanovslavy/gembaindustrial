@@ -1,27 +1,3 @@
----
-title: "The Gasket They Meant to Replace: Geismar's HF Lesson"
-slug: "geismar-hydrogen-fluoride-gasket-csb"
-date: "2026-06-09"
-lastUpdated: "2026-06-09"
-author: "GEMBA Industrial crew"
-cluster: "on-the-job"
-tags:
-  - csb
-  - hydrogen-fluoride
-  - hf-alkylation
-  - mechanical-integrity
-  - management-of-change
-  - gasket-failure
-  - permit-to-work
-  - line-breaking
-  - contractors
-  - process-safety
-readingTime: 13
-excerpt: "Three HF releases in under three years at Honeywell Geismar. The CSB found every one was preventable. Here is the longer version for the crews who break HF lines."
-hero: "/images/blog/geismar-hydrogen-fluoride-gasket-csb/hero.jpg"
-heroRetina: "/images/blog/geismar-hydrogen-fluoride-gasket-csb/hero@2x.jpg"
----
-
 On June 7, 2024, two workers at Honeywell's Geismar, Louisiana plant opened a flanged connection to swap out a gasket. One of them was a contractor. They had a permit. They had done the job before. The line was supposed to be empty.
 
 It was not. Less than a pound of anhydrous hydrogen fluoride was still inside, and when the flange came apart it found the contractor's face. He spent two days in a hospital with second-degree burns. Less than a pound — and that was the *small* one of three HF releases the U.S. Chemical Safety Board investigated at this single site over a stretch of under three years.

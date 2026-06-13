@@ -1,26 +1,3 @@
----
-title: "Topsoe TK-939 D-sel: Notes for Hydrocracker Crews"
-slug: "topsoe-tk-939-d-sel-hydrocracker-crews"
-date: "2026-05-26"
-lastUpdated: "2026-05-26"
-author: "GEMBA Industrial crew"
-cluster: "industry-commentary"
-category: "Industry Commentary"
-tags:
-  - "topsoe"
-  - "tk-939-d-sel"
-  - "hydrocracker"
-  - "catalyst-changeout"
-  - "middle-distillate"
-  - "niw-catalyst"
-  - "contractors"
-  - "turnaround"
-readingTime: 9
-excerpt: "Topsoe's May 2026 case study credits TK-939 D-sel with $7.6M of extra profit per cycle at a European refinery. Here is what the same decision looks like at the manway."
-hero: "/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero.jpg"
-heroRetina: "/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero@2x.jpg"
----
-
 ![A petrochemical complex at dusk on a waterway, barges in the foreground, pipework and stacks lit against a grey sky — the scale of an asset where a single catalyst choice moves the P&L by millions per cycle.](/images/blog/topsoe-tk-939-d-sel-hydrocracker-crews/hero.jpg)
 
 *Image: Naturalist Boat on Unsplash.*

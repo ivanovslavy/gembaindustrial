@@ -1,26 +1,3 @@
----
-title: "When the Pit Fills with Argon: The Bacchus Lesson"
-slug: "argon-pit-asphyxiation-bacchus-csb"
-date: "2026-05-05"
-lastUpdated: "2026-05-05"
-author: "GEMBA Industrial crew"
-cluster: "on-the-job"
-category: "On-the-Job Stories"
-tags:
-  - "csb"
-  - "argon"
-  - "inert-gas-asphyxiation"
-  - "confined-space-entry"
-  - "autoclave"
-  - "contractors"
-  - "oxygen-monitoring"
-  - "northrop-grumman-bacchus"
-readingTime: 13
-excerpt: "On January 30, 2023, two workers died in an argon-flooded pit beneath an autoclave at Northrop Grumman Bacchus. The CSB's Volume 4 report puts the lesson in one sentence — here is the longer version."
-hero: "/images/blog/argon-pit-asphyxiation-bacchus-csb/hero.jpg"
-heroRetina: "/images/blog/argon-pit-asphyxiation-bacchus-csb/hero@2x.jpg"
----
-
 ![A petrochemical plant lit at night, glowing process lights against a dark sky — the kind of facility where inert-gas hazards live below grade in pits and sumps.](/images/blog/argon-pit-asphyxiation-bacchus-csb/hero.jpg)
 
 *Image: Chris LeBoutillier on Unsplash.*
