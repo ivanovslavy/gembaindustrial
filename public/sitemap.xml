@@ -220,6 +220,81 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/valaris-121-grating-fall-hse</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/valaris-121-grating-fall-hse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/valaris-121-grating-fall-hse</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/valaris-121-grating-fall-hse"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/valaris-121-grating-fall-hse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/marathon-martinez-fired-heater-tube-rupture-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/marathon-martinez-fired-heater-tube-rupture-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/marathon-martinez-fired-heater-tube-rupture-csb"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/axens-eurecat-catalyst-changeout-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/axens-eurecat-catalyst-changeout-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/axens-eurecat-catalyst-changeout-crews"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gembaindustrial.com/en/blog/geismar-hydrogen-fluoride-gasket-csb</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/geismar-hydrogen-fluoride-gasket-csb"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/geismar-hydrogen-fluoride-gasket-csb"/>

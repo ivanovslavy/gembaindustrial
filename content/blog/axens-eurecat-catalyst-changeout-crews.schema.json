@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Axens Buys Eurecat: The Changeout Crew's View",
+    "description": "On 5 February 2026 Axens closed its purchase of catalyst-services firm Eurecat. Here is what \"catalyst circularity\" actually means at the reactor manway.",
+    "image": "https://gembaindustrial.com/images/blog/axens-eurecat-catalyst-changeout-crews/hero.jpg",
+    "datePublished": "2026-06-16",
+    "dateModified": "2026-06-16",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/axens-eurecat-catalyst-changeout-crews",
+    "articleSection": "Industry Commentary",
+    "keywords": "axens, eurecat, catalyst-circularity, ex-situ-activation, catalyst-changeout, inert-entry, presulfided-catalyst, spent-catalyst, reactor-services, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What did Axens acquire when it bought Eurecat in February 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 5 February 2026 Axens closed the purchase of 100% of Eurecat, a catalyst-services company. Eurecat does not make catalyst; it handles it across the whole life cycle: regeneration, rejuvenation and recycling of spent catalyst; ex-situ (outside-the-reactor) activation of fresh catalyst; and reactor services including catalyst loading and unloading. It runs industrial sites in the Americas, Europe, the Middle East and Asia, serving refining, biofuels, chemicals and gas. Axens framed the deal around catalyst circularity and metals reuse, and is now Eurecat's sole owner."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does ex-situ activated (presulfided) catalyst need to be loaded under nitrogen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Often, yes. An oxidised fresh catalyst, with its metals still in oxide form, can be loaded in plain air. But a catalyst that already has sulfur on it — which is exactly what ex-situ activation produces — should be loaded in an inert environment, according to the industry's own technical guidance. So the convenient, fully-activated 'load-and-go' catalyst can turn the loading shift into an inert-entry job with nitrogen in the vessel and breathing apparatus on the loaders, rather than a straightforward air load. The fresh-charge type is therefore a fact worth confirming before the changeout, because it changes the crew size, the breathing-apparatus plan and the permit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is spent hydroprocessing catalyst unloaded under nitrogen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Spent hydroprocessing catalyst is pyrophoric — the iron sulfide and coke built up over a run ignite spontaneously when they meet air, and the fire releases toxic sulfur dioxide. The long-standing solution is to flood the reactor with nitrogen so there is no oxygen for the catalyst to react with, and remove the material cold and safe. That protects the catalyst but not the crew: a nitrogen-filled vessel is a confined space with an extreme asphyxiation risk. The industry's own record shows that fatalities by asphyxiation during inert entry have happened even when the work was done by specialist inert-entry contractors, which is why every entry needs entrant-and-standby rotation, a continuous nitrogen sweep, lapel oxygen monitoring and a tested rescue plan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is catalyst passivation and how does it change the changeout?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Catalyst passivation coats the pyrophoric spent catalyst and the internal surfaces with a thin organic film that slows oxygen from reaching the reactive material. Treated this way, the spent catalyst can be unloaded under air instead of nitrogen — removing the inert-entry asphyxiation hazard entirely for the unload. It is not free: it is a chemical treatment with its own cost, schedule and implications for how the regenerator receives the catalyst. Increasingly the choice between inert entry and a passivated air unload is bundled into the catalyst-services contract and decided in procurement months before anyone rigs an unloader nozzle."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the Axens-Eurecat deal mean for independent catalyst-changeout crews?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The practical shift is that the company making the catalyst now also wants to load it, unload it and regenerate it — Axens-with-Eurecat can sell a refiner the catalyst, the ex-situ activation, the reactor loading and unloading, and the regeneration of the spent material as one bundled contract. The reactor-services work does not disappear, since someone still has to put hands and breathing apparatus inside the vessel and integrated suppliers frequently subcontract exactly that. But the decisions that shape how a crew works — inert entry or passivated air unload, who supplies the standby, whose procedure governs the entry — are migrating up into a bundled services deal, so crew leads have more reason to read the contract before the turnaround rather than during it."
+        }
+      }
+    ]
+  }
+}

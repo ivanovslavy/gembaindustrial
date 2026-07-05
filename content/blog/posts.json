@@ -1,5 +1,125 @@
 [
   {
+    "slug": "valaris-121-grating-fall-hse",
+    "date": "2026-07-05",
+    "lastUpdated": "2026-07-05",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "hse-uk",
+      "deck-grating",
+      "walking-surfaces",
+      "fall-through",
+      "rig-move",
+      "transient-operations",
+      "grating-fixings",
+      "inspection",
+      "turnaround",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Grating Under Your Boots: The Valaris 121 Lesson",
+      "bg": "Решетката под ботушите ти: Урокът от Valaris 121",
+      "es": "La rejilla bajo tus botas: La lección del Valaris 121"
+    },
+    "excerpt": {
+      "en": "On 22 January 2023 a crane operator on the Valaris 121 stepped onto deck grating the sea had already lifted loose. HSE's 2026 sentencing tells the rest.",
+      "bg": "На 22 януари 2023 г. кранист на Valaris 121 стъпи върху палубна решетка, която морето вече беше повдигнало. Присъдата на HSE от 2026 г. разказва останалото.",
+      "es": "El 22 de enero de 2023 un operador de grúa del Valaris 121 pisó una rejilla de cubierta que el mar ya había soltado. La sentencia del HSE de 2026 cuenta el resto."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/valaris-121-grating-fall-hse/hero.jpg",
+    "heroRetina": "/images/blog/valaris-121-grating-fall-hse/hero@2x.jpg",
+    "source_url": "https://press.hse.gov.uk/2026/05/18/offshore-firm-fined-following-death-of-worker-on-valaris-121-whose-body-was-never-recovered/",
+    "source_type": "hse_uk_alert",
+    "source_date": "2026-05-18",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2050,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "marathon-martinez-fired-heater-tube-rupture-csb",
+    "date": "2026-06-23",
+    "lastUpdated": "2026-06-23",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "fired-heater",
+      "tube-rupture",
+      "renewable-diesel",
+      "hydroprocessing",
+      "start-up",
+      "safe-operating-limits",
+      "remote-shutdown",
+      "contractors",
+      "process-safety"
+    ],
+    "title": {
+      "en": "Sent to the Heater: The Marathon Martinez Lesson",
+      "bg": "Изпратен до пещта: Урокът от Marathon Martinez",
+      "es": "Enviado al horno: La lección de Marathon Martinez"
+    },
+    "excerpt": {
+      "en": "On 19 November 2023 a field operator was sent to manually shut burners on an overheating fired heater at Marathon Martinez. The tube ruptured. Here's the longer version.",
+      "bg": "На 19 ноември 2023 г. полеви оператор беше изпратен да изключи ръчно горелките на прегряваща пещ в Marathon Martinez. Тръбата се спука. Ето по-дългата версия.",
+      "es": "El 19 de noviembre de 2023 un operador de campo fue enviado a apagar manualmente los quemadores de un horno sobrecalentado en Marathon Martinez. El tubo se rompió. Aquí está la versión larga."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/marathon-martinez-fired-heater-tube-rupture-csb/hero.jpg",
+    "heroRetina": "/images/blog/marathon-martinez-fired-heater-tube-rupture-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/marathon-martinez-renewable-fuels-fire-/",
+    "source_type": "csb_investigation",
+    "source_date": "2025-03-12",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 1949,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
+    "slug": "axens-eurecat-catalyst-changeout-crews",
+    "date": "2026-06-16",
+    "lastUpdated": "2026-06-16",
+    "author": "GEMBA Industrial crew",
+    "category": "Industry Commentary",
+    "cluster": "industry-commentary",
+    "tags": [
+      "axens",
+      "eurecat",
+      "catalyst-circularity",
+      "ex-situ-activation",
+      "catalyst-changeout",
+      "inert-entry",
+      "presulfided-catalyst",
+      "spent-catalyst",
+      "reactor-services",
+      "contractors"
+    ],
+    "title": {
+      "en": "Axens Buys Eurecat: The Changeout Crew's View",
+      "bg": "Axens купува Eurecat: Погледът на changeout екипа",
+      "es": "Axens compra Eurecat: La visión del equipo de changeout"
+    },
+    "excerpt": {
+      "en": "On 5 February 2026 Axens closed its purchase of catalyst-services firm Eurecat. Here is what \"catalyst circularity\" actually means at the reactor manway.",
+      "bg": "На 5 февруари 2026 г. Axens придоби фирмата за катализаторни услуги Eurecat. Ето какво всъщност означава „кръговратът на катализатора\" при manway-а на реактора.",
+      "es": "El 5 de febrero de 2026 Axens cerró la compra de la firma de servicios de catalizadores Eurecat. Esto es lo que la \"circularidad del catalizador\" significa en la boca de hombre del reactor."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/axens-eurecat-catalyst-changeout-crews/hero.jpg",
+    "heroRetina": "/images/blog/axens-eurecat-catalyst-changeout-crews/hero@2x.jpg",
+    "source_url": "https://www.axens.net/resources-events/news/axens-completes-acquisition-eurecat-enhance-global-catalyst-service",
+    "source_type": "industry_publication",
+    "source_date": "2026-02-05",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2050,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "geismar-hydrogen-fluoride-gasket-csb",
     "date": "2026-06-09",
     "lastUpdated": "2026-06-09",

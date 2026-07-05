@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sent to the Heater: The Marathon Martinez Lesson",
+    "description": "On 19 November 2023 a field operator was sent to manually shut burners on an overheating fired heater at Marathon Martinez. The tube ruptured. Here's the longer version.",
+    "image": "https://gembaindustrial.com/images/blog/marathon-martinez-fired-heater-tube-rupture-csb/hero.jpg",
+    "datePublished": "2026-06-23",
+    "dateModified": "2026-06-23",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/marathon-martinez-fired-heater-tube-rupture-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, fired-heater, tube-rupture, renewable-diesel, hydroprocessing, start-up, safe-operating-limits, remote-shutdown, contractors, process-safety"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened in the 2023 Marathon Martinez Renewables fire?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At 12:21 a.m. on 19 November 2023, during the first start-up of a renewable diesel hydroprocessing unit at Marathon Martinez Renewables in Martinez, California, a tube inside a fired heater ruptured and released over 200,000 pounds of renewable diesel and about 2,200 pounds of hydrogen, which ignited. A manual valve left open upstream diverted feed around the heater so the tubes had very little cooling flow, while restricted burner air caused afterburning in the convection section. Together these overheated the convection tubes past their design limit until one failed. A field operator sent to manually shut the burners suffered third-degree burns over more than 80 percent of his body. The fire caused roughly $350 million in damage and the unit was down for about a year, restarting in November 2024."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did the CSB identify as the cause of the Marathon Martinez fired heater rupture?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The U.S. Chemical Safety Board's final report, published 12 March 2025, listed six safety issues: safe operating limits, worker proximity to the fired heater, low flow through the fired heater, burner operation, valve misalignment, and corporate oversight. A manual valve left open diverted process flow around the heater, leaving the tubes with almost no cooling flow, while blocked air to the burners caused afterburning that overheated the convection tubes until one ruptured. The CSB chairperson stated that a series of safety failures contributed to the severity, including the lack of appropriate guidance for when to shut down the heater remotely instead of putting a worker at risk of harm."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is low flow through a fired heater dangerous?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a fired heater the process fluid flows inside steel tubes while burners heat the tubes from outside. The flowing fluid carries heat away and keeps the tube metal at a safe temperature. If flow drops too low — for example because a bypass valve is left open and diverts the feed — the tube has nothing to pull the heat away, so the metal temperature climbs quickly toward the point where the steel softens and can rupture. At Marathon Martinez, low flow combined with afterburning around the tubes drove short-term overheating that bulged and weakened the convection tubes until one failed. That is why a sustained low-flow condition on a fired heater should be treated as an emergency, not a nuisance reading."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should an overheating fired heater be shut down remotely or by hand?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The clearest finding in the CSB's Marathon Martinez report is that there was no clear guidance on when to shut a heater down remotely instead of sending a person to the equipment. When a heater is already in an abnormal, deteriorating state, the safest option is to trip it remotely from the control room with nobody near it. Sending a field operator to manually turn off burners next to a heater whose tubes are already weakening is what put the injured worker in the path of the rupture. Crews and operators should confirm before any start-up the specific condition in which the heater is killed remotely with no one nearby, and have that rule written into the start-up plan rather than decided under pressure in the moment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should contractor crews check before a fired-heater start-up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Confirm whether the heater can be tripped remotely and the rule for when to use it; get the safe operating limits in actual numbers, including the tube metal temperature and minimum flow you must not cross, with an agreed action; treat any low-flow condition on the heater as an emergency; physically walk the line on every valve position rather than assuming it, since one valve left open diverted the flow at Martinez; and refuse the reflex to send a person to equipment that is already abnormal when the same task can be done from a safe distance. Start-up — especially a first-ever start-up of a converted unit — is the window where written limits and a clear do-not-approach rule matter most, because steady-state experience does not exist yet."
+        }
+      }
+    ]
+  }
+}

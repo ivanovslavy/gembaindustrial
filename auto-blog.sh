@@ -13,6 +13,10 @@ BLOG_DIR="$SITE_DIR/content/blog"
 LOG_PREFIX="[AUTO-BLOG-IND $(date '+%Y-%m-%d %H:%M')]"
 
 echo "$LOG_PREFIX Starting..."
+
+# Failure alert (owner-approved 2026-07-05): email Slavy if this run exits non-zero
+# (auth error, crash, skipped week). Sender: /home/slavy/bin/blog-alert.cjs.
+trap 'rc=$?; if [ "$rc" -ne 0 ]; then /usr/bin/node /home/slavy/bin/blog-alert.cjs "gembaindustrial.com" "exit=$rc; $(tail -c 900 /var/log/gembaindustrial-blog.log 2>/dev/null)" || true; fi' EXIT
 cd "$SITE_DIR"
 
 if [ -f "$SITE_DIR/.env.blog" ]; then
@@ -33,7 +37,8 @@ Read these files first (strict order):
   2. /gembaindustrial.com/content/blog/story_vault.md
   3. /gembaindustrial.com/content/blog/posts.json
 
-Your job TODAY: publish ONE grounded English post following the
+Your job TODAY: publish ONE grounded post — EN plus FULL BG and ES
+translations (see TRANSLATIONS below) — following the
 community-problem / incident-retelling process from CLAUDE.md.
 
 DISCOVERY -- use WebSearch across:
@@ -111,6 +116,14 @@ STRUCTURED DATA SIDECAR (mandatory):
       node /gembaindustrial.com/scripts/validate-schema.cjs \
         /gembaindustrial.com/content/blog/<slug>.schema.json
   If validation fails, FIX before publishing.
+
+
+TRANSLATIONS (mandatory, owner rule 2026-07-05): after the EN post is final,
+write FULL Bulgarian and Spanish translations as <slug>.bg.md and <slug>.es.md
+— body-only (NO frontmatter), starting with the translated H1. Translate image
+alt text, captions and Mermaid labels; keep URLs as-is. posts.json title and
+excerpt must be objects with en/bg/es keys — fill all three with real
+translations, and make internal blog links use /bg/ and /es/ paths.
 
 PUBLISH:
     cd /gembaindustrial.com

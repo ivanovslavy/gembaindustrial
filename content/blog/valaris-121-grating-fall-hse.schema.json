@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Grating Under Your Boots: The Valaris 121 Lesson",
+    "description": "On 22 January 2023 a crane operator on the Valaris 121 stepped onto deck grating the sea had already lifted loose. HSE's 2026 sentencing tells the rest.",
+    "image": "https://gembaindustrial.com/images/blog/valaris-121-grating-fall-hse/hero.jpg",
+    "datePublished": "2026-07-05",
+    "dateModified": "2026-07-05",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/valaris-121-grating-fall-hse",
+    "articleSection": "Safety & Compliance",
+    "keywords": "hse-uk, deck-grating, walking-surfaces, fall-through, rig-move, transient-operations, grating-fixings, inspection, turnaround, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened on the Valaris 121 in January 2023?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 22 January 2023, while the Valaris 121 jack-up rig was under tow across the North Sea toward Dundee in deteriorating weather, a 50-year-old crane operator with 16 years of offshore experience went out on deck to re-secure a loose lifebuoy. A deck grating panel that had not been secured to the manufacturer's specification was displaced by wave action, and he fell through the resulting opening into the sea. A colleague heard a loud noise at around 4 p.m. and the crew found the displaced grating and an open hole, with the man's hard hat, gloves and radio lying near the airlock door. A coastguard search was called off the next day and his body was never recovered. On 18 May 2026, Ensco Offshore UK Limited pleaded guilty at Aberdeen Sheriff's Court to breaching the Health and Safety at Work etc. Act 1974 and was fined £267,000 plus a £20,025 victim surcharge."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did the HSE investigation into the Valaris 121 fatality find?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Health and Safety Executive found three core failures. First, the grating panel had not been secured in line with the original equipment manufacturer's specification. Second, inspections had not verified the deployment of the Hilti clips that fasten grating panels to their supporting steel, so the missing restraint went unnoticed. Third, the rig move changed the loads on the deck: wave action during the tow, with winds over 30 mph and waves over five metres, applied enough upward force to fail the fixings and displace the panel. HSE's laboratory at Buxton examined the fixings and found no tool marks, ruling out tampering. An HSE principal inspector concluded that had the company taken relatively simple measures to identify and control the underlying risks, particularly during the rig move, it is highly likely the incident would never have occurred."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is unsecured or removed grating so dangerous on industrial sites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grating failure attacks the assumption underneath every task: that the floor is real. Permits, job safety analyses and toolbox talks all start from the task being performed, but walking across a deck or platform is below the threshold anyone treats as a task, so nobody verifies the surface. A grating panel looks identical whether it is properly clipped down or resting loose, because the fixings sit underneath, out of sight. An unsecured panel can sit for years until wind, wave action, vibration or a dropped load lifts it, and a removed panel becomes an unguarded opening at height the moment barriers are not put up. On the same operator's rig, a second worker died in November 2025 after stepping into an area where grating had been removed for cleaning, showing that both failure paths end the same way."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should turnaround crews control grating removal and reinstatement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Treat every lifted grating panel as an opening at height, not a job step: the permit or task sheet should name the panel, its location and the duration, and a hard barrier with signage goes up the moment the opening exists — not at the end of the shift. Reinstatement means the full set of manufacturer-specified fixings goes back on, with a named person verifying the clips before the permit closes, because a panel dropped back into its frame without fixings looks finished and is not. Routine inspections must physically check the fixings from below against the specification rather than just walking the surface. Finally, when a plant enters a transient state — a turnaround, a steam-out, storm weather — the standing assumptions about structures should be re-examined, because the everyday risk assessments were written for the everyday state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What fine did Ensco Offshore UK receive for the Valaris 121 death?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At Aberdeen Sheriff's Court on 18 May 2026, Ensco Offshore UK Limited pleaded guilty to breaching Section 3(1) and 33(1)(a) of the Health and Safety at Work etc. Act 1974 and was fined £267,000, with a victim surcharge of £20,025 bringing the total payable to £287,025. Reporting around the sentencing also noted that the operator's UK business had received ten HSE improvement notices in five years, including two specifically about unsecured gratings, and that after the investigation the company replaced polymer grating across its fleet with galvanised steel."
+        }
+      }
+    ]
+  }
+}
