@@ -1,5 +1,45 @@
 [
   {
+    "slug": "fawley-lpg-tower-collapse-hse",
+    "date": "2026-07-07",
+    "lastUpdated": "2026-07-07",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "hse-uk",
+      "fawley-refinery",
+      "lpg-release",
+      "corrosion",
+      "structural-steel",
+      "asset-integrity",
+      "ageing-plant",
+      "mechanical-integrity",
+      "comah",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Tower They Flagged in 2010: Fawley's LPG Lesson",
+      "bg": "Кулата, сигнализирана през 2010 г.: Урокът с LPG от Fawley",
+      "es": "La torre señalada en 2010: La lección de GLP de Fawley"
+    },
+    "excerpt": {
+      "en": "In November 2022 a corroded steel tower at Esso's Fawley refinery partially collapsed, releasing 2,400 kg of LPG. The corrosion was flagged in 2010.",
+      "bg": "През ноември 2022 г. корозирала стоманена кула в рафинерията на Esso във Fawley частично се срути и изпусна 2 400 кг LPG. Корозията беше сигнализирана през 2010 г.",
+      "es": "En noviembre de 2022 una torre de acero corroída en la refinería de Esso en Fawley se derrumbó parcialmente, liberando 2.400 kg de GLP. La corrosión se señaló en 2010."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/fawley-lpg-tower-collapse-hse/hero.jpg",
+    "heroRetina": "/images/blog/fawley-lpg-tower-collapse-hse/hero@2x.jpg",
+    "source_url": "https://press.hse.gov.uk/2026/06/15/esso-fined-1-million-after-major-gas-leak-at-fawley-refinery/",
+    "source_type": "hse_uk_alert",
+    "source_date": "2026-06-15",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2050,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "valaris-121-grating-fall-hse",
     "date": "2026-07-05",
     "lastUpdated": "2026-07-05",

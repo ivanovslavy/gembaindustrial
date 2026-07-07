@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Tower They Flagged in 2010: Fawley's LPG Lesson",
+    "description": "In November 2022 a corroded steel tower at Esso's Fawley refinery partially collapsed, releasing 2,400 kg of LPG. The corrosion was flagged in 2010.",
+    "image": "https://gembaindustrial.com/images/blog/fawley-lpg-tower-collapse-hse/hero.jpg",
+    "datePublished": "2026-07-07",
+    "dateModified": "2026-07-07",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/fawley-lpg-tower-collapse-hse",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "hse-uk, fawley-refinery, lpg-release, corrosion, structural-steel, asset-integrity, ageing-plant, mechanical-integrity, comah, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the Fawley refinery on 8 November 2022?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At about 4:40 pm on 8 November 2022, a large steel tower at Esso's Fawley refinery in Hampshire — the UK's largest refinery — partially collapsed, rupturing the pipework connected to it and causing an uncontrolled release of liquefied petroleum gas (LPG). Around 400 kilograms of LPG escaped in just over the first 30 minutes, and approximately 2,400 kilograms escaped over the roughly 33 hours it took to isolate the affected process and safely vent the remaining gas to the refinery's flare system. Emergency crews deployed water curtains to limit the spread of the flammable vapour. Reporting at the time, citing the GMB union, placed the collapse in the fluid catalytic cracking unit. There was no fire and no one was injured, but the refinery's flares lit the sky so brightly that residents on the Isle of Wight described the glow as looking like a large sunset."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What caused the steel tower at Fawley to collapse?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Health and Safety Executive's investigation found that the partial collapse was caused by corrosion of the steel tower that had developed over many years. Critically, the corrosion had been identified as early as 2010 — twelve years before the collapse — yet the company failed to take appropriate action to manage the deteriorating condition of the structure. This is a classic ageing-plant failure: structural steel typically sits outside the strict written inspection schemes that cover pressure vessels and process pipework, so a slow-moving corrosion finding can cycle through registers and re-inspections for years, with the repair repeatedly deferred, until the structure fails."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much was Esso fined for the Fawley LPG leak and under what law?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 12 June 2026, Southampton Magistrates' Court fined Esso Petroleum Company Limited £1 million and ordered it to pay £12,277 in costs. Esso pleaded guilty to breaching Section 3(1) of the Health and Safety at Work etc. Act 1974. Section 3 is significant for contractors: while Section 2 of the Act protects a company's own employees, Section 3 covers everyone else put at risk by the company's undertaking — including contractors, visitors and neighbours. The conviction was specifically about exposing people beyond Esso's own payroll to risk from the uncontrolled gas release and the structural collapse."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does structural steel corrosion get missed on refineries?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pressure equipment — vessels and process pipework — is covered by strict written inspection schemes with thickness surveys and statutory intervals. The structural steel holding that equipment up is legally just a structure: it is often owned by a different budget, inspected on a different cycle, and repaired from a different queue. Corrosion on structural steel is also slow, which makes deferral look reasonable every single year — a finding goes into a register, gets a risk ranking, and waits for a turnaround with money left over, then gets re-logged slightly worse at the next inspection. The HSE calls this the ageing-plant problem and stresses that ageing is not about how old equipment is, but whether its condition is understood and managed. At Fawley the corrosion was identified in 2010, but the action needed to manage it never followed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What can contractor crews do about corroded structures on a client's site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A contractor crew cannot audit a client's corrosion management system, but four habits are genuinely in a crew's hands. First, look up before you build: before installing scaffold or working under any structure, spend thirty seconds checking for heavy scale, section loss at base plates, staining below connections or paint blistered off in sheets. Second, report structural concerns with the same seriousness as a gas smell — to the permit issuer, in words, before work starts. Third, when a job puts people under visibly suffering steel, ask the client whether the structure is on their inspection programme; a site with a working system answers in a sentence. Fourth, log what you flagged — what you saw, who you told and when — because corrosion timelines are longer than most contracts and paper outlives handovers."
+        }
+      }
+    ]
+  }
+}
