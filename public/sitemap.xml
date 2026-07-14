@@ -220,6 +220,31 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/channelview-acid-spill-cleanup-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/channelview-acid-spill-cleanup-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/channelview-acid-spill-cleanup-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/channelview-acid-spill-cleanup-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/channelview-acid-spill-cleanup-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gembaindustrial.com/en/blog/fawley-lpg-tower-collapse-hse</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/fawley-lpg-tower-collapse-hse"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/fawley-lpg-tower-collapse-hse"/>

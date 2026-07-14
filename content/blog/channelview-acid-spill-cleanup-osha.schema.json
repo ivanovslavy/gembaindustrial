@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Bottom of the Contract Chain: The Channelview Acid Lesson",
+    "description": "A million gallons of sulfuric acid spilled at BWC Terminals in Channelview. OSHA's $3.5M in fines landed hardest on the last contractor in the chain.",
+    "image": "https://gembaindustrial.com/images/blog/channelview-acid-spill-cleanup-osha/hero.jpg",
+    "datePublished": "2026-07-14",
+    "dateModified": "2026-07-14",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/channelview-acid-spill-cleanup-osha",
+    "articleSection": "Safety & Compliance",
+    "keywords": "osha, sulfuric-acid, hazwoper, post-emergency-response, contractor-chain, respirator-fit-test, tank-terminal, houston-ship-channel, spill-cleanup, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at BWC Terminals in Channelview on December 27, 2025?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On the morning of December 27, 2025, a 25,000-barrel storage tank at the BWC Terminals bulk liquids facility in Channelview, Texas, on the Houston Ship Channel, over-pressured and ruptured a 6-inch supply line, releasing roughly one million gallons of spent sulfuric acid. Most of the acid went into the containment area around the tank, but an unknown amount reached the ship channel. Forty-four people were medically evaluated that day, including crews from two nearby vessels, and two were hospitalized with respiratory problems and later released. According to OSHA's investigation, the facility had been mixing fresh and spent sulfuric acid despite safety warnings, which triggered the tank overpressure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did OSHA fine three different companies for the Channelview spill?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "OSHA opened three inspections because three employers shared duties on the same cleanup site. BWC Terminals contracted Coastal Environmental Solutions Inc. to handle the hazardous waste cleanup, and Coastal hired subcontractor One Way Environmental Services LLC to supply the labourers who did the actual remediation work. Under the multi-employer doctrine used in US enforcement, the host facility, the managing contractor and the subcontractor can each hold duties toward the same worker at the same time — contracting the work out does not contract the duty out. OSHA proposed $82,750 against BWC Terminals (6 serious violations), $392,501 against Coastal Environmental Solutions (2 willful and 5 serious violations), and $3,045,452 against One Way Environmental Services (18 willful egregious and 5 serious violations) — a total of $3,520,703."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did the labour subcontractor get the largest fine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "One Way Environmental Services was the direct employer of the cleanup labourers — the people actually working in the acid remediation zone. OSHA found it sent those workers in without adequate training, without respirator fit tests and without required safety measures, and cited it with 18 willful egregious violations plus 5 serious ones, for $3,045,452 in proposed penalties. OSHA's egregious policy, formally called instance-by-instance citation, is reserved for the worst cases: instead of one citation for a missing training program, OSHA issues a separate violation for each instance or each affected worker. The direct employer of workers at the sharp end holds the most immediate duty to protect them, which is why the bottom of the contract chain drew the heaviest penalties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is HAZWOPER and when does it apply to cleanup workers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HAZWOPER — Hazardous Waste Operations and Emergency Response, OSHA standard 29 CFR 1910.120 — is the US rulebook covering work with hazardous waste, including the post-emergency response cleanup phase that follows a chemical release. It requires real training before workers touch a contaminated site (up to the 40-hour course plus supervised field experience for general site labour, with annual refreshers), a written site-specific safety and health plan identifying the substances, exposure limits, PPE and decontamination procedures, respirators selected for the actual hazard and fit-tested to the individual worker with medical evaluation, and a competent person responsible for the plan on site. The standard has existed since 1990 and is considered the entry ticket to the environmental remediation industry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What questions should a cleanup worker ask before starting a hazardous waste job?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Four questions cover the essentials. First: what is the substance and what does it do to skin, lungs and eyes — on a legitimate site that answer exists in writing in the site safety plan. Second: when was my respirator fit test — a tight-fitting respirator must be tested on your specific face, and you would have been present for it, so the only valid answer is a date. Third: where is my training card — HAZWOPER certification belongs to the worker and a company that never asks to see it is signalling how the job will go. Fourth: who owns the site-specific safety plan on site — crew leads mobilizing onto someone else's cleanup should ask the layer above for the plan and the name of the person responsible for it. A site that can answer all four was probably going to protect you anyway; a site that cannot has just given you the only warning you will get."
+        }
+      }
+    ]
+  }
+}
