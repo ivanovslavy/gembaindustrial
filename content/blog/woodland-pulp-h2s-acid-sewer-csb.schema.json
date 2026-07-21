@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Nobody Knew They Were Inside: Woodland Pulp's H2S Lesson",
+    "description": "Two young engineers died at the Woodland Pulp mill in Maine when an automated acid feed made H2S inside a process sewer during a shutdown. The CSB's update explains how.",
+    "image": "https://gembaindustrial.com/images/blog/woodland-pulp-h2s-acid-sewer-csb/hero.jpg",
+    "datePublished": "2026-07-21",
+    "dateModified": "2026-07-21",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/woodland-pulp-h2s-acid-sewer-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, hydrogen-sulfide, acid-sewer, pulp-mill, shutdown, gas-detection, personnel-accounting, process-safety, automation, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the Woodland Pulp mill in Baileyville, Maine on January 27, 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "During an economic shutdown of the pulp mill, high-pH sulfur-bearing process fluids drained into the mill's acid sewer, where an automated system kept injecting sulfuric acid based on a pH probe located about 1,000 feet downstream. The acid reacted with sulfur compounds such as sodium sulfide in liquid trapped upstream of a 1970s piping rise, generating toxic hydrogen sulfide gas. When the Bleach Plant's scrubber fan was switched off at about 11:40 a.m. as part of the shutdown, the gas lost its extraction path and escaped into the Kraft Mill building through drained process vessels and unplugged holes in gas piping. Twelve employees were exposed. Two of them — a 20-year-old co-op engineering student and a 26-year-old chemical engineer — received likely over 500 ppm and later died. The CSB is investigating under case number 2026-01-I-ME."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How did the mill's own automation end up producing hydrogen sulfide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Six months before the incident the mill's primary acid injection point at the wastewater treatment plant broke, so acid was fed at a backup point more than 1,000 feet upstream. A month before the incident that feed was automated, controlled by a pH probe far downstream. During the shutdown, flow through the sewer slowed to a trickle, so the probe kept seeing old high-pH fluid and kept calling for more acid, while the fresh acid was already reacting with sulfide-laden fluids pooled at an upward piping transition. The control loop was not broken — it was acting correctly on information that was hours out of date, and no alarm existed for the gas it was generating."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why were the two engineers not found until 6:15 p.m.?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The two engineers were likely working on an equipment drawing project unrelated to the shutdown, on the second floor of the Kraft Mill, about 15 to 20 feet from the openings the CSB calls the hydrogen sulfide release zone. There was no system for controlling or accounting for personnel in the building, no personal H2S monitors issued by the company, no fixed H2S detectors in the Bleach Plant, and no building ventilation. Ten other exposed employees left the building, the gas dissipated by 3:00 p.m. after workers shut the acid supply and flushed the sewer — but because no headcount existed, nobody realized two people were missing until they were found at approximately 6:15 p.m."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should crews and contractors take away from the Woodland Pulp incident?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Five practical lessons. Treat drains and sewers as process equipment: a sewer receiving incompatible streams is a reactor with no lid or instruments, so map where drained fluids go and what they meet. Distrust automation running outside its design case, especially control loops with probes far from the equipment they command during low-flow shutdown conditions. Walk gas-carrying lines for forgotten openings — at Woodland Pulp, two holes drilled in 2006 for a flow measurement were never plugged. Issue personal H2S monitors to everyone inside the unit boundary, not only the crew doing gas-hazard work — the two who died were doing documentation work. And maintain a personnel accounting list at every phase change of a shutdown, including people near the job, not just on it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is hydrogen sulfide so dangerous at high concentrations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hydrogen sulfide is considered immediately dangerous to life and health at 100 parts per million. Most people can smell its rotten-egg odour at very low concentrations, but high concentrations rapidly paralyze the sense of smell, removing the warning exactly when the danger is greatest. At the levels estimated at Woodland Pulp — likely over 500 ppm — H2S can cause collapse within seconds. It is also colorless and heavier than air, so it accumulates in low or enclosed spaces. That is why personal clip-on monitors and fixed detection, not smell, are the only reliable warning."
+        }
+      }
+    ]
+  }
+}

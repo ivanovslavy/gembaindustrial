@@ -1,5 +1,45 @@
 [
   {
+    "slug": "woodland-pulp-h2s-acid-sewer-csb",
+    "date": "2026-07-21",
+    "lastUpdated": "2026-07-21",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "hydrogen-sulfide",
+      "acid-sewer",
+      "pulp-mill",
+      "shutdown",
+      "gas-detection",
+      "personnel-accounting",
+      "automation",
+      "process-safety",
+      "contractors"
+    ],
+    "title": {
+      "en": "Nobody Knew They Were Inside: Woodland Pulp's H2S Lesson",
+      "bg": "Никой не знаеше, че са вътре: Урокът с H2S от Woodland Pulp",
+      "es": "Nadie sabía que estaban dentro: La lección de H2S de Woodland Pulp"
+    },
+    "excerpt": {
+      "en": "Two engineers died at Woodland Pulp in Maine when an automated acid feed brewed H2S in a process sewer during a shutdown. Nobody knew they were inside.",
+      "bg": "Двама инженери загинаха в Woodland Pulp в Мейн, когато автоматично дозиране на киселина създаде H2S в канал по време на спиране. Никой не знаеше, че са вътре.",
+      "es": "Dos ingenieros murieron en Woodland Pulp cuando una dosificación automática de ácido generó H2S en un colector durante una parada. Nadie sabía que estaban dentro."
+    },
+    "readingTime": 11,
+    "hero": "/images/blog/woodland-pulp-h2s-acid-sewer-csb/hero.jpg",
+    "heroRetina": "/images/blog/woodland-pulp-h2s-acid-sewer-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/csb-issues-woodland-pulp-investigation-update/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-07-14",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2210,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "channelview-acid-spill-cleanup-osha",
     "date": "2026-07-14",
     "lastUpdated": "2026-07-14",
