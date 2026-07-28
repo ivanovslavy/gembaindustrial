@@ -1,0 +1,58 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Break Room Next to the Tank: The Longview Lesson",
+    "description": "Eleven workers died when a 900,000-gallon white liquor tank imploded at a Longview, WA paper mill — fifteen minutes after shift change began.",
+    "image": "https://gembaindustrial.com/images/blog/nippon-dynawave-tank-implosion-csb/hero.jpg",
+    "datePublished": "2026-07-28",
+    "dateModified": "2026-07-28",
+    "author": { "@type": "Organization", "name": "GEMBA Industrial crew", "url": "https://gembaindustrial.com/en/about" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": { "@type": "ImageObject", "url": "https://gembaindustrial.com/favicon.svg" }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/nippon-dynawave-tank-implosion-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, tank-implosion, white-liquor, pulp-mill, facility-siting, mechanical-integrity, vacuum-collapse, shift-change, storage-tanks, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the Nippon Dynawave paper mill in Longview, Washington?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Just before 7:15 a.m. on 26 May 2026, a 900,000-gallon storage tank of white liquor — a hot, corrosive solution of sodium hydroxide and sodium sulfide used in kraft pulping — ruptured and imploded at the Nippon Dynawave Packaging mill in Longview, Washington, releasing up to 570,000 gallons. Eleven workers died and eight more people were injured, including a firefighter. The failure happened about fifteen minutes after shift change began, and six of the victims were found in the area where workers gather before and after shifts. It is expected to stand as Washington state's deadliest industrial disaster since 1930."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does it mean when a storage tank implodes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An implosion is the opposite of an explosion: instead of pressure pushing out, atmospheric pressure crushes the tank inward. A storage tank shell is strong against internal pressure but very weak against external pressure. If the pressure inside drops — for example when liquid is pumped out faster than the vent can admit air, when a vent is blocked, or when hot vapor inside cools and condenses — the surrounding atmosphere squeezes the shell from all sides like a hand crushing an empty drink can. That is why the vent path on any tank operation is safety-critical. The exact failure sequence at Longview is the first focus area of the CSB's ongoing investigation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is investigating the Longview tank implosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The US Chemical Safety Board opened an investigation on 27 May 2026 with four focus areas: the mechanisms of the tank failure, facility siting, maintenance and mechanical integrity, and relevant facility, corporate and industry standards. On 1 July 2026 the Washington attorney general's office announced a concurrent criminal investigation, and the state Department of Labor & Industries has a 22 November deadline for its own findings. The state has also opened inspections at two other kraft pulp mills and launched a targeted chemical-storage enforcement program covering seven more mills through February 2027."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should contractor crews take away from the Longview disaster?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The transferable lesson is facility siting: the people who died were not working on the tank — they were gathering next to it at shift change. Crews should identify what large stores of energy or chemistry sit within reach of their break areas, muster points and temporary facilities; treat atmospheric storage tanks as process equipment with real mechanical integrity requirements; verify vent paths on any operation that moves liquid out of a tank; and recognize that shift change concentrates the whole crew in one predictable place twice a day."
+        }
+      }
+    ]
+  }
+}

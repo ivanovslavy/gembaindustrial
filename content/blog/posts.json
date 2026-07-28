@@ -1,5 +1,45 @@
 [
   {
+    "slug": "nippon-dynawave-tank-implosion-csb",
+    "date": "2026-07-28",
+    "lastUpdated": "2026-07-28",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "tank-implosion",
+      "white-liquor",
+      "pulp-mill",
+      "facility-siting",
+      "mechanical-integrity",
+      "vacuum-collapse",
+      "shift-change",
+      "storage-tanks",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Break Room Next to the Tank: The Longview Lesson",
+      "bg": "Стаята за почивка до резервоара: Урокът от Лонгвю",
+      "es": "La sala de descanso junto al tanque: La lección de Longview"
+    },
+    "excerpt": {
+      "en": "Eleven workers died when a 900,000-gallon white liquor tank imploded at a Longview, WA paper mill — fifteen minutes after shift change began.",
+      "bg": "Единадесет работници загинаха, когато резервоар с 900 000 галона бяла луга имплодира в завод за хартия в Лонгвю — петнадесет минути след началото на смяната.",
+      "es": "Once trabajadores murieron cuando un tanque de 900.000 galones de licor blanco implosionó en una papelera de Longview — quince minutos después del cambio de turno."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/nippon-dynawave-tank-implosion-csb/hero.jpg",
+    "heroRetina": "/images/blog/nippon-dynawave-tank-implosion-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-opens-investigation-into-fatal-chemical-tank-implosion-at-nippon-dynawave-paper-mill-in-washington/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-05-27",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2050,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "woodland-pulp-h2s-acid-sewer-csb",
     "date": "2026-07-21",
     "lastUpdated": "2026-07-21",
