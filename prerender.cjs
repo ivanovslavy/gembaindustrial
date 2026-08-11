@@ -156,7 +156,7 @@ function renderHead({ lang, canonicalPath, title, description, hreflangBase, art
   const ogType = article ? 'article' : 'website';
   const ogImage = article && article.hero
     ? `${BASE_URL}${article.hero}`
-    : `${BASE_URL}/og/default.png`;
+    : `${BASE_URL}/favicon.svg`;
   const twitterCard = article && article.hero ? 'summary_large_image' : 'summary';
 
   const articleMeta = article

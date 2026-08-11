@@ -31,14 +31,27 @@ if (fs.existsSync(postsPath)) {
   blogPosts = JSON.parse(fs.readFileSync(postsPath, 'utf-8'));
 }
 
+// A blog post only exists in a locale if its <slug>.<lang>.md is on disk. Emitting
+// /bg/blog/<slug> for a post that has no .bg.md makes the site serve an English body
+// under a Bulgarian title, and tells Google the translation exists. (2026-08-10)
+function localesFor(pagePath) {
+  const m = /^\/blog\/(.+)$/.exec(pagePath);
+  if (!m) return LANGS;
+  const slug = m[1];
+  return LANGS.filter((l) =>
+    fs.existsSync(path.join(__dirname, 'content', 'blog', `${slug}.${l}.md`))
+  );
+}
+
 function generateUrl(pagePath, changefreq, priority, isDefault = false) {
   let xml = '';
-  for (const lang of LANGS) {
+  const locales = localesFor(pagePath);
+  for (const lang of locales) {
     const loc = `${BASE_URL}/${lang}${pagePath}`;
     xml += '  <url>\n';
     xml += `    <loc>${loc}</loc>\n`;
     // Add hreflang alternates
-    for (const altLang of LANGS) {
+    for (const altLang of locales) {
       xml += `    <xhtml:link rel="alternate" hreflang="${altLang}" href="${BASE_URL}/${altLang}${pagePath}"/>\n`;
     }
     if (lang === 'en') {
