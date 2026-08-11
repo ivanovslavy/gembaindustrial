@@ -1,5 +1,45 @@
 [
   {
+    "slug": "converse-crawl-space-excavator-osha",
+    "date": "2026-08-11",
+    "lastUpdated": "2026-08-11",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "osha",
+      "confined-space-entry",
+      "crawl-space",
+      "mini-excavator",
+      "rops",
+      "permit-to-work",
+      "temporary-workers",
+      "staffing-agency",
+      "construction",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Excavator They Cut to Fit: The Converse Lesson",
+      "bg": "Багерът, който орязаха, за да влезе: Урокът от Конвърс",
+      "es": "La excavadora recortada para caber: La lección de Converse"
+    },
+    "excerpt": {
+      "en": "A worker died in a school crawl space in Converse, Texas. OSHA's citations: an excavator cut down to fit, and a confined space nobody named.",
+      "bg": "Работник загина в crawl space под училище в Конвърс, Тексас. Цитатите на OSHA: багер, орязан, за да влезе, и ограничено пространство, което никой не назова.",
+      "es": "Un trabajador murió en el crawl space de una escuela en Converse, Texas. Las citaciones de OSHA: una excavadora recortada para caber y un espacio confinado que nadie nombró."
+    },
+    "readingTime": 10,
+    "hero": "/images/blog/converse-crawl-space-excavator-osha/hero.jpg",
+    "heroRetina": "/images/blog/converse-crawl-space-excavator-osha/hero@2x.jpg",
+    "source_url": "https://www.osha.gov/news/newsreleases/dallas/20260713",
+    "source_type": "osha_incident",
+    "source_date": "2026-07-13",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2050,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "nippon-dynawave-tank-implosion-csb",
     "date": "2026-07-28",
     "lastUpdated": "2026-07-28",

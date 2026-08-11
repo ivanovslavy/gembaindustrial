@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Excavator They Cut to Fit: The Converse Lesson",
+    "description": "A worker died in a school crawl space in Converse, Texas. OSHA's citations: an excavator cut down to fit, and a confined space nobody named.",
+    "image": "https://gembaindustrial.com/images/blog/converse-crawl-space-excavator-osha/hero.jpg",
+    "datePublished": "2026-08-11",
+    "dateModified": "2026-08-11",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/converse-crawl-space-excavator-osha",
+    "articleSection": "Safety & Compliance",
+    "keywords": "osha, confined-space-entry, crawl-space, mini-excavator, rops, permit-to-work, temporary-workers, staffing-agency, construction, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes a crawl space a permit-required confined space?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Three geometry tests make any space a confined space: a person can enter and work in it, the ways in and out are limited, and it is not designed for continuous occupancy. A building crawl space typically passes all three. It becomes permit-required when it holds, or could hold, a serious hazard — and that is not limited to bad air. The regulatory list covers hazardous atmospheres, engulfment, inwardly converging surfaces, and any other recognized serious safety or health hazard. Powered digging equipment working beside a person in a low void falls squarely into that last category. Once a space is permit-required, entry legally requires evaluation, atmospheric testing, ventilation where needed, named roles, a written permit and a rescue plan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it ever acceptable to remove ROPS from a machine to fit it into a workspace?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — and the Converse citations show what enforcement thinks of it. ROPS, the rollover protective structure, is certified protection built to keep a tipping machine from crushing its operator, and removing it to gain clearance strips that protection exactly where the crush risk is highest. If a machine only enters a space after its protective structure comes off, that is the clearest signal available that the equipment is wrong for the job. The correct responses are equipment designed for low-clearance work, a changed work method, or a changed plan. OSHA classed the ROPS removal at Converse as a willful violation — the category reserved for employers who knew the requirement and chose otherwise."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is responsible for training temporary workers — the staffing agency or the site contractor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both, at the same time. US enforcement treats the staffing agency and the host employer as joint employers who share responsibility for a temporary worker's safety. The agency must know what work its people are being placed into and ensure they carry the baseline training for it, and the host must provide the site-specific hazard briefing, supervision and protective equipment. Neither company can contract the duty away to the other. At Converse, the staffing agency drew two serious citations of its own — for not ensuring confined-space entry procedures were followed and for not training the temporary workers it supplied — despite never operating the equipment involved in the fatality."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do confined-space rules only apply when there is an atmospheric hazard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Atmosphere is the most trained-for hazard because it is invisible and fast, but the permit-space definition explicitly includes non-atmospheric dangers: engulfment in loose material, inwardly converging surfaces, and any other recognized serious safety or health hazard — which captures moving machinery, stored energy, and configuration hazards like working beside equipment in a space with no escape room. The Converse fatality involved no gas at all: the operator was caught between his machine and a concrete beam in a space too low to allow the machine in with its protective structure attached. An entry evaluation that stops at the gas test has answered one question out of four."
+        }
+      }
+    ]
+  }
+}
