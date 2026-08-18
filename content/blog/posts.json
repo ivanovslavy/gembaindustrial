@@ -1,5 +1,45 @@
 [
   {
+    "slug": "clairton-coke-valve-water-wash-csb",
+    "date": "2026-08-18",
+    "lastUpdated": "2026-08-18",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "coke-oven-gas",
+      "cast-iron-valve",
+      "overpressure",
+      "water-washing",
+      "unwritten-procedure",
+      "facility-siting",
+      "us-steel-clairton",
+      "pump-truck",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Wash That Broke the Valve: The Clairton Lesson",
+      "bg": "Измиването, което счупи вентила: Урокът от Clairton",
+      "es": "El lavado que rompió la válvula: La lección de Clairton"
+    },
+    "excerpt": {
+      "en": "Two workers died when a 1953 cast iron valve burst during a water wash at U.S. Steel Clairton. The CSB's report: an ad hoc practice, three years old.",
+      "bg": "Двама работници загинаха, когато чугунен вентил от 1953 г. се спука при водно измиване в U.S. Steel Clairton. Докладът на CSB: импровизирана практика, стара три години.",
+      "es": "Dos trabajadores murieron cuando una válvula de hierro fundido de 1953 reventó durante un lavado con agua en U.S. Steel Clairton. El informe de la CSB: una práctica improvisada de tres años."
+    },
+    "readingTime": 11,
+    "hero": "/images/blog/clairton-coke-valve-water-wash-csb/hero.jpg",
+    "heroRetina": "/images/blog/clairton-coke-valve-water-wash-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/us-chemical-safety-board-issues-final-report-on-august-2025-fatal-coke-oven-gas-explosion-at-us-steel-clairton-coke-works/",
+    "source_type": "csb_investigation",
+    "source_date": "2026-08-10",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2250,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "converse-crawl-space-excavator-osha",
     "date": "2026-08-11",
     "lastUpdated": "2026-08-11",

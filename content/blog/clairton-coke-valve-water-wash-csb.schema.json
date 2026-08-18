@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Wash That Broke the Valve: The Clairton Lesson",
+    "description": "Two workers died when a 1953 cast iron valve burst during a water wash at U.S. Steel Clairton. The CSB's report: an ad hoc practice, three years old.",
+    "image": "https://gembaindustrial.com/images/blog/clairton-coke-valve-water-wash-csb/hero.jpg",
+    "datePublished": "2026-08-18",
+    "dateModified": "2026-08-18",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/clairton-coke-valve-water-wash-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, coke-oven-gas, cast-iron-valve, overpressure, water-washing, unwritten-procedure, facility-siting, us-steel-clairton, pump-truck, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the 2025 explosion at U.S. Steel Clairton Coke Works?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to CSB investigation report No. 2025-03-I-PA, workers were washing the seats of an 18-inch double disc gate isolation valve with pressurized water from a contractor pump truck while closing the valve's gates. With both gates down, an enclosed pocket formed between them; the piston-type positive displacement pump kept feeding water into that pocket until the pressure exceeded what the 1953 cast iron valve body, rated for 50 psig, could hold. The valve fractured around its full circumference, releasing about 19 pounds of toxic, flammable coke oven gas into the basement beneath Batteries 13 and 14. The gas ignited 24 seconds after a radio evacuation call, killing two workers, injuring eleven, and causing an estimated $52.5 million in damage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is an unwritten but routine work practice dangerous even if it has worked for years?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because an unwritten practice has no defined steps, limits, or controls, every crew performs its own version — and some versions can be fatal while others are survivable, with nothing but habit and chance deciding which one runs on a given day. At Clairton, pressurized water washing of valve seats had been used on an ad hoc basis for at least three years, was known to and endorsed by management, and was even mentioned in a plant procedure — but no document said to keep the gates open while the pump was running, set a pressure limit, or require a relief path. The CSB concluded that if the practice had been proceduralized, the work could have been done in a way that would not have broken the valve, preventing the incident entirely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a contractor check before connecting a pump to a client's piping or equipment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Treat the connection as a pressure calculation: establish the maximum pressure the pump can generate — a blocked-in positive displacement pump can far exceed its normal working pressure — then identify the weakest component in the connected system and its design rating, and confirm there is overpressure protection or a guaranteed flow path. Ask the client for the written procedure covering the operation; if none exists, that absence is itself a serious warning. At Clairton, neither the site operator nor the industrial-services contractor performed this analysis, the contractor's job hazard analysis covered only its own occupational hazards, and the CSB recommended the contractor develop written procedures aligned with NFPA 56 for any cleaning work on piping containing flammable or toxic gas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did workers away from the valve job die in the Clairton explosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The two workers who died were in and near control rooms located in the transfer area between Batteries 13 and 14, less than 20 feet directly above the coke oven gas piping, and two of the seriously injured were in a break room in the same area. None of these routinely occupied buildings was designed or located to withstand an explosion, and all three were destroyed. The CSB found the company had multiple opportunities to evaluate the siting of occupied buildings above hazardous gas piping and chose not to, believing no regulation required it. The report's siting lesson applies directly to contractor cabins and break rooms placed close to process units: occupied buildings must be adequately designed or located to protect people from fires, explosions, and toxic releases."
+        }
+      }
+    ]
+  }
+}
