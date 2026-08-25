@@ -1,5 +1,45 @@
 [
   {
+    "slug": "fleetpride-tanker-trailer-confined-space-osha",
+    "date": "2026-08-25",
+    "lastUpdated": "2026-08-25",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "osha",
+      "confined-space-entry",
+      "tanker-trailer",
+      "mobile-confined-space",
+      "asphyxiation",
+      "atmospheric-testing",
+      "attendant",
+      "rescue",
+      "respiratory-protection",
+      "contractors"
+    ],
+    "title": {
+      "en": "The Confined Space on Wheels: The FleetPride Lesson",
+      "bg": "Ограниченото пространство на колела: Урокът от FleetPride",
+      "es": "El espacio confinado sobre ruedas: La lección de FleetPride"
+    },
+    "excerpt": {
+      "en": "A technician died inside a tanker trailer at a FleetPride yard in Corpus Christi. OSHA's 19 citations: a confined space program that didn't exist.",
+      "bg": "Техник загина в автоцистерна в двора на FleetPride в Корпъс Кристи. 19-те цитата на OSHA: програма за ограничени пространства, която не съществуваше.",
+      "es": "Un técnico murió dentro de una cisterna en un patio de FleetPride en Corpus Christi. Las 19 citaciones de OSHA: un programa de espacios confinados inexistente."
+    },
+    "readingTime": 13,
+    "hero": "/images/blog/fleetpride-tanker-trailer-confined-space-osha/hero.jpg",
+    "heroRetina": "/images/blog/fleetpride-tanker-trailer-confined-space-osha/hero@2x.jpg",
+    "source_url": "https://www.osha.gov/news/newsreleases/dallas/20260715",
+    "source_type": "osha_incident",
+    "source_date": "2026-07-15",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2800,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "clairton-coke-valve-water-wash-csb",
     "date": "2026-08-18",
     "lastUpdated": "2026-08-18",

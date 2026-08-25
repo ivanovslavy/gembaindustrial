@@ -220,6 +220,31 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/fleetpride-tanker-trailer-confined-space-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/fleetpride-tanker-trailer-confined-space-osha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/fleetpride-tanker-trailer-confined-space-osha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gembaindustrial.com/en/blog/clairton-coke-valve-water-wash-csb</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/clairton-coke-valve-water-wash-csb"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/clairton-coke-valve-water-wash-csb"/>

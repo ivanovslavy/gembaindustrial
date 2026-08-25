@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Confined Space on Wheels: The FleetPride Lesson",
+    "description": "A technician died inside a tanker trailer at a FleetPride yard in Corpus Christi. OSHA's 19 citations: a confined space program that didn't exist.",
+    "image": "https://gembaindustrial.com/images/blog/fleetpride-tanker-trailer-confined-space-osha/hero.jpg",
+    "datePublished": "2026-08-25",
+    "dateModified": "2026-08-25",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/fleetpride-tanker-trailer-confined-space-osha",
+    "articleSection": "Safety & Compliance",
+    "keywords": "osha, confined-space-entry, tanker-trailer, mobile-confined-space, asphyxiation, atmospheric-testing, attendant, rescue, respiratory-protection, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is a tanker trailer a confined space under OSHA rules?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Under OSHA's general industry standard 29 CFR 1910.146, a confined space is anything large enough for a worker to enter, with limited means of entry and exit, that is not designed for continuous occupancy — and a tanker trailer meets all three criteria: a narrow top manway, a steel shell nobody is meant to occupy, and restricted egress. It becomes a permit-required confined space when it can contain a hazardous atmosphere, which depends entirely on the tank's recent history: residue of the last cargo, inadequate cleaning, an undisclosed inert-gas purge, or simple oxygen depletion from rust in a sealed shell. Because that history is usually unknown to the receiving facility, a newly arrived tank trailer should be treated as a permit-required space until a calibrated atmospheric test proves otherwise."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did OSHA cite FleetPride for after the Corpus Christi tanker trailer fatality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In its 15 July 2026 news release (26-875-DAL), OSHA announced 16 serious and three other-than-serious violations against FleetPride Inc., with $264,380 in proposed penalties, following the death of a 63-year-old technician who asphyxiated while inspecting a tanker trailer at the company's Corpus Christi facility on 7 January 2026. The violations include failure to implement a confined space program, missing elements in the company's respiratory protection program, and exposure of workers to electrical hazards. The absence of a confined space program means the upstream evaluation required by 29 CFR 1910.146 — determining whether the workplace contains permit-required confined spaces — never happened, so no entry procedures, atmospheric testing, attendant, or rescue arrangements existed either."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why can an empty steel tank be deadly even when it contains no chemicals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because rusting consumes oxygen. Oxidation of the steel interior of a closed tank steadily removes oxygen from the air inside, and a sealed shell gives the atmosphere nothing back — so the oxygen level can drift from the normal 20.9% down to concentrations that cause unconsciousness in seconds without any chemical contaminant present. Combined with other invisible mechanisms — vapors from residue of the last cargo evaporating for days, or a nitrogen purge done at a previous stop and disclosed to nobody — this is why atmospheric testing at the top, middle, and bottom of a tank before every entry is an absolute rule. Oxygen-deficient air has no color, no smell, and gives no warning; a cartridge filter respirator provides zero protection against it because filters cannot add oxygen to air."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the role of an attendant in confined space entry and why does it matter so much?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An attendant is a person stationed outside the confined space whose only job is to monitor the entrant continuously, maintain communication, summon rescue, and never enter the space themselves. The attendant converts detection time from tens of minutes to seconds: in the Corpus Christi case the fire department reported the technician had been unaccounted for over 20 minutes, while survival time in an oxygen-deficient atmosphere is roughly four to six minutes. The attendant is also the main barrier against the rescuer-fatality pattern — NIOSH has long estimated that around 60% of confined-space victims are would-be rescuers who entered after a fallen colleague. If a job cannot spare a second person to stand at the manway, the job is not ready to be done."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How common are confined space fatalities in the United States?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Bureau of Labor Statistics counted 1,030 US workers killed in incidents involving confined spaces from 2011 through 2018 — about 129 per year — with 126 of those deaths caused by inhaling a harmful substance. The US Chemical Safety Board's safety bulletin on nitrogen asphyxiation counted 85 incidents and 80 deaths between 1992 and 2002, many involving equipment that was nominally empty or inerted. Tank trailers and railcars recur constantly in the case files: two workers died cleaning a tanker truck in the Houston area in 2019, another worker died at a related La Porte facility in 2023 with OSHA proposing $810,703 in penalties, and two railcar workers died in a single 2020 incident — the second while attempting a rescue."
+        }
+      }
+    ]
+  }
+}
