@@ -30,6 +30,7 @@ export default function BlogPost() {
   const { i18n } = useTranslation();
   const [content, setContent] = useState('');
   const [loading, setLoading] = useState(true);
+  const [contentLang, setContentLang] = useState('en');
 
   const post = posts.find(p => p.slug === slug);
   const currentLang = lang || i18n.language || 'en';
@@ -56,8 +57,13 @@ export default function BlogPost() {
         let md = '';
         if (modules[path]) {
           md = await modules[path]();
+          setContentLang(currentLang);
         } else if (modules[fallbackPath]) {
           md = await modules[fallbackPath]();
+          // 8 of the 18 posts have no BG/ES body yet. The card title is translated,
+          // so without this the reader clicks a Bulgarian headline and silently
+          // lands on English prose. Flag it instead of pretending.
+          setContentLang('en');
         }
 
         setContent(stripFrontmatter(md));
@@ -90,7 +96,7 @@ export default function BlogPost() {
   return (
     <>
       <Helmet>
-        <title>{title} — GEMBA Industrial Blog</title>
+        <title>{`${title} — GEMBA Industrial Blog`}</title>
         <meta name="description" content={excerpt} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={excerpt} />
@@ -190,10 +196,22 @@ export default function BlogPost() {
             />
           </div>
         ) : content ? (
-          <div
-            className="blog-content animate-fade-up delay-200"
-            dangerouslySetInnerHTML={{ __html: marked(post.hero ? stripLeadingHeroImage(content) : content) }}
-          />
+          <>
+            {contentLang !== currentLang && (
+              <p
+                className="text-sm mb-6 px-4 py-3 rounded-lg"
+                style={{ color: 'var(--text-secondary)', border: '1px solid var(--border-color)' }}
+              >
+                {currentLang === 'bg'
+                  ? 'Тази статия още не е преведена на български — текстът по-долу е на английски.'
+                  : 'Este artículo aún no está traducido al español — el texto siguiente está en inglés.'}
+              </p>
+            )}
+            <div
+              className="blog-content animate-fade-up delay-200"
+              dangerouslySetInnerHTML={{ __html: marked(post.hero ? stripLeadingHeroImage(content) : content) }}
+            />
+          </>
         ) : (
           <p style={{ color: 'var(--text-secondary)' }}>
             {currentLang === 'bg' ? 'Съдържанието не е налично на този език.' :

@@ -40,6 +40,7 @@ export default function Navbar() {
     { to: `/${i18n.language}/about`, label: t('nav.about') },
     { to: `/${i18n.language}/blog`, label: t('nav.blog') },
     { to: `/${i18n.language}/careers`, label: t('nav.careers') },
+    { to: `/${i18n.language}/availability`, label: t('nav.availability') },
     { to: `/${i18n.language}/contact`, label: t('nav.contact') },
   ];
 

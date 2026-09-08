@@ -13,6 +13,7 @@ import BlogPost from './pages/BlogPost';
 import Team from './pages/Team';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
+import Availability from './pages/Availability';
 
 function LangWrapper({ children }) {
   const { lang } = useParams();
@@ -47,6 +48,7 @@ export default function App() {
             <Route path="/:lang/blog/:slug" element={<LangWrapper><BlogPost /></LangWrapper>} />
             <Route path="/:lang/team" element={<LangWrapper><Team /></LangWrapper>} />
             <Route path="/:lang/careers" element={<LangWrapper><Careers /></LangWrapper>} />
+            <Route path="/:lang/availability" element={<LangWrapper><Availability /></LangWrapper>} />
             <Route path="/:lang/contact" element={<LangWrapper><Contact /></LangWrapper>} />
             <Route path="*" element={<Navigate to="/en" replace />} />
           </Routes>

@@ -21,6 +21,7 @@ const staticPages = [
   { path: '/blog', changefreq: 'weekly', priority: '0.8' },
   { path: '/team', changefreq: 'monthly', priority: '0.7' },
   { path: '/careers', changefreq: 'weekly', priority: '0.7' },
+  { path: '/availability', changefreq: 'weekly', priority: '0.9', lastmod: '2026-09-06' },
   { path: '/contact', changefreq: 'monthly', priority: '0.8' },
 ];
 
@@ -43,7 +44,7 @@ function localesFor(pagePath) {
   );
 }
 
-function generateUrl(pagePath, changefreq, priority, isDefault = false) {
+function generateUrl(pagePath, changefreq, priority, isDefault = false, lastmod = null) {
   let xml = '';
   const locales = localesFor(pagePath);
   for (const lang of locales) {
@@ -57,6 +58,7 @@ function generateUrl(pagePath, changefreq, priority, isDefault = false) {
     if (lang === 'en') {
       xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/en${pagePath}"/>\n`;
     }
+    if (lastmod) xml += `    <lastmod>${lastmod}</lastmod>\n`;
     xml += `    <changefreq>${changefreq}</changefreq>\n`;
     xml += `    <priority>${lang === 'en' ? priority : (parseFloat(priority) - 0.1).toFixed(1)}</priority>\n`;
     xml += '  </url>\n';
@@ -72,7 +74,7 @@ sitemap += '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n\n';
 // Static pages
 for (const page of staticPages) {
   sitemap += `  <!-- ${page.path || 'Homepage'} -->\n`;
-  sitemap += generateUrl(page.path, page.changefreq, page.priority);
+  sitemap += generateUrl(page.path, page.changefreq, page.priority, false, page.lastmod);
   sitemap += '\n';
 }
 
@@ -80,7 +82,7 @@ for (const page of staticPages) {
 if (blogPosts.length > 0) {
   sitemap += '  <!-- Blog posts -->\n';
   for (const post of blogPosts) {
-    sitemap += generateUrl(`/blog/${post.slug}`, 'monthly', '0.7');
+    sitemap += generateUrl(`/blog/${post.slug}`, 'monthly', '0.7', false, post.date || null);
   }
   sitemap += '\n';
 }

@@ -55,7 +55,7 @@ export default function SEOHead() {
       <meta property="og:description" content={pageMeta.desc} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="website" />
-      <script type="application/ld+json">{JSON.stringify({'@context':'https://schema.org','@type':'Organization',name:'GEMBA Industrial Services',url:'https://gembaindustrial.com',description:pageMeta.desc,parentOrganization:{name:'GEMBA Team EOOD',url:'https://gembateam.com'},address:{'@type':'PostalAddress',streetAddress:'bul. Knyaz Boris I 109, floor 13, apt. 50',addressLocality:'Varna',addressRegion:'Varna',postalCode:'9002',addressCountry:'BG'}})}</script>
+      <script type="application/ld+json">{JSON.stringify({'@context':'https://schema.org','@type':'Organization',name:'GEMBA Industrial Services',url:'https://gembaindustrial.com',description:pageMeta.desc,parentOrganization:{name:'GEMBA EOOD',url:'https://gembateam.com'},address:{'@type':'PostalAddress',streetAddress:'bul. Knyaz Boris I 109, floor 13, apt. 50',addressLocality:'Varna',addressRegion:'Varna',postalCode:'9002',addressCountry:'BG'}})}</script>
     </Helmet>
   );
 }

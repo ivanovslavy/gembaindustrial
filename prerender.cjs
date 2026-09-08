@@ -109,6 +109,19 @@ const pages = {
       es: 'Únete a nuestro equipo. Buscamos técnicos de reactor y especialistas en BA para proyectos en toda Europa.',
     },
   },
+  availability: {
+    pathSuffix: '/availability',
+    title: {
+      en: 'Availability — When Our Reactor Crew Is Free | GEMBA Industrial',
+      bg: 'Наличност — Кога екипът ни е свободен | ГЕМБА Индустриални',
+      es: 'Disponibilidad — Cuándo está libre nuestro equipo | GEMBA Industrial',
+    },
+    description: {
+      en: 'Live availability calendar for our four-man reactor and catalyst changeout crew. Check free windows and reserve dates for your turnaround.',
+      bg: 'Актуален календар с наличността на нашия четиричленен екип за реактори и подмяна на катализатори. Вижте свободните прозорци и запазете дати.',
+      es: 'Calendario de disponibilidad de nuestro equipo de cuatro técnicos de reactor y cambio de catalizadores. Consulte ventanas libres y reserve fechas.',
+    },
+  },
   contact: {
     pathSuffix: '/contact',
     title: {

@@ -1,6 +1,6 @@
 # GEMBA Industrial Services
 
-> GEMBA Industrial Services is the industrial division of GEMBA Team EOOD (EIK: 208656371), based in Varna, Bulgaria. We provide certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe.
+> GEMBA Industrial Services is the industrial division of GEMBA EOOD (EIK: 208656371), based in Varna, Bulgaria. We provide certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe.
 
 ## Services
 - Reactor technician deployment (BA/N2 certified)
@@ -12,12 +12,29 @@
 ## Track Record
 Our crews have worked at: Shell (Rotterdam, Cologne), ExxonMobil (Fawley), BP (Rotterdam), ORLEN Lietuva, Neste (Porvoo), Rompetrol Petromidia, Bazan Group, OMV Schwechat, Bayernoil, Huntsman Holland, Tata Steel IJmuiden.
 
+## Crew Availability
+We publish a live availability calendar showing which periods our crews are already committed and which are open for enquiry, in month and year views, for the next twelve months.
+- Availability calendar: https://gembaindustrial.com/en/availability
+- Updated whenever an assignment is confirmed. Enquire early: turnaround windows are usually filled several months ahead.
+- Client and site identities are not published; only the dates are shown.
+
 ## Certifications
 SCC/VCA (TÜV Rheinland), BA/N2 inert entry, Confined Space Entry, Rigging, Forklift, Crane Operation. Official reference letters from Mourik.
+
+## Key Pages
+- Services: https://gembaindustrial.com/en/services
+- Track record: https://gembaindustrial.com/en/track-record
+- Availability calendar: https://gembaindustrial.com/en/availability
+- Blog: https://gembaindustrial.com/en/blog
+- Careers: https://gembaindustrial.com/en/careers
+- Contact: https://gembaindustrial.com/en/contact
+Available in English, Bulgarian and Spanish at /en/, /bg/ and /es/.
 
 ## Contact
 - Website: https://gembaindustrial.com
 - Email: contacts@gembaindustrial.com
 - Phone: +359 897 598 378
-- Parent: GEMBA Team EOOD — https://gembateam.com
+- Parent: GEMBA EOOD — https://gembateam.com
 - IT Division: https://gembait.com
+
+Last updated: 2026-09-06
