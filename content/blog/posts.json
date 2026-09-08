@@ -1,5 +1,45 @@
 [
   {
+    "slug": "mossmorran-cui-five-leaks-hse",
+    "date": "2026-09-08",
+    "lastUpdated": "2026-09-08",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "hse-uk",
+      "corrosion-under-insulation",
+      "cui",
+      "mossmorran",
+      "ethylene-plant",
+      "risk-based-inspection",
+      "asset-integrity",
+      "comah",
+      "loss-of-containment",
+      "contractors"
+    ],
+    "title": {
+      "en": "Five Leaks, One Smell: Mossmorran's CUI Lesson",
+      "bg": "Пет теча, една миризма: Урокът за CUI от Mossmorran",
+      "es": "Cinco fugas, un olor: La lección de CUI de Mossmorran"
+    },
+    "excerpt": {
+      "en": "HSE inspectors smelled a leak ExxonMobil's Fife Ethylene Plant had known about for four months. Five CUI leaks, one inspection system scored from the ground.",
+      "bg": "Инспектори на HSE помирисаха теч, известен на завода на ExxonMobil във Fife от четири месеца. Пет теча от CUI, една инспекция, оценявана от земята.",
+      "es": "Inspectores del HSE olieron una fuga que ExxonMobil conocía en Fife desde hacía cuatro meses. Cinco fugas por CUI, una inspección puntuada desde el suelo."
+    },
+    "readingTime": 11,
+    "hero": "/images/blog/mossmorran-cui-five-leaks-hse/hero.jpg",
+    "heroRetina": "/images/blog/mossmorran-cui-five-leaks-hse/hero@2x.jpg",
+    "source_url": "https://press.hse.gov.uk/2026/08/26/six-figure-fine-for-exxonmobil-after-five-leaks-of-extremely-flammable-hydrocarbons-at-fife-chemical-plant/",
+    "source_type": "hse_uk_alert",
+    "source_date": "2026-08-26",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2450,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "fleetpride-tanker-trailer-confined-space-osha",
     "date": "2026-08-25",
     "lastUpdated": "2026-08-25",

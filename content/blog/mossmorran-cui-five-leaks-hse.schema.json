@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Five Leaks, One Smell: Mossmorran's CUI Lesson",
+    "description": "HSE inspectors smelled a leak ExxonMobil's Fife Ethylene Plant had known about for four months. Five CUI leaks, one inspection system scored from the ground.",
+    "image": "https://gembaindustrial.com/images/blog/mossmorran-cui-five-leaks-hse/hero.jpg",
+    "datePublished": "2026-09-08",
+    "dateModified": "2026-09-08",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/mossmorran-cui-five-leaks-hse",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "hse-uk, corrosion-under-insulation, cui, mossmorran, ethylene-plant, risk-based-inspection, asset-integrity, comah, loss-of-containment, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why was ExxonMobil fined for the Mossmorran Fife Ethylene Plant leaks?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On 25 August 2026, ExxonMobil Chemical Limited pleaded guilty at Kirkcaldy Sheriff Court and was fined £267,000 for breaching Regulation 6(2) of the Provision and Use of Work Equipment Regulations 1998 and section 33(1)(c) of the Health and Safety at Work etc Act 1974. The HSE investigation found the company's arrangements for inspecting insulated pipework were inadequate, resulting in five known leaks of extremely flammable hydrocarbons at the Fife Ethylene Plant at Mossmorran between February 2018 and September 2019. All five leaks were caused by corrosion under insulation (CUI). The plant was an upper-tier COMAH establishment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How were the five Mossmorran leaks discovered?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "None of the five leaks was found by the site's own CUI inspection programme working as designed. The February 2018 pinhole on the DMS line was detected by the site and ran for about four months. The December 2018 leak on the ST01 Overheads line was spotted by a worker doing unrelated work who noticed a haze coming through the insulation; it ran about six weeks and released an estimated 82 tonnes of hydrocarbons. The May 2019 leak was smelled by HSE inspectors on a routine visit, after the site had known about it for around four and a half months. The June 2019 leak on the acetylene converter inlet line was found by a process technician during the HSE investigation. The September 2019 leak was found during inspections ordered by an HSE Improvement Notice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What was wrong with the plant's corrosion under insulation inspection system?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The site used visual 'scoping' checks on each pipe, fed into a computer tool with pipe and operating data, producing a risk score from 1 (high risk) to 4 (low risk). Only pipes scoring 1 or 2 were investigated further. The HSE found the visual inspections were often inadequate: overhead pipes were typically checked from ground level, sometimes several metres away, with limited visibility, and insulation was not always removed to allow a proper look underneath. Because CUI happens under the cladding, a ground-level glance could not detect wet insulation or corroded pipe wall, so lines received low-risk scores and dropped off the inspection list. Despite repeated CUI leaks, the company did not recognise the inspection process was flawed until HSE took enforcement action."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is corrosion under insulation (CUI) and why is 115°C significant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Corrosion under insulation happens when water gets beneath the insulation and metal cladding on a pipe, sits against the steel and corrodes it out of sight. The insulation holds the water like a wet sponge, so the steel never dries and cannot be seen. API Recommended Practice 583 identifies the most susceptible range for carbon steel as roughly minus 4°C to 175°C, where there is enough heat to accelerate corrosion but not enough to keep the insulation dry. The Mossmorran DMS line operated at 115°C, in the middle of that band. The industry accepts CUI cannot be fully prevented where insulation is needed, but it must be monitored and managed by removing insulation and measuring wall thickness where risk indicates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What can contractor crews do about corrosion under insulation on a client's site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Contractors do not run a site's integrity programme, but they are often the only people at pipe height. Crew leads can add cladding and insulation condition to the pre-job brief (missing bands, open seams, crushed jacket at supports, rust staining, sagging or darkened insulation), require anything wet to be reported in writing with a photo and line number, photograph and report the pipe wall whenever insulation is stripped for a job and ensure it is resealed properly, and treat any unexplained smell on a rack as a stop-and-ask rather than a note. At Mossmorran, the December 2018 leak was found by a worker on an unrelated job who noticed a haze through the insulation."
+        }
+      }
+    ]
+  }
+}
