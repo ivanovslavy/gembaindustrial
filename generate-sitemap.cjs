@@ -15,7 +15,9 @@ const LANGS = ['en', 'bg', 'es'];
 // Static pages with priorities
 const staticPages = [
   { path: '', changefreq: 'weekly', priority: '1.0' },
-  { path: '/services', changefreq: 'monthly', priority: '0.9' },
+  { path: '/services', changefreq: 'monthly', priority: '0.9', lastmod: '2026-09-15' },
+  { path: '/services/reactor-crews', changefreq: 'monthly', priority: '0.9', lastmod: '2026-09-15' },
+  { path: '/services/reactor-oversight', changefreq: 'monthly', priority: '0.9', lastmod: '2026-09-15' },
   { path: '/track-record', changefreq: 'monthly', priority: '0.9' },
   { path: '/about', changefreq: 'monthly', priority: '0.8' },
   { path: '/blog', changefreq: 'weekly', priority: '0.8' },

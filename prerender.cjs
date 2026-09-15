@@ -44,6 +44,34 @@ const pages = {
       es: 'Servicios de técnicos de reactor, cambio de catalizadores, seguridad y HSE, suministro de personal especializado.',
     },
   },
+  'services/reactor-crews': {
+    pathSuffix: '/services/reactor-crews',
+    title: {
+      en: 'Reactor Crew Services — Catalyst Changeout Crews | GEMBA Industrial',
+      bg: 'Реакторни екипи — подмяна на катализатори | ГЕМБА Индустриални',
+      es: 'Equipos de reactor — cambio de catalizadores | GEMBA Industrial',
+    },
+    description: {
+      en: 'Certified BA reactor technicians supplied to contractors across Europe: catalyst changeout, unloading, screening, sock and dense loading, vessel internals and box-up.',
+      bg: 'Сертифицирани BA реакторни техници за изпълнители в цяла Европа: подмяна на катализатори, разтоварване, пресяване, ръкавно и плътно зареждане, вътрешни устройства и затваряне.',
+      es: 'Técnicos de reactor certificados para contratistas en toda Europa: cambio de catalizador, descarga, cribado, carga por manga y densa, internos y cierre.',
+    },
+    priority: 0.9,
+  },
+  'services/reactor-oversight': {
+    pathSuffix: '/services/reactor-oversight',
+    title: {
+      en: "Reactor Oversight — Owner's Site Representation | GEMBA Industrial",
+      bg: 'Реакторен надзор — представителство на собственика | ГЕМБА Индустриални',
+      es: 'Supervisión de reactores — representación del propietario | GEMBA Industrial',
+    },
+    description: {
+      en: 'Independent owner\'s site representation for reactors, catalyst vessels, columns and reformers. Two representatives day and night, from shutdown to start-up, reporting daily in writing on every contractor.',
+      bg: 'Независимо представителство на собственика за реактори, катализаторни съдове, колони и реформери. Двама представители ден и нощ, от спирането до пускането, с ежедневен писмен доклад за всеки изпълнител.',
+      es: 'Representación independiente del propietario para reactores, recipientes de catalizador, columnas y reformadores. Dos representantes de día y de noche, de la parada al arranque, con informe diario por escrito.',
+    },
+    priority: 0.9,
+  },
   'track-record': {
     pathSuffix: '/track-record',
     title: {
@@ -239,9 +267,9 @@ const jobPostingJsonLd = jsonLdBlocks.filter((b) => /"JobPosting"/.test(b));
 
 const assetsBlock = extractAssetsBlock(baseHtml);
 
-function buildHtml({ lang, canonicalPath, title, description, hreflangBase, includeJobPosting, article }) {
+function buildHtml({ lang, canonicalPath, title, description, hreflangBase, includeJobPosting, article, extraJsonLd }) {
   const head = renderHead({ lang, canonicalPath, title, description, hreflangBase, article });
-  const ld = [...commonJsonLd, ...(includeJobPosting ? jobPostingJsonLd : [])].join('\n    ');
+  const ld = [...commonJsonLd, ...(includeJobPosting ? jobPostingJsonLd : []), ...(extraJsonLd || [])].join('\n    ');
   return `<!doctype html>
 <html lang="${lang}">
   <head>
@@ -265,6 +293,74 @@ function writePage(relativePath, html) {
   console.log(`  wrote ${path.relative(distDir, outPath)}`);
 }
 
+// Per-page structured data. Built from src/i18n/<lang>.json so the schema can never
+// drift away from the copy shown on the page.
+const i18nStrings = {};
+for (const l of LANGS) {
+  try {
+    i18nStrings[l] = require(`./src/i18n/${l}.json`);
+  } catch (e) {
+    i18nStrings[l] = {};
+  }
+}
+
+function ldBlock(obj) {
+  return `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
+}
+
+function buildExtraJsonLd(pageKey, lang, canonicalPath, pageCfg) {
+  const out = [];
+  const tr = i18nStrings[lang] || {};
+  if (!pageKey.startsWith('services/')) return out;
+
+  const node = pageKey === 'services/reactor-crews' ? tr.crews : tr.oversight;
+
+  out.push(
+    ldBlock({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: (tr.nav && tr.nav.home) || 'Home', item: `${BASE_URL}/${lang}` },
+        { '@type': 'ListItem', position: 2, name: (tr.nav && tr.nav.services) || 'Services', item: `${BASE_URL}/${lang}/services` },
+        { '@type': 'ListItem', position: 3, name: (node && node.page_title) || pageCfg.title[lang], item: `${BASE_URL}${canonicalPath}` },
+      ],
+    })
+  );
+
+  out.push(
+    ldBlock({
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: (node && node.page_title) || pageCfg.title[lang],
+      description: (node && node.subtitle) || pageCfg.description[lang],
+      serviceType:
+        pageKey === 'services/reactor-crews'
+          ? 'Reactor technician crew supply and catalyst changeout'
+          : 'Independent owner site representation for reactor turnarounds',
+      provider: { '@type': 'Organization', name: 'GEMBA Industrial Services', url: BASE_URL },
+      areaServed: 'Europe',
+      url: `${BASE_URL}${canonicalPath}`,
+      inLanguage: lang,
+    })
+  );
+
+  if (pageKey === 'services/reactor-oversight' && tr.oversight && Array.isArray(tr.oversight.faq)) {
+    out.push(
+      ldBlock({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: tr.oversight.faq.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      })
+    );
+  }
+
+  return out;
+}
+
 console.log('Prerendering per-route HTML...');
 
 // Static pages
@@ -279,6 +375,7 @@ for (const [pageKey, pageCfg] of Object.entries(pages)) {
       description: pageCfg.description[lang],
       hreflangBase,
       includeJobPosting: pageKey === 'careers',
+      extraJsonLd: buildExtraJsonLd(pageKey, lang, canonicalPath, pageCfg),
     });
     writePage(canonicalPath, html);
   }

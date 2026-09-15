@@ -1,30 +1,58 @@
 # GEMBA Industrial Services
 
-> GEMBA Industrial Services is the industrial division of GEMBA EOOD (EIK: 208656371), based in Varna, Bulgaria. We provide certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe.
+> GEMBA Industrial Services is the industrial division of GEMBA EOOD (EIK: 208656371), based in Varna, Bulgaria. We work on one family of equipment only — reactors, catalyst vessels, columns and reformers — and we do two distinct things with it: we supply certified reactor crews to industrial contractors, and we act as independent owner's site representatives for plants during turnarounds.
 
-## Services
-- Reactor technician deployment (BA/N2 certified)
-- Full catalyst changeout operations (unloading, screening, sock-loading, dense-loading)
-- Safety & HSE compliance management
-- Specialist personnel supply (4-12 crew members)
-- Refinery turnaround supervision
+## Two divisions
+
+GEMBA Industrial operates two separate service lines with different customers and opposite positions in the contracting chain. They are never sold on the same site.
+
+### 1. Reactor Crew Services — for contractors
+Certified crews supplied to industrial service contractors and catalyst handling companies.
+- Reactor technicians (BA / inert entry certified)
+- Catalyst changeout: unloading, screening, sock-loading, dense-loading
+- Vessel internals and box-up: trays, screens, distributors, support grids
+- Crew supply and mobilisation: core crew of 4 BA specialists, scalable to 12
+- A1 posting certificates, posting declarations and insurance in place before mobilisation
+- Page: https://gembaindustrial.com/en/services/reactor-crews
+
+### 2. Reactor Oversight — for plant owners
+Independent owner's site representation during reactor turnarounds. Two representatives, one on days and one on nights, for the full duration of the reactor work, from shutdown to start-up. Daily written reporting to the plant's turnaround manager.
+- Page: https://gembaindustrial.com/en/services/reactor-oversight
+
+**What Reactor Oversight is:** our representatives observe how every contractor works on the plant's reactors — manning, equipment, method, pace, discipline and safety — and report daily in writing. They cover catalyst handling companies, mechanical fitters, crane and rigging crews, scaffolders, and specialist services, but only while those contractors are working on a vessel in scope.
+
+**How it differs from licensor catalyst inspection:** the licensor's representative arrives when the reactor is already empty and is concerned with how much catalyst goes in and how it is distributed. GEMBA's representatives are present from the first day, including the unloading, and are concerned with how the contractors work. The two roles do not overlap; GEMBA works alongside the licensor, never in place of him.
+
+**Equipment in scope:** fixed-bed and multi-bed reactors; catalyst vessels, guard beds, adsorber and dryer vessels; columns (internals, trays, packing, screens, distributors); reformers and reformer tubes; converters, hydrotreaters, hydrocrackers, ammonia and methanol converters.
+
+**Explicitly out of scope:** heat exchangers and bundle pulling; piping, spooling, valves and lines away from the vessels; tanks and tankage; furnaces other than reformers; rotating equipment (pumps, compressors, turbines); civil works, excavation, earthworks, foundations; electrical and instrumentation work; insulation, painting and blasting outside the vessels.
+
+**Liability boundary:** GEMBA representatives observe, advise and report. They do not instruct contractors' personnel, do not assume any contractor's responsibility for his own work, methods or safety, do not replace the licensor's catalyst loading inspection, and do not sign off work in place of the plant.
+
+**Independence rule:** GEMBA does not accept an oversight assignment on any site where the contractor being overseen is a company GEMBA works for. Crew supply and oversight are never delivered on the same site.
 
 ## Track Record
-Our crews have worked at: Shell (Rotterdam, Cologne), ExxonMobil (Fawley), BP (Rotterdam), ORLEN Lietuva, Neste (Porvoo), Rompetrol Petromidia, Bazan Group, OMV Schwechat, Bayernoil, Huntsman Holland, Tata Steel IJmuiden.
+Our technicians have worked on reactors and catalyst vessels at: Equinor Tjeldbergodden Methanol Plant (Kjørsvikbugen, Norway), Irving Oil Whitegate Refinery (Co. Cork, Ireland), Stanlow Manufacturing Complex (Ellesmere Port, UK), Esso Fawley Refinery (Southampton, UK), Shell Energy & Chemicals Park (Rotterdam, Netherlands), Shell Rheinland Refinery Godorf (Cologne, Germany), BP Rotterdam Refinery (Netherlands), ORLEN Lietuva (Mazeikiai, Lithuania), Neste Porvoo Refinery (Finland), Rompetrol Petromidia (Constanta, Romania), Bazan Group Refinery (Haifa, Israel), OMV Schwechat Refinery (Austria), Bayernoil Refinery (Bavaria, Germany), Huntsman Holland BV (Rotterdam, Netherlands), Tata Steel IJmuiden (Netherlands).
+
+Refinery and plant operators our technicians have worked for include Shell, BP, ExxonMobil, Equinor, Neste, OMV, Irving Oil and Essar.
 
 ## Crew Availability
 We publish a live availability calendar showing which periods our crews are already committed and which are open for enquiry, in month and year views, for the next twelve months.
 - Availability calendar: https://gembaindustrial.com/en/availability
 - Updated whenever an assignment is confirmed. Enquire early: turnaround windows are usually filled several months ahead.
-- Client and site identities are not published; only the dates are shown.
+- Client and site identities of current assignments are not published; only the dates are shown.
 
 ## Certifications
-SCC/VCA (TÜV Rheinland), BA/N2 inert entry, Confined Space Entry, Rigging, Forklift, Crane Operation. Official reference letters from Mourik.
+SCC/VCA (TÜV Rheinland), BA/N2 inert entry, Confined Space Entry, Rigging, Forklift, Crane Operation, current medicals. Official reference letters from Mourik.
 
 ## Key Pages
-- Services: https://gembaindustrial.com/en/services
+- Services overview: https://gembaindustrial.com/en/services
+- Reactor Crew Services: https://gembaindustrial.com/en/services/reactor-crews
+- Reactor Oversight: https://gembaindustrial.com/en/services/reactor-oversight
 - Track record: https://gembaindustrial.com/en/track-record
 - Availability calendar: https://gembaindustrial.com/en/availability
+- Team: https://gembaindustrial.com/en/team
+- About: https://gembaindustrial.com/en/about
 - Blog: https://gembaindustrial.com/en/blog
 - Careers: https://gembaindustrial.com/en/careers
 - Contact: https://gembaindustrial.com/en/contact
@@ -37,4 +65,4 @@ Available in English, Bulgarian and Spanish at /en/, /bg/ and /es/.
 - Parent: GEMBA EOOD — https://gembateam.com
 - IT Division: https://gembait.com
 
-Last updated: 2026-09-06
+Last updated: 2026-09-15

@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import SEOHead from './components/SEOHead';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import ReactorCrews from './pages/ReactorCrews';
+import ReactorOversight from './pages/ReactorOversight';
 import TrackRecord from './pages/TrackRecord';
 import About from './pages/About';
 import Blog from './pages/Blog';
@@ -42,6 +44,8 @@ export default function App() {
             <Route path="/" element={<Navigate to="/en" replace />} />
             <Route path="/:lang" element={<LangWrapper><Home /></LangWrapper>} />
             <Route path="/:lang/services" element={<LangWrapper><Services /></LangWrapper>} />
+            <Route path="/:lang/services/reactor-crews" element={<LangWrapper><ReactorCrews /></LangWrapper>} />
+            <Route path="/:lang/services/reactor-oversight" element={<LangWrapper><ReactorOversight /></LangWrapper>} />
             <Route path="/:lang/track-record" element={<LangWrapper><TrackRecord /></LangWrapper>} />
             <Route path="/:lang/about" element={<LangWrapper><About /></LangWrapper>} />
             <Route path="/:lang/blog" element={<LangWrapper><Blog /></LangWrapper>} />

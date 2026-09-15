@@ -15,9 +15,10 @@
     "title1": "Specialist Reactor &",
     "title_accent": "Catalyst Changeout",
     "title2": "Crews Across Europe",
-    "subtitle": "Certified, experienced industrial technicians with over 10 years of combined field experience. Trusted by industry leaders including NICO Industrial Services and Mourik, with a proven track record at the world's largest refineries.",
+    "subtitle": "Certified, experienced industrial technicians with over 10 years of combined field experience. Trusted by industry leaders including NICO Industrial Services and Mourik. We supply reactor crews to contractors and represent plant owners during reactor turnarounds.",
     "cta": "Our Services",
-    "cta2": "Contact Us"
+    "cta2": "Contact Us",
+    "cta3": "Reactor Oversight"
   },
   "stats": {
     "crew": "Crew Size",
@@ -26,8 +27,8 @@
     "availability": "Availability"
   },
   "services": {
-    "page_title": "Industrial Services",
-    "subtitle": "Specialised technical services delivered to refineries and petrochemical facilities across Europe — with safety, precision, and reliability at the core.",
+    "page_title": "Services",
+    "subtitle": "Two divisions, one family of equipment: reactors, catalyst vessels, columns and reformers.",
     "items": [
       {
         "title": "Reactor Technician Services",
@@ -53,12 +54,32 @@
         "title": "Scalable & Flexible",
         "desc": "From single-technician support to full crew mobilisation across Europe. We scale to your project requirements with short notice."
       }
-    ]
+    ],
+    "independence": "We supply crews to contractors, and we represent plant owners. We never do both on the same site.",
+    "crews_eyebrow": "For contractors",
+    "crews_title": "Reactor Crew Services",
+    "crews_desc": "Certified BA reactor technicians for catalyst changeout, vessel internals and box-up. Core crew of four, scalable to twelve, mobilised across Europe at short notice.",
+    "oversight_eyebrow": "For plant owners",
+    "oversight_title": "Reactor Oversight",
+    "oversight_desc": "Your own representatives on the vessel, from shutdown to start-up. We watch how every contractor works on your reactors and report to you daily, in writing.",
+    "read_more": "Read more"
   },
   "track_record": {
     "page_title": "Where We Have Worked",
     "subtitle": "Our crews have delivered successful projects at some of the most demanding refinery and petrochemical facilities in the world.",
     "refineries": [
+      {
+        "name": "Equinor Tjeldbergodden Methanol Plant",
+        "loc": "Kjørsvikbugen, Norway"
+      },
+      {
+        "name": "Irving Oil Whitegate Refinery",
+        "loc": "Co. Cork, Ireland"
+      },
+      {
+        "name": "Stanlow Manufacturing Complex",
+        "loc": "Ellesmere Port, UK"
+      },
       {
         "name": "Esso Fawley Refinery",
         "loc": "Southampton, UK"
@@ -228,5 +249,201 @@
     "cta_body": "Send us the dates and the scope. We answer within one working day, and a verbal hold costs you nothing.",
     "cta_button": "Send an enquiry",
     "note": "Dates shown are commitments of the full four-man crew. Client and site names are never published."
+  },
+  "crews": {
+    "eyebrow": "For contractors",
+    "page_title": "Reactor Crew Services",
+    "subtitle": "Certified reactor technicians for catalyst changeout and vessel work at refineries and petrochemical plants across Europe.",
+    "items": [
+      {
+        "title": "Reactor Technicians",
+        "desc": "Certified BA and inert entry technicians deployed to refineries across Europe, working under the strictest HSE and permit procedures."
+      },
+      {
+        "title": "Catalyst Changeout",
+        "desc": "Complete changeout operations — unloading, screening, sock-loading and dense-loading — executed to the licensor's method and the refinery's own protocols."
+      },
+      {
+        "title": "Vessel Internals & Box-up",
+        "desc": "Trays, screens, distributors and support grids: removal, inspection support, reinstatement and box-up ready for start-up."
+      },
+      {
+        "title": "Crew Supply & Mobilisation",
+        "desc": "Core crew of four BA specialists on permanent contracts, scalable to twelve on demand. Fluent English, ready at short notice."
+      }
+    ],
+    "why_title": "Why contractors use us",
+    "why": [
+      {
+        "title": "Certified and current",
+        "desc": "SCC/VCA (TÜV Rheinland), BA inert entry, confined space entry, rigging, crane and forklift — with current medicals."
+      },
+      {
+        "title": "Referenced",
+        "desc": "Officially recommended by Mourik, with reference letters on file. Over ten years of combined experience at Europe's largest refineries."
+      },
+      {
+        "title": "Compliant across borders",
+        "desc": "A1 posting certificates, posting declarations and insurance are in place before mobilisation, not after it."
+      }
+    ],
+    "cta": "Check availability"
+  },
+  "oversight": {
+    "eyebrow": "For plant owners",
+    "page_title": "Reactor Oversight",
+    "subtitle": "Independent owner's site representation for reactors, catalyst vessels, columns and reformers — from shutdown to start-up.",
+    "intro": "We put experienced reactor technicians on your site as your own representatives, for the whole duration of the reactor work. They watch how the work is actually done, by every contractor working on those vessels, and they tell you what they see. Every day, in writing.",
+    "quote": "The licensor tells you whether the catalyst was loaded correctly. We tell you whether the contractors are working the way they should — from day one, including the unloading.",
+    "quote_note": "Catalyst loading inspection starts when the reactor is already empty and ends when it is full. Our people are there before that, and stay after.",
+    "why_title": "Why plants need this",
+    "why_p1": "A turnaround brings four or five contractors onto the same vessel at the same time — catalyst handling crews, mechanical fitters, riggers, scaffolders. Each of them knows its own trade. Nobody is watching how they work together.",
+    "why_p2": "The plant's own people cannot fill that gap, and it is not their job to. A unit engineer knows the process. He does not know what a properly manned catalyst crew looks like, how long a reactor should take to empty, whether a rigging plan is sound, or whether a delay is genuine. The only people who know that are the contractors themselves — and they are reporting on their own performance.",
+    "time_title": "Where the time actually goes",
+    "time_intro": "We have spent years inside this industry, on the contractor's side of it. We know how a turnaround is really run — and we know the shortcuts and the open doors that are used to stretch a job out. Some of what our people look for:",
+    "time_items": [
+      "Crews arriving under-manned, with the shortfall quietly absorbed into the schedule",
+      "Equipment on site but undersized for the bed — vacuum capacity, filtration, screening",
+      "Shifts that start late and finish early, with the paperwork saying otherwise",
+      "Delay recorded as waiting for the plant when the plant was ready",
+      "Work sequenced so that standby time is created, and charged",
+      "Permits, isolations and entries not prepared the evening before, so the first hours are lost",
+      "Steps skipped in screening or loading that save an hour today and cost days at start-up",
+      "Small scope changes groomed into change orders",
+      "Inert entry and life support shortcuts — unsafe, and a guaranteed stoppage the moment somebody notices"
+    ],
+    "time_note": "Most contractors do good work most of the time. But when this does happen, it is invisible from the office — and it is obvious within minutes to someone who has stood in that same place doing that same job.",
+    "scope_title": "Equipment in scope",
+    "scope_intro": "Our oversight is limited to catalyst-bearing and pressure vessel equipment:",
+    "scope_in": [
+      "Fixed-bed and multi-bed reactors",
+      "Catalyst vessels, guard beds, adsorber and dryer vessels",
+      "Columns — internals, trays, packing, screens, distributors",
+      "Reformers and reformer tubes",
+      "Converters, hydrotreaters, hydrocrackers, ammonia and methanol converters"
+    ],
+    "scope_out_title": "Explicitly outside our scope",
+    "scope_out": [
+      "Heat exchangers and bundle pulling",
+      "Piping, spooling, valves and lines away from the vessels",
+      "Tanks and tankage",
+      "Furnaces other than reformers",
+      "Rotating equipment — pumps, compressors, turbines",
+      "Civil works, excavation, earthworks, foundations",
+      "Electrical and instrumentation work",
+      "Insulation, painting and blasting outside the vessels"
+    ],
+    "scope_note": "If it is not a reactor or a catalyst vessel, it is not ours. This limit is deliberate and we hold it. Our value is that we know one family of equipment extremely well — not that we cover the whole plant.",
+    "contractors_title": "Which contractors we cover",
+    "contractors_intro": "Scope is defined by the equipment, not by the trade. Every contractor is within our oversight while, and only while, it is working on a vessel in scope:",
+    "contractors": [
+      "Catalyst handling companies — unloading, screening, inert entry, loading",
+      "Mechanical fitters — vessel internals, trays, screens, distributors, manway work",
+      "Crane and rigging crews — lifts to and from the vessel",
+      "Scaffolders — access on and inside the vessel",
+      "Specialist services on the vessel — inerting, life support, vacuum, dense loading"
+    ],
+    "contractors_note": "The moment the same crew moves off the reactor onto an exchanger, a line or a foundation, they are out of our scope and we say nothing about that work.",
+    "phases_title": "From shutdown to start-up",
+    "phases_intro": "The full sequence, not a single work package.",
+    "phases": [
+      {
+        "phase": "Shutdown and isolation",
+        "watch": "Permits, blinding, nitrogen purge, entry preparation"
+      },
+      {
+        "phase": "Access",
+        "watch": "Scaffold and access ready when the trade needs it, not after"
+      },
+      {
+        "phase": "Catalyst removal",
+        "watch": "Manning, equipment, vacuum performance, inert entry discipline, pace"
+      },
+      {
+        "phase": "Vessel internals",
+        "watch": "Trays, screens, distributors — sequence and handover between trades"
+      },
+      {
+        "phase": "Lifting to the vessel",
+        "watch": "Lift plans, load handling, coordination around the manway"
+      },
+      {
+        "phase": "Catalyst loading",
+        "watch": "Method, sequence, coordination with the licensor's representative"
+      },
+      {
+        "phase": "Box-up and start-up",
+        "watch": "Closing sequence, documentation, readiness"
+      }
+    ],
+    "do_title": "What our representatives do",
+    "do": [
+      "Observe and record — on the vessel, through the whole shift, not from an office",
+      "Check manning and equipment against what the contractor promised",
+      "Follow the schedule against reality, and judge whether a delay is genuine",
+      "Watch safety compliance — permits, confined space entry, life support, gas testing, PPE, lifting",
+      "Advise on method where we see a faster or cleaner way of doing the vessel work",
+      "Coordinate on the ground with your unit owners and turnaround manager",
+      "Report daily, in writing — progress, manning, delays, safety observations, photographs",
+      "Flag irregularities, including overcharging, idle crews and work claimed but not done"
+    ],
+    "goals_title": "What we are there to achieve",
+    "goals": [
+      {
+        "title": "The reactors come back on line on or before the planned date",
+        "desc": "Overrun is the most expensive thing that can happen to a turnaround. Every day protected on the reactor critical path pays for this service many times over."
+      },
+      {
+        "title": "Every euro spent on the vessels buys work that was actually done",
+        "desc": "An independent daily record of manning, hours and progress is the only sound basis for approving an invoice — or for challenging one."
+      },
+      {
+        "title": "Safety on the vessels raised to the maximum, and incidents eliminated",
+        "desc": "Confined space, inert atmosphere and lifting over open manways are where people get killed. This is first a duty and second an economic argument: every serious incident stops the job, and a stopped job is an overrun."
+      },
+      {
+        "title": "Your units are serviced better, turnaround after turnaround",
+        "desc": "What we record does not walk off site with the crews. It becomes the baseline you hold the next contractor to."
+      }
+    ],
+    "how_title": "How we work",
+    "how_p": "Two representatives, one on days and one on nights — round-the-clock coverage for the full reactor phase, without gaps at shift change, which is exactly when problems are handed over and lost. They report to your turnaround manager and work alongside your unit owners: a written report at the end of each shift, plus immediate escalation of anything that cannot wait.",
+    "people_title": "Why our people",
+    "people_p1": "Every one of our technicians has spent more than ten years doing reactor work himself, including five years as full-time crews for one of the largest European catalyst handling contractors. Between them they have worked on refineries and plants operated by Shell, BP, ExxonMobil, Equinor, Neste, OMV, Irving Oil and Essar, among others.",
+    "people_p2": "They have done the unloading, the inert entry, the life support, the loading and the box-up. They know how the work looks when it is done properly, and they know how it looks when corners are being cut — because they have seen both from the inside.",
+    "notdo_title": "What we do not do",
+    "notdo_intro": "This boundary matters, and we keep it strictly.",
+    "notdo": [
+      "We do not cover equipment outside the list above. No exchangers, no piping, no civils.",
+      "We do not instruct the contractors' personnel. Their supervision remains theirs.",
+      "We do not take over any contractor's responsibility for his own work, methods or safety.",
+      "We do not replace the licensor's catalyst loading inspection. We work alongside it.",
+      "We do not sign off on work in place of the plant. We report; the plant decides.",
+      "We do not accept oversight assignments on any site where the contractor is a company we work for."
+    ],
+    "faq_title": "Questions we are asked",
+    "faq": [
+      {
+        "q": "How is this different from the licensor's catalyst inspector?",
+        "a": "The licensor's representative arrives when the reactor is already empty and is concerned with how much catalyst goes in and how it is distributed. We are there from the first day, including the unloading, and we are concerned with how the contractors work: manning, equipment, method, pace, discipline and safety. The two roles do not overlap and we work alongside the licensor, never in place of him."
+      },
+      {
+        "q": "Do you cover the whole turnaround?",
+        "a": "No. We cover reactors, catalyst vessels, columns and reformers, and nothing else. Heat exchangers, piping, tankage, rotating equipment and civil works are outside our scope. The limit is deliberate — we know one family of equipment extremely well rather than covering the whole plant."
+      },
+      {
+        "q": "Do your representatives instruct our contractors?",
+        "a": "No. We observe, advise and report. The contractors' own supervision remains theirs, and their responsibility for their work, methods and safety is not transferred to us. Anything unsafe is raised immediately on the spot; everything else goes into the daily written report, and the plant decides."
+      },
+      {
+        "q": "You also supply crews to contractors. How are you independent?",
+        "a": "We never do both on the same site. We do not accept an oversight assignment where the contractor being overseen is a company we work for, and where there is any overlap we say so before we quote."
+      },
+      {
+        "q": "How many people do you provide, and for how long?",
+        "a": "Two representatives as standard — one on days, one on nights — for the full duration of the reactor work, from shutdown to start-up. Round-the-clock coverage matters because shift change is exactly when problems are handed over and lost."
+      }
+    ],
+    "cta": "Discuss your turnaround"
   }
 }

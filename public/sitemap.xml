@@ -36,6 +36,7 @@
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/services"/>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -44,6 +45,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services"/>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -52,6 +54,67 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- /services/reactor-crews -->
+  <url>
+    <loc>https://gembaindustrial.com/en/services/reactor-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/services/reactor-crews"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/services/reactor-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-crews"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/services/reactor-crews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-crews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-crews"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- /services/reactor-oversight -->
+  <url>
+    <loc>https://gembaindustrial.com/en/services/reactor-oversight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/services/reactor-oversight"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/services/reactor-oversight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-oversight"/>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/services/reactor-oversight</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/services/reactor-oversight"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/services/reactor-oversight"/>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

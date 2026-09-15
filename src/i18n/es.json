@@ -15,9 +15,10 @@
     "title1": "Especialistas en reactores y",
     "title_accent": "cambio de catalizadores",
     "title2": "en toda Europa",
-    "subtitle": "Técnicos industriales certificados y experimentados con más de 10 años de experiencia combinada. Recomendados por líderes de la industria incluyendo NICO Industrial Services y Mourik.",
+    "subtitle": "Técnicos industriales certificados y experimentados con más de 10 años de experiencia combinada. Recomendados por líderes de la industria incluyendo NICO Industrial Services y Mourik. Suministramos equipos de reactor a contratistas y representamos a propietarios de plantas durante las paradas de reactores.",
     "cta": "Nuestros servicios",
-    "cta2": "Contáctenos"
+    "cta2": "Contáctenos",
+    "cta3": "Supervisión de reactores"
   },
   "stats": {
     "crew": "Tamaño del equipo",
@@ -26,8 +27,8 @@
     "availability": "Disponibilidad"
   },
   "services": {
-    "page_title": "Servicios industriales",
-    "subtitle": "Servicios técnicos especializados para refinerías e instalaciones petroquímicas en toda Europa — con seguridad, precisión y fiabilidad.",
+    "page_title": "Servicios",
+    "subtitle": "Dos divisiones, una familia de equipos: reactores, recipientes de catalizador, columnas y reformadores.",
     "items": [
       {
         "title": "Técnicos de reactores",
@@ -53,12 +54,32 @@
         "title": "Escalables y flexibles",
         "desc": "Desde soporte con un solo técnico hasta movilización completa del equipo en Europa. Nos adaptamos a sus requisitos."
       }
-    ]
+    ],
+    "independence": "Suministramos equipos a contratistas y representamos a propietarios de plantas. Nunca hacemos ambas cosas en la misma planta.",
+    "crews_eyebrow": "Para contratistas",
+    "crews_title": "Equipos de reactor",
+    "crews_desc": "Técnicos de reactor certificados en BA para cambio de catalizador, internos de recipiente y cierre. Equipo base de cuatro, escalable a doce, movilizado por toda Europa con poca antelación.",
+    "oversight_eyebrow": "Para propietarios de plantas",
+    "oversight_title": "Supervisión de reactores",
+    "oversight_desc": "Sus propios representantes en el recipiente, desde la parada hasta el arranque. Observamos cómo trabaja cada contratista en sus reactores y le informamos a diario, por escrito.",
+    "read_more": "Leer más"
   },
   "track_record": {
     "page_title": "Dónde hemos trabajado",
     "subtitle": "Nuestros equipos han completado proyectos exitosos en algunas de las refinerías más exigentes del mundo.",
     "refineries": [
+      {
+        "name": "Equinor Tjeldbergodden Methanol Plant",
+        "loc": "Kjørsvikbugen, Noruega"
+      },
+      {
+        "name": "Irving Oil Whitegate Refinery",
+        "loc": "Cork, Irlanda"
+      },
+      {
+        "name": "Stanlow Manufacturing Complex",
+        "loc": "Ellesmere Port, Reino Unido"
+      },
       {
         "name": "Esso Fawley Refinery",
         "loc": "Southampton, Reino Unido"
@@ -228,5 +249,201 @@
     "cta_body": "Envíenos las fechas y el alcance. Respondemos en un día laborable y una reserva verbal no le cuesta nada.",
     "cta_button": "Enviar consulta",
     "note": "Las fechas mostradas son un compromiso del equipo completo de cuatro técnicos. No publicamos nombres de clientes ni de plantas."
+  },
+  "crews": {
+    "eyebrow": "Para contratistas",
+    "page_title": "Equipos de reactor",
+    "subtitle": "Técnicos de reactor certificados para cambio de catalizador y trabajo en recipientes en refinerías y plantas petroquímicas de toda Europa.",
+    "items": [
+      {
+        "title": "Técnicos de reactor",
+        "desc": "Técnicos certificados en equipos de respiración autónoma y entrada en atmósfera inerte, desplegados en refinerías de toda Europa bajo los procedimientos de HSE y permisos más estrictos."
+      },
+      {
+        "title": "Cambio de catalizador",
+        "desc": "Operaciones completas de cambio — descarga, cribado, carga por manga y carga densa — ejecutadas según el método del licenciante y los protocolos propios de la refinería."
+      },
+      {
+        "title": "Internos de recipiente y cierre",
+        "desc": "Bandejas, cribas, distribuidores y rejillas de soporte: desmontaje, apoyo a la inspección, reinstalación y cierre listo para el arranque."
+      },
+      {
+        "title": "Suministro y movilización de personal",
+        "desc": "Equipo base de cuatro especialistas BA con contrato permanente, escalable a doce bajo demanda. Inglés fluido, disponibilidad con poca antelación."
+      }
+    ],
+    "why_title": "Por qué los contratistas trabajan con nosotros",
+    "why": [
+      {
+        "title": "Certificados y vigentes",
+        "desc": "SCC/VCA (TÜV Rheinland), entrada inerte con equipo de respiración, espacios confinados, aparejo, grúa y carretilla elevadora — con reconocimientos médicos vigentes."
+      },
+      {
+        "title": "Con referencias",
+        "desc": "Recomendados oficialmente por Mourik, con cartas de referencia. Más de diez años de experiencia combinada en las mayores refinerías de Europa."
+      },
+      {
+        "title": "En regla a través de fronteras",
+        "desc": "Certificados A1, declaraciones de desplazamiento y seguros listos antes de la movilización, no después."
+      }
+    ],
+    "cta": "Ver disponibilidad"
+  },
+  "oversight": {
+    "eyebrow": "Para propietarios de plantas",
+    "page_title": "Supervisión de reactores",
+    "subtitle": "Representación independiente del propietario para reactores, recipientes de catalizador, columnas y reformadores — desde la parada hasta el arranque.",
+    "intro": "Ponemos técnicos de reactor experimentados en su planta como sus propios representantes, durante toda la duración del trabajo en los reactores. Observan cómo se realiza realmente el trabajo, por parte de cada contratista que interviene en esos recipientes, y le dicen lo que ven. Cada día, por escrito.",
+    "quote": "El licenciante le dice si el catalizador se cargó correctamente. Nosotros le decimos si los contratistas están trabajando como deben — desde el primer día, incluida la descarga.",
+    "quote_note": "La inspección de carga empieza cuando el reactor ya está vacío y termina cuando está lleno. Nuestra gente está allí antes de eso, y se queda después.",
+    "why_title": "Por qué las plantas lo necesitan",
+    "why_p1": "Una parada reúne a cuatro o cinco contratistas sobre el mismo recipiente al mismo tiempo — equipos de catalizador, montadores mecánicos, aparejadores, andamiadores. Cada uno conoce su oficio. Nadie está observando cómo trabajan juntos.",
+    "why_p2": "El propio personal de la planta no puede cubrir esa brecha, y no es su trabajo. Un ingeniero de unidad conoce el proceso. No sabe qué aspecto tiene un equipo de catalizador correctamente dotado, cuánto debe tardar un reactor en vaciarse, si un plan de izaje es sólido o si un retraso es genuino. Los únicos que lo saben son los propios contratistas — y están informando sobre su propio desempeño.",
+    "time_title": "Adónde va realmente el tiempo",
+    "time_intro": "Hemos pasado años dentro de esta industria, del lado del contratista. Sabemos cómo se ejecuta realmente una parada — y conocemos los atajos y las puertas abiertas que se usan para alargar un trabajo. Esto es parte de lo que busca nuestra gente:",
+    "time_items": [
+      "Equipos que llegan con menos personal, y el déficit se absorbe discretamente en el cronograma",
+      "Equipamiento en obra pero infradimensionado para el lecho — capacidad de vacío, filtración, cribado",
+      "Turnos que empiezan tarde y terminan pronto, mientras el papeleo dice otra cosa",
+      "Retrasos registrados como «esperando a la planta» cuando la planta estaba lista",
+      "Trabajo secuenciado de modo que se genere tiempo de espera, y se facture",
+      "Permisos, aislamientos y entradas no preparados la noche anterior, perdiendo las primeras horas",
+      "Pasos omitidos en el cribado o la carga que ahorran una hora hoy y cuestan días en el arranque",
+      "Pequeños cambios de alcance cultivados hasta convertirse en órdenes de cambio",
+      "Atajos en la entrada inerte y el soporte vital — inseguros, y una parada garantizada en cuanto alguien lo advierte"
+    ],
+    "time_note": "La mayoría de los contratistas hace un buen trabajo la mayor parte del tiempo. Pero cuando esto ocurre, es invisible desde la oficina — y resulta evidente en minutos para quien ha estado en ese mismo sitio haciendo ese mismo trabajo.",
+    "scope_title": "Equipos dentro del alcance",
+    "scope_intro": "Nuestra supervisión se limita a recipientes con catalizador y recipientes a presión:",
+    "scope_in": [
+      "Reactores de lecho fijo y de lechos múltiples",
+      "Recipientes de catalizador, lechos de guarda, adsorbedores y secadores",
+      "Columnas — internos, bandejas, relleno, cribas, distribuidores",
+      "Reformadores y tubos de reformador",
+      "Convertidores, hidrotratamiento, hidrocraqueo, convertidores de amoníaco y metanol"
+    ],
+    "scope_out_title": "Expresamente fuera de nuestro alcance",
+    "scope_out": [
+      "Intercambiadores de calor y extracción de haces",
+      "Tuberías, carretes, válvulas y líneas alejadas de los recipientes",
+      "Tanques y parques de tanques",
+      "Hornos distintos de los reformadores",
+      "Equipos rotativos — bombas, compresores, turbinas",
+      "Obra civil, excavación, movimiento de tierras, cimentaciones",
+      "Trabajos eléctricos y de instrumentación",
+      "Aislamiento, pintura y chorreado fuera de los recipientes"
+    ],
+    "scope_note": "Si no es un reactor o un recipiente de catalizador, no es nuestro. Este límite es deliberado y lo mantenemos. Nuestro valor está en conocer una familia de equipos extremadamente bien — no en cubrir toda la planta.",
+    "contractors_title": "Qué contratistas cubrimos",
+    "contractors_intro": "El alcance lo define el equipo, no el oficio. Cada contratista está bajo nuestra supervisión mientras — y solo mientras — trabaja en un recipiente dentro del alcance:",
+    "contractors": [
+      "Empresas de manipulación de catalizador — descarga, cribado, entrada inerte, carga",
+      "Montadores mecánicos — internos, bandejas, cribas, distribuidores, trabajo en bocas de hombre",
+      "Equipos de grúa y aparejo — izajes hacia y desde el recipiente",
+      "Andamiadores — acceso sobre y dentro del recipiente",
+      "Servicios especializados en el recipiente — inertización, soporte vital, vacío, carga densa"
+    ],
+    "contractors_note": "En el momento en que ese mismo equipo pasa del reactor a un intercambiador, una línea o una cimentación, queda fuera de nuestro alcance y no decimos nada sobre ese trabajo.",
+    "phases_title": "De la parada al arranque",
+    "phases_intro": "La secuencia completa, no un solo paquete de trabajo.",
+    "phases": [
+      {
+        "phase": "Parada y aislamiento",
+        "watch": "Permisos, bridas ciegas, purga con nitrógeno, preparación de entrada"
+      },
+      {
+        "phase": "Acceso",
+        "watch": "Andamio y acceso listos cuando el oficio los necesita, no después"
+      },
+      {
+        "phase": "Descarga del catalizador",
+        "watch": "Dotación, equipos, rendimiento del vacío, disciplina de entrada inerte, ritmo"
+      },
+      {
+        "phase": "Internos del recipiente",
+        "watch": "Bandejas, cribas, distribuidores — secuencia y relevo entre oficios"
+      },
+      {
+        "phase": "Izaje al recipiente",
+        "watch": "Planes de izaje, manejo de cargas, coordinación alrededor de la boca de hombre"
+      },
+      {
+        "phase": "Carga del catalizador",
+        "watch": "Método, secuencia, coordinación con el representante del licenciante"
+      },
+      {
+        "phase": "Cierre y arranque",
+        "watch": "Secuencia de cierre, documentación, preparación"
+      }
+    ],
+    "do_title": "Qué hacen nuestros representantes",
+    "do": [
+      "Observar y registrar — en el recipiente, durante todo el turno, no desde una oficina",
+      "Verificar dotación y equipos frente a lo que el contratista prometió",
+      "Seguir el cronograma frente a la realidad y juzgar si un retraso es genuino",
+      "Vigilar la seguridad — permisos, espacios confinados, soporte vital, medición de gases, EPI, izajes",
+      "Asesorar sobre el método cuando vemos una forma más rápida o más limpia de hacer el trabajo",
+      "Coordinar sobre el terreno con sus responsables de unidad y su jefe de parada",
+      "Informar a diario y por escrito — avance, dotación, retrasos, observaciones de seguridad, fotografías",
+      "Señalar irregularidades, incluidos sobrecostes, equipos inactivos y trabajo declarado pero no realizado"
+    ],
+    "goals_title": "Qué venimos a conseguir",
+    "goals": [
+      {
+        "title": "Los reactores vuelven a operar en la fecha prevista o antes",
+        "desc": "El sobrecoste de plazo es lo más caro que le puede pasar a una parada. Cada día protegido en la ruta crítica del reactor paga este servicio muchas veces."
+      },
+      {
+        "title": "Cada euro gastado en los recipientes compra trabajo realmente hecho",
+        "desc": "Un registro diario independiente de dotación, horas y avance es la única base sólida para aprobar una factura — o para impugnarla."
+      },
+      {
+        "title": "Seguridad en los recipientes al máximo, e incidentes eliminados",
+        "desc": "Los espacios confinados, la atmósfera inerte y los izajes sobre bocas de hombre abiertas son donde muere la gente. Esto es primero un deber y solo después un argumento económico: todo incidente grave detiene el trabajo, y un trabajo detenido es un retraso."
+      },
+      {
+        "title": "Sus unidades se mantienen mejor, parada tras parada",
+        "desc": "Lo que registramos no se marcha de la planta con los equipos. Se convierte en la referencia con la que exigirá al siguiente contratista."
+      }
+    ],
+    "how_title": "Cómo trabajamos",
+    "how_p": "Dos representantes, uno de día y otro de noche — cobertura continua durante toda la fase de reactores, sin huecos en el cambio de turno, que es justo cuando los problemas se traspasan y se pierden. Informan a su jefe de parada y trabajan junto a sus responsables de unidad: informe escrito al final de cada turno, más escalado inmediato de todo lo que no puede esperar.",
+    "people_title": "Por qué nuestra gente",
+    "people_p1": "Cada uno de nuestros técnicos lleva más de diez años haciendo este trabajo personalmente, incluidos cinco años como equipos fijos de uno de los mayores contratistas europeos de manipulación de catalizador. Entre todos han trabajado en refinerías y plantas operadas por Shell, BP, ExxonMobil, Equinor, Neste, OMV, Irving Oil y Essar, entre otras.",
+    "people_p2": "Han hecho la descarga, la entrada inerte, el soporte vital, la carga y el cierre. Saben cómo se ve el trabajo cuando está bien hecho, y saben cómo se ve cuando se recortan esquinas — porque han visto ambas cosas desde dentro.",
+    "notdo_title": "Qué no hacemos",
+    "notdo_intro": "Este límite importa, y lo mantenemos estrictamente.",
+    "notdo": [
+      "No cubrimos equipos fuera de la lista anterior. Sin intercambiadores, sin tuberías, sin obra civil.",
+      "No damos instrucciones al personal de los contratistas. Su supervisión sigue siendo suya.",
+      "No asumimos la responsabilidad de ningún contratista sobre su trabajo, métodos o seguridad.",
+      "No sustituimos la inspección de carga del licenciante. Trabajamos junto a ella.",
+      "No damos por aceptado el trabajo en lugar de la planta. Nosotros informamos; la planta decide.",
+      "No aceptamos encargos de supervisión en plantas donde el contratista es una empresa para la que trabajamos."
+    ],
+    "faq_title": "Preguntas que nos hacen",
+    "faq": [
+      {
+        "q": "¿En qué se diferencia esto del inspector de catalizador del licenciante?",
+        "a": "El representante del licenciante llega cuando el reactor ya está vacío y se ocupa de cuánto catalizador entra y cómo se distribuye. Nosotros estamos desde el primer día, incluida la descarga, y nos ocupamos de cómo trabajan los contratistas: dotación, equipos, método, ritmo, disciplina y seguridad. Los dos papeles no se solapan y trabajamos junto al licenciante, nunca en su lugar."
+      },
+      {
+        "q": "¿Cubren toda la parada?",
+        "a": "No. Cubrimos reactores, recipientes de catalizador, columnas y reformadores, y nada más. Intercambiadores, tuberías, tanques, equipos rotativos y obra civil quedan fuera de nuestro alcance. El límite es deliberado — conocemos una familia de equipos extremadamente bien en lugar de cubrir toda la planta."
+      },
+      {
+        "q": "¿Sus representantes dan instrucciones a nuestros contratistas?",
+        "a": "No. Observamos, asesoramos e informamos. La supervisión propia de los contratistas sigue siendo suya, y su responsabilidad sobre su trabajo, métodos y seguridad no se transfiere a nosotros. Todo lo inseguro se plantea de inmediato en el sitio; el resto entra en el informe diario escrito, y la planta decide."
+      },
+      {
+        "q": "También suministran equipos a contratistas. ¿Cómo son independientes?",
+        "a": "Nunca hacemos ambas cosas en la misma planta. No aceptamos un encargo de supervisión donde el contratista supervisado sea una empresa para la que trabajamos, y cuando existe cualquier solapamiento lo decimos antes de presentar oferta."
+      },
+      {
+        "q": "¿Cuántas personas aportan y durante cuánto tiempo?",
+        "a": "Dos representantes como estándar — uno de día y otro de noche — durante toda la duración del trabajo en los reactores, desde la parada hasta el arranque. La cobertura continua importa porque el cambio de turno es justo cuando los problemas se traspasan y se pierden."
+      }
+    ],
+    "cta": "Hablemos de su parada"
   }
 }
