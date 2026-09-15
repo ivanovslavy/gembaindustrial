@@ -146,7 +146,7 @@ FAILURE MODES:
   - Fal.ai fails and Unsplash fails: publish with hero:null and flag in
     posts.json.
 
-Never publish BG or ES translations. Never name individuals from incident
+Never name individuals from incident
 reports. Never use "man in hard hat smiling" stock photos. TODAY = $(date -I).
 PROMPT
 )" \
