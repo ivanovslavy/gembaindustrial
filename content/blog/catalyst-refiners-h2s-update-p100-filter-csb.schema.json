@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Catalyst Refiners H2S Update: Wrong Filter, No Monitor",
+    "description": "CSB's August 2026 update on the Catalyst Refiners H2S release: a minute-by-minute rescue chain, P100 filters that stop no gas, no monitors on a site being shut down.",
+    "image": "https://gembaindustrial.com/images/blog/catalyst-refiners-h2s-update-p100-filter-csb/hero.jpg",
+    "datePublished": "2026-09-15",
+    "dateModified": "2026-09-15",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/catalyst-refiners-h2s-update-p100-filter-csb",
+    "articleSection": "Safety & Compliance",
+    "keywords": "csb, hydrogen-sulfide, h2s, catalyst-refiners, decommissioning, respirator-cartridges, p100, gas-monitoring, rescue, chemical-incompatibility, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What did the CSB's August 2026 investigation update on Catalyst Refiners find?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB's Investigation Update No. 2026-02-I-WV, published 13 August 2026, found that on 22 April 2026 employees at the Catalyst Refiners facility in Institute, West Virginia were disposing of leftover chemicals through the plant's wastewater pretreatment system during decommissioning. They pumped A-50 (a calcium chloride coagulant), then almost a full 275-gallon tote of M-2000A (a sodium trithiocarbonate metal precipitant), then diluted nitric acid into the same open-top receiving tank. After about five inches of acid had been transferred, a reaction produced hydrogen sulfide gas. Two employees who were not involved in the transfer and went to help collapsed colleagues died; four others were seriously injured. The company had no written procedure for the disposal, respirators found on site were fitted with P100 particulate filters that do not protect against gas, respirator use was no longer required after the facility moved to decommissioning, and no personal gas monitors were provided or required for employees or contractors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does a P100 filter not protect against hydrogen sulfide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A P100 filter, such as the 3M 2091 the CSB found on respirators at Catalyst Refiners, is a particulate filter. It captures 99.97 percent of airborne particles like dust, metal fume and silver oxide powder, but it is a mechanical sieve and gas molecules pass straight through it. Protection against a gas needs a chemical cartridge rated for that specific gas. In the US, cartridges labelled for hydrogen sulfide are approved for escape only. In Europe, an EN 14387 type B filter covers H2S only at known low concentrations with a known escape route. In an unknown or immediately dangerous atmosphere, the only acceptable respiratory protection is self-contained breathing apparatus or supplied air."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do hydrogen sulfide incidents so often kill would-be rescuers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hydrogen sulfide is colourless, heavier than air, and at high concentrations it paralyses the sense of smell, so a rescuer cannot see or smell the hazard. It pools at floor level, exactly where a collapsed colleague is lying, so the person bending down to help breathes the highest concentration. At 100 ppm it is immediately dangerous to life or health and above 1,000 ppm it can cause nearly instant collapse. At Catalyst Refiners the two employees who died were not part of the chemical transfer; surveillance video shows them heading for the tank area at 9:28 a.m., one collapsing on arrival and the other being overcome while dragging the unconscious relief shift supervisor away. The CSB's 2019 Aghorn Operating case in Odessa, Texas shows the same pattern. Standard procedure is that nobody attempts a rescue without breathing apparatus, and crews should brief this out loud before the job."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is decommissioning a high-risk phase for chemical plants and contractors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "During decommissioning the production process has stopped, so the hazards that the site's procedures and PPE rules were written for appear to be gone, and those rules are often relaxed. At Catalyst Refiners, workers told the CSB that respirators were no longer required once decommissioning began. But leftover chemicals still have to be removed, and the improvised way of doing that, pumping partial totes and drums into whatever tank still works, can bring together chemicals that never met during production. The M-2000A safety data sheet stated it was incompatible with strong acids, yet nitric acid was pumped into the same tank. Experienced operators and permit staff have often already left the site. Contractors entering a plant at this stage should treat relaxed PPE rules as a sign the hazard assessment has not been redone, carry their own personal gas monitors, check respirator cartridge ratings against the actual hazard, and refuse disposal transfers that have no written procedure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a contractor crew lead do before a chemical disposal job on a site being shut down?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Read the safety data sheets for every chemical going into the same tank side by side and check for incompatibilities before any hose is connected. Insist on a written transfer procedure from the host and do not start without one. Put a personal multi-gas monitor with H2S, CO, oxygen and LEL sensors on every person, regardless of the site's own rules. Check the respirator cartridge code against the actual hazard, and if hydrogen sulfide at unknown concentration is possible, use breathing apparatus rather than a filter respirator. Agree clear radio words in advance so that a collapse near a tank is reported as a gas emergency, not as 'issues with the chemicals'. Brief the rescue rule out loud before the job: if someone goes down, nobody approaches without breathing apparatus; the others go upwind and call it in."
+        }
+      }
+    ]
+  }
+}

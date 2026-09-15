@@ -1,5 +1,46 @@
 [
   {
+    "slug": "catalyst-refiners-h2s-update-p100-filter-csb",
+    "date": "2026-09-15",
+    "lastUpdated": "2026-09-15",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "csb",
+      "hydrogen-sulfide",
+      "h2s",
+      "catalyst-refiners",
+      "decommissioning",
+      "respirator-cartridges",
+      "p100",
+      "gas-monitoring",
+      "rescue",
+      "chemical-incompatibility",
+      "contractors"
+    ],
+    "title": {
+      "en": "Catalyst Refiners H2S Update: Wrong Filter, No Monitor",
+      "bg": "Catalyst Refiners, H2S: Грешен филтър, никакъв детектор",
+      "es": "Catalyst Refiners y el H2S: Filtro equivocado, sin detector"
+    },
+    "excerpt": {
+      "en": "CSB's August 2026 update on the Catalyst Refiners H2S release: a minute-by-minute rescue chain, P100 filters that stop no gas, no monitors on a site being shut down.",
+      "bg": "Докладът на CSB от август 2026 г. за H2S в Catalyst Refiners: спасителна верига минута по минута, P100 филтри, които не спират газ, и нито един детектор на затварящ се завод.",
+      "es": "La actualización de la CSB de agosto de 2026 sobre el H2S en Catalyst Refiners: cadena de rescate minuto a minuto, filtros P100 que no paran gas y ni un detector en una planta en cierre."
+    },
+    "readingTime": 11,
+    "hero": "/images/blog/catalyst-refiners-h2s-update-p100-filter-csb/hero.jpg",
+    "heroRetina": "/images/blog/catalyst-refiners-h2s-update-p100-filter-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/assets/1/6/FINAL_Investigation_Update_Catalyst_Refiners_.pdf",
+    "source_type": "csb_investigation",
+    "source_date": "2026-08-13",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 2360,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "mossmorran-cui-five-leaks-hse",
     "date": "2026-09-08",
     "lastUpdated": "2026-09-08",
