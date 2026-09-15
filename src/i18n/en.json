@@ -15,7 +15,7 @@
     "title1": "Reactors and",
     "title_accent": "Catalyst Vessels",
     "title2": "Nothing Else.",
-    "subtitle": "Certified, experienced industrial technicians with over 10 years of combined field experience. Trusted by industry leaders including NICO Industrial Services and Mourik. We supply reactor crews to contractors and represent plant owners during reactor turnarounds.",
+    "subtitle": "Certified, experienced industrial technicians with over 10 years of combined field experience. Trusted by industry leaders, with their written references on file. We supply reactor crews to contractors and represent plant owners during reactor turnarounds.",
     "cta": "Our Services",
     "cta2": "Contact Us",
     "cta3": "Reactor Oversight"
@@ -29,32 +29,6 @@
   "services": {
     "page_title": "Services",
     "subtitle": "Two divisions, one family of equipment: reactors, catalyst vessels, columns and reformers.",
-    "items": [
-      {
-        "title": "Reactor Technician Services",
-        "desc": "Certified reactor technicians deployed to petroleum refineries across Europe, operating under the strictest HSE and safety procedures."
-      },
-      {
-        "title": "Catalyst Changeout",
-        "desc": "Full catalyst changeout operations — unloading, screening, sock-loading and dense-loading — executed with precision and in full compliance with refinery protocols."
-      },
-      {
-        "title": "Safety & Compliance",
-        "desc": "Our crew holds European-issued certifications in Confined Space Entry, Rigging, and Forklift operation. We deliver to the highest safety standards, every time."
-      },
-      {
-        "title": "Specialist Personnel Supply",
-        "desc": "Core crew of 4 BA specialists on permanent contracts, scalable up to 12 personnel on demand. Fluent English. Ready for immediate international deployment."
-      },
-      {
-        "title": "Certified & Experienced",
-        "desc": "Officially recommended by industry leaders including Mourik, with reference letters on file. 10+ years of combined experience at some of the world's largest refineries."
-      },
-      {
-        "title": "Scalable & Flexible",
-        "desc": "From single-technician support to full crew mobilisation across Europe. We scale to your project requirements with short notice."
-      }
-    ],
     "independence": "We supply crews to contractors, and we represent plant owners. We never do both on the same site.",
     "crews_eyebrow": "For contractors",
     "crews_title": "Reactor Crew Services",
@@ -97,6 +71,10 @@
         "loc": "Rotterdam, Netherlands"
       },
       {
+        "name": "Lavera Refinery & Petrochemical Complex",
+        "loc": "Martigues, France"
+      },
+      {
         "name": "ORLEN Lietuva Refinery",
         "loc": "Mazeikiai, Lithuania"
       },
@@ -135,7 +113,7 @@
     "page_title": "About Us",
     "title": "GEMBA Industrial Services",
     "p1": "GEMBA Industrial Services is a specialist division of GEMBA EOOD providing certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe.",
-    "p2": "Our team brings over 10 years of combined field experience, including 5 years each as full-time employees with NICO Industrial Services UK and Mourik — two of Europe's leading industrial service companies. We hold official reference letters from Mourik confirming the quality of our work.",
+    "p2": "Our team brings over 10 years of combined field experience, including 5 years each as full-time employees of two of Europe's leading industrial service companies. We hold official written references confirming the quality of our work.",
     "p3": "Our core crew of 4 BA-qualified specialists holds European-certified qualifications in Confined Space Entry, Rigging, and Forklift operation. We are fully fluent in English and operate to the highest HSE standards on every project, scalable to 12 personnel on demand.",
     "certs": [
       "Confined Space Entry",
@@ -143,14 +121,17 @@
       "Forklift Certified",
       "BA Entry Team",
       "SCC/VCA (TÜV Rheinland)",
-      "Mourik Reference"
+      "Written References"
     ],
     "countries": [
       "🇧🇬 Bulgaria",
+      "🇳🇴 Norway",
+      "🇮🇪 Ireland",
       "🇬🇧 United Kingdom",
-      "🇱🇹 Lithuania",
+      "🇫🇷 France",
       "🇳🇱 Netherlands",
       "🇩🇪 Germany",
+      "🇱🇹 Lithuania",
       "🇫🇮 Finland",
       "🇦🇹 Austria",
       "🇷🇴 Romania",
@@ -167,7 +148,7 @@
     "leadership": "Leadership",
     "name": "Slavcho Ivanov",
     "role": "Managing Director & Lead Reactor Specialist",
-    "bio": "Over 10 years of hands-on experience in catalyst changeout operations and reactor servicing at major European refineries including Shell, ExxonMobil, BP, Neste, and ORLEN. SCC/VCA certified (TÜV Rheinland), BA/N2 inert entry qualified, with certifications in confined space operations, crane operation, rigging, and forklift handling. Previously employed by NICO Industrial Services UK and Mourik.",
+    "bio": "Over 10 years of hands-on experience in catalyst changeout and reactor servicing at major European refineries including Shell, ExxonMobil, BP, Neste, ORLEN and Lavera. Has led reactor crews on site as supervisor and shift lead: planning the sequence, manning and equipment, coordinating with unit owners and turnaround managers, and running the shift on the vessel. Hands-on across the full catalyst handling chain — inert entry and life support systems, breathing air and rescue, vacuum units, screening plant, sock and dense loading, vessel internals and box-up. SCC/VCA certified (TÜV Rheinland), BA/N2 inert entry qualified, with certifications in confined space operations, crane operation, rigging and forklift handling. Deployed across Norway, Ireland, the United Kingdom, France, the Netherlands, Germany, Lithuania, Finland, Austria and Romania.",
     "tagline": "Leading from the front — inside the reactor, not behind a desk."
   },
   "careers": {
@@ -280,7 +261,7 @@
       },
       {
         "title": "Referenced",
-        "desc": "Officially recommended by Mourik, with reference letters on file. Over ten years of combined experience at Europe's largest refineries."
+        "desc": "Officially recommended by industry leaders, with written references on file. Over ten years of combined experience at Europe's largest refineries."
       },
       {
         "title": "Compliant across borders",

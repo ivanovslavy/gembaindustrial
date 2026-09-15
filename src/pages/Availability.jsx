@@ -12,13 +12,11 @@ const PERIODS = [
   { from: '2026-02-22', to: '2026-04-22', status: 'booked' },
   { from: '2026-04-26', to: '2026-06-10', status: 'booked' },
   { from: '2026-08-26', to: '2026-09-03', status: 'booked' },
-  { from: '2026-09-07', to: '2026-09-20', status: 'booked' },
-  { from: '2026-09-26', to: '2026-11-06', status: 'booked' },
-  { from: '2026-11-15', to: '2026-11-28', status: 'booked' },
   { from: '2026-09-04', to: '2026-09-06', status: 'unavailable' },
-  { from: '2026-09-21', to: '2026-09-25', status: 'unavailable' },
-  { from: '2026-11-07', to: '2026-11-14', status: 'unavailable' },
-  { from: '2026-11-29', to: '2026-12-31', status: 'unavailable' },
+  { from: '2026-09-07', to: '2026-09-28', status: 'booked' },
+  { from: '2026-09-29', to: '2026-09-30', status: 'unavailable' },
+  { from: '2026-10-01', to: '2026-11-30', status: 'booked' },
+  { from: '2026-12-01', to: '2026-12-31', status: 'unavailable' },
   { from: '2027-02-15', to: '2027-03-14', status: 'booked' },
 ];
 

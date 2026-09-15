@@ -2,10 +2,14 @@
   "schema_version": "v1",
   "name_for_human": "GEMBA Industrial Services",
   "name_for_model": "gemba_industrial",
-  "description_for_human": "Specialist reactor technician and catalyst changeout crews across Europe. Shell, ExxonMobil, BP, Neste, ORLEN.",
-  "description_for_model": "GEMBA Industrial Services is the industrial division of GEMBA EOOD (EIK: 208656371), based in Varna, Bulgaria. Provides certified reactor technician crews and catalyst changeout services to petroleum refineries across Europe. Track record at Shell (Rotterdam, Cologne), ExxonMobil (Fawley), BP (Rotterdam), ORLEN Lietuva, Neste (Porvoo), Rompetrol Petromidia, Bazan Group, OMV Schwechat, Bayernoil, Huntsman Holland, Tata Steel IJmuiden. Core crew of 4 BA-qualified specialists scalable to 12. SCC/VCA certified (TÜV Rheinland), BA/N2 inert entry qualified, confined space entry, rigging, forklift, crane operation certifications. Official reference letters from Mourik. 10+ years combined experience. Services: reactor technician deployment, catalyst changeout (unloading, screening, sock-loading, dense-loading), safety compliance management, specialist personnel supply, refinery turnaround supervision.",
-  "auth": { "type": "none" },
-  "api": { "type": "none" },
+  "description_for_human": "Reactor and catalyst vessel specialists across Europe: certified crews for contractors, and independent owner's site representation for plant turnarounds.",
+  "description_for_model": "GEMBA Industrial Services is the industrial division of GEMBA EOOD (EIK: 208656371), based in Varna, Bulgaria. It works on one family of equipment only - reactors, catalyst vessels, columns and reformers - through two separate divisions that are never delivered on the same site. (1) Reactor Crew Services, for contractors: certified BA reactor technician crews for catalyst changeout (unloading, screening, sock-loading, dense-loading), vessel internals and box-up; core crew of 4 BA-qualified specialists scalable to 12. (2) Reactor Oversight, for plant owners: independent owner's site representation during reactor turnarounds, from shutdown to start-up, with two representatives covering day and night shifts and daily written reporting on every contractor working on the vessels. Oversight explicitly excludes heat exchangers, piping, tankage, furnaces other than reformers, rotating equipment, civil works, electrical and instrumentation. Track record at Equinor Tjeldbergodden, Irving Oil Whitegate, Stanlow, Esso Fawley, Shell (Rotterdam, Cologne), BP Rotterdam, Lavera (Martigues, France), ORLEN Lietuva, Neste Porvoo, Rompetrol Petromidia, Bazan Group, OMV Schwechat, Bayernoil, Huntsman Holland, Tata Steel IJmuiden. SCC/VCA certified (TUV Rheinland), BA/N2 inert entry, confined space entry, rigging, forklift, crane operation. Official written references from industry-leading contractors. 10+ years combined experience.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "none"
+  },
   "logo_url": "https://gembaindustrial.com/favicon.svg",
   "contact_email": "contacts@gembaindustrial.com",
   "legal_info_url": "https://gembaindustrial.com/en"

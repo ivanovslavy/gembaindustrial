@@ -15,7 +15,7 @@
     "title1": "Reactores y",
     "title_accent": "recipientes de catalizador",
     "title2": "Nada más.",
-    "subtitle": "Técnicos industriales certificados y experimentados con más de 10 años de experiencia combinada. Recomendados por líderes de la industria incluyendo NICO Industrial Services y Mourik. Suministramos equipos de reactor a contratistas y representamos a propietarios de plantas durante las paradas de reactores.",
+    "subtitle": "Técnicos industriales certificados y experimentados con más de 10 años de experiencia combinada. Con la confianza de líderes del sector y sus cartas de referencia. Suministramos equipos de reactor a contratistas y representamos a propietarios de plantas durante las paradas de reactores.",
     "cta": "Nuestros servicios",
     "cta2": "Contáctenos",
     "cta3": "Supervisión de reactores"
@@ -29,32 +29,6 @@
   "services": {
     "page_title": "Servicios",
     "subtitle": "Dos divisiones, una familia de equipos: reactores, recipientes de catalizador, columnas y reformadores.",
-    "items": [
-      {
-        "title": "Técnicos de reactores",
-        "desc": "Técnicos certificados desplegados en refinerías de petróleo en Europa, operando bajo los más estrictos procedimientos HSE."
-      },
-      {
-        "title": "Cambio de catalizadores",
-        "desc": "Operaciones completas de cambio de catalizadores — descarga, cribado, carga — ejecutadas con precisión y cumplimiento total."
-      },
-      {
-        "title": "Seguridad y cumplimiento",
-        "desc": "Nuestro equipo posee certificaciones europeas en entrada a espacios confinados, aparejo y carretillas elevadoras."
-      },
-      {
-        "title": "Personal especializado",
-        "desc": "Equipo base de 4 especialistas BA con contratos permanentes, escalable hasta 12 personas bajo demanda. Inglés fluido."
-      },
-      {
-        "title": "Certificados y experimentados",
-        "desc": "Oficialmente recomendados por Mourik con cartas de referencia. 10+ años de experiencia en las refinerías más grandes del mundo."
-      },
-      {
-        "title": "Escalables y flexibles",
-        "desc": "Desde soporte con un solo técnico hasta movilización completa del equipo en Europa. Nos adaptamos a sus requisitos."
-      }
-    ],
     "independence": "Suministramos equipos a contratistas y representamos a propietarios de plantas. Nunca hacemos ambas cosas en la misma planta.",
     "crews_eyebrow": "Para contratistas",
     "crews_title": "Equipos de reactor",
@@ -97,6 +71,10 @@
         "loc": "Rotterdam, Países Bajos"
       },
       {
+        "name": "Lavera Refinery & Petrochemical Complex",
+        "loc": "Martigues, Francia"
+      },
+      {
         "name": "ORLEN Lietuva Refinery",
         "loc": "Mazeikiai, Lituania"
       },
@@ -135,7 +113,7 @@
     "page_title": "Sobre nosotros",
     "title": "GEMBA Industrial Services",
     "p1": "GEMBA Industrial Services es una división especializada de GEMBA EOOD que proporciona equipos certificados de técnicos de reactores y servicios de cambio de catalizadores para refinerías en Europa.",
-    "p2": "Nuestro equipo aporta más de 10 años de experiencia combinada, incluyendo 5 años como empleados de NICO Industrial Services UK y Mourik. Contamos con cartas de referencia oficiales de Mourik.",
+    "p2": "Nuestro equipo aporta más de 10 años de experiencia combinada, incluyendo 5 años como empleados a tiempo completo de dos de las principales empresas de servicios industriales de Europa. Contamos con cartas de referencia oficiales que avalan la calidad de nuestro trabajo.",
     "p3": "Nuestro equipo base de 4 especialistas BA posee cualificaciones europeas en espacios confinados, aparejo y carretillas. Dominamos el inglés y operamos bajo los más altos estándares HSE, escalable a 12 personas.",
     "certs": [
       "Espacios confinados",
@@ -143,14 +121,17 @@
       "Carretillas certificadas",
       "Equipo BA",
       "SCC/VCA (TÜV Rheinland)",
-      "Referencia Mourik"
+      "Cartas de referencia"
     ],
     "countries": [
       "🇧🇬 Bulgaria",
+      "🇳🇴 Noruega",
+      "🇮🇪 Irlanda",
       "🇬🇧 Reino Unido",
-      "🇱🇹 Lituania",
+      "🇫🇷 Francia",
       "🇳🇱 Países Bajos",
       "🇩🇪 Alemania",
+      "🇱🇹 Lituania",
       "🇫🇮 Finlandia",
       "🇦🇹 Austria",
       "🇷🇴 Rumanía",
@@ -167,7 +148,7 @@
     "leadership": "Liderazgo",
     "name": "Slavcho Ivanov",
     "role": "Director General y Especialista Principal en Reactores",
-    "bio": "Más de 10 años de experiencia práctica en operaciones de cambio de catalizadores en grandes refinerías europeas incluyendo Shell, ExxonMobil, BP, Neste y ORLEN. Certificado SCC/VCA (TÜV Rheinland), cualificación BA/N2. Anteriormente empleado de NICO Industrial Services UK y Mourik.",
+    "bio": "Más de 10 años de experiencia práctica en cambio de catalizadores y servicio de reactores en grandes refinerías europeas, incluyendo Shell, ExxonMobil, BP, Neste, ORLEN y Lavera. Ha dirigido equipos de reactor en obra como supervisor y jefe de turno: planificación de la secuencia, dotación y equipos, coordinación con responsables de unidad y jefes de parada, y conducción del turno sobre el recipiente. Experiencia directa en toda la cadena de manipulación de catalizador — entrada inerte y sistemas de soporte vital, aire respirable y rescate, unidades de vacío, plantas de cribado, carga por manga y densa, internos de recipiente y cierre. Certificado SCC/VCA (TÜV Rheinland), cualificación BA/N2 para entrada inerte, con certificaciones en espacios confinados, grúa, aparejo y carretilla elevadora. Ha trabajado en Noruega, Irlanda, Reino Unido, Francia, Países Bajos, Alemania, Lituania, Finlandia, Austria y Rumanía.",
     "tagline": "Liderando desde el frente — dentro del reactor, no detrás de un escritorio."
   },
   "careers": {
@@ -280,7 +261,7 @@
       },
       {
         "title": "Con referencias",
-        "desc": "Recomendados oficialmente por Mourik, con cartas de referencia. Más de diez años de experiencia combinada en las mayores refinerías de Europa."
+        "desc": "Recomendados oficialmente por líderes del sector, con cartas de referencia. Más de diez años de experiencia combinada en las mayores refinerías de Europa."
       },
       {
         "title": "En regla a través de fronteras",

@@ -32,7 +32,7 @@ Independent owner's site representation during reactor turnarounds. Two represen
 **Independence rule:** GEMBA does not accept an oversight assignment on any site where the contractor being overseen is a company GEMBA works for. Crew supply and oversight are never delivered on the same site.
 
 ## Track Record
-Our technicians have worked on reactors and catalyst vessels at: Equinor Tjeldbergodden Methanol Plant (Kjørsvikbugen, Norway), Irving Oil Whitegate Refinery (Co. Cork, Ireland), Stanlow Manufacturing Complex (Ellesmere Port, UK), Esso Fawley Refinery (Southampton, UK), Shell Energy & Chemicals Park (Rotterdam, Netherlands), Shell Rheinland Refinery Godorf (Cologne, Germany), BP Rotterdam Refinery (Netherlands), ORLEN Lietuva (Mazeikiai, Lithuania), Neste Porvoo Refinery (Finland), Rompetrol Petromidia (Constanta, Romania), Bazan Group Refinery (Haifa, Israel), OMV Schwechat Refinery (Austria), Bayernoil Refinery (Bavaria, Germany), Huntsman Holland BV (Rotterdam, Netherlands), Tata Steel IJmuiden (Netherlands).
+Our technicians have worked on reactors and catalyst vessels at: Equinor Tjeldbergodden Methanol Plant (Kjørsvikbugen, Norway), Irving Oil Whitegate Refinery (Co. Cork, Ireland), Stanlow Manufacturing Complex (Ellesmere Port, UK), Esso Fawley Refinery (Southampton, UK), Shell Energy & Chemicals Park (Rotterdam, Netherlands), Shell Rheinland Refinery Godorf (Cologne, Germany), BP Rotterdam Refinery (Netherlands), Lavera Refinery and Petrochemical Complex (Martigues, France), ORLEN Lietuva (Mazeikiai, Lithuania), Neste Porvoo Refinery (Finland), Rompetrol Petromidia (Constanta, Romania), Bazan Group Refinery (Haifa, Israel), OMV Schwechat Refinery (Austria), Bayernoil Refinery (Bavaria, Germany), Huntsman Holland BV (Rotterdam, Netherlands), Tata Steel IJmuiden (Netherlands).
 
 Refinery and plant operators our technicians have worked for include Shell, BP, ExxonMobil, Equinor, Neste, OMV, Irving Oil and Essar.
 
@@ -43,7 +43,7 @@ We publish a live availability calendar showing which periods our crews are alre
 - Client and site identities of current assignments are not published; only the dates are shown.
 
 ## Certifications
-SCC/VCA (TÜV Rheinland), BA/N2 inert entry, Confined Space Entry, Rigging, Forklift, Crane Operation, current medicals. Official reference letters from Mourik.
+SCC/VCA (TÜV Rheinland), BA/N2 inert entry, Confined Space Entry, Rigging, Forklift, Crane Operation, current medicals. Official written references from industry-leading contractors.
 
 ## Key Pages
 - Services overview: https://gembaindustrial.com/en/services
