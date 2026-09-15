@@ -158,9 +158,9 @@ const pages = {
       es: 'Contacto — Servicios de reactor y cambio de catalizadores | GEMBA Industrial',
     },
     description: {
-      en: 'Get in touch for reactor technician and catalyst changeout services. Varna, Bulgaria. +359 897 598 378.',
-      bg: 'Свържете се с нас за услуги за реакторни техници и подмяна на катализатори. Варна, България.',
-      es: 'Contáctenos para servicios de técnico de reactor y cambio de catalizadores. Varna, Bulgaria.',
+      en: 'Get in touch about reactor crews or independent oversight of your reactor turnaround. Varna, Bulgaria, working across Europe.',
+      bg: 'Свържете се с нас за реакторни екипи или независим надзор на реакторен ремонт. Варна, България, работим в цяла Европа.',
+      es: 'Contáctenos para equipos de reactor o supervisión independiente de paradas de reactores. Varna, Bulgaria, trabajamos en toda Europa.',
     },
   },
 };

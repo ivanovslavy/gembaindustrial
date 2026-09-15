@@ -183,14 +183,8 @@
   "contact": {
     "page_title": "Contacto",
     "title": "¿Listos para trabajar juntos?",
-    "subtitle": "¿Busca técnicos de reactor o un equipo completo para cambio de catalizadores? Contáctenos.",
-    "email_label": "Email",
+    "subtitle": "¿Busca equipos de reactor certificados o supervisión independiente de su parada de reactores? Cuéntenos las unidades, el alcance y las fechas, y le responderemos.",
     "email": "contacts@gembaindustrial.com",
-    "phone_label": "Teléfono",
-    "phone": "+359 897 598 378",
-    "location_label": "Ubicación",
-    "location": "Varna, Bulgaria",
-    "operating": "Desplegando equipos en toda Europa",
     "form": {
       "name": "Tu nombre",
       "email": "Tu email",

@@ -183,14 +183,8 @@
   "contact": {
     "page_title": "Contact",
     "title": "Ready to Work Together?",
-    "subtitle": "Looking for specialist reactor technicians or a complete catalyst changeout crew? Contact us to discuss your project requirements.",
-    "email_label": "Email",
+    "subtitle": "Looking for certified reactor crews, or for independent oversight of your reactor turnaround? Tell us about the units, the scope and the dates, and we will come back to you.",
     "email": "contacts@gembaindustrial.com",
-    "phone_label": "Phone",
-    "phone": "+359 897 598 378",
-    "location_label": "Location",
-    "location": "Varna, Bulgaria",
-    "operating": "Deploying crews across Europe",
     "form": {
       "name": "Your name",
       "email": "Your email",

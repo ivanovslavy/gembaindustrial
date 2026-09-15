@@ -16,8 +16,8 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-3" style={{ fontFamily: 'var(--font-display)' }}>{t('nav.services')}</h4>
             <div className="flex flex-col gap-2">
-              <Link to={`/${lang}/services`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>Reactor Services</Link>
-              <Link to={`/${lang}/services`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>Catalyst Changeout</Link>
+              <Link to={`/${lang}/services/reactor-crews`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>{t('services.crews_title')}</Link>
+              <Link to={`/${lang}/services/reactor-oversight`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>{t('services.oversight_title')}</Link>
               <Link to={`/${lang}/track-record`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>{t('nav.track_record')}</Link>
             </div>
           </div>
@@ -25,7 +25,6 @@ export default function Footer() {
             <h4 className="text-sm font-semibold mb-3" style={{ fontFamily: 'var(--font-display)' }}>{t('nav.contact')}</h4>
             <div className="flex flex-col gap-2">
               <a href={`mailto:${t('contact.email')}`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>{t('contact.email')}</a>
-              <a href={`tel:${t('contact.phone')}`} className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>{t('contact.phone')}</a>
             </div>
           </div>
           <div>
@@ -33,7 +32,6 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <a href="https://gembateam.com" target="_blank" rel="noopener noreferrer" className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>gembateam.com ↗</a>
               <a href="https://gembait.com" target="_blank" rel="noopener noreferrer" className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>GEMBA IT ↗</a>
-              <a href="https://gembapay.com" target="_blank" rel="noopener noreferrer" className="text-sm no-underline" style={{ color: 'var(--text-secondary)' }}>GembaPay ↗</a>
             </div>
           </div>
         </div>
