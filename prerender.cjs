@@ -165,6 +165,15 @@ const pages = {
   },
 };
 
+// A post exists in a locale only if <slug>.<lang>.md is on disk. Without this the
+// prerenderer emits a translated <title> over an English body and tells Google the
+// translation exists. Same rule as generate-sitemap.cjs. (2026-09-15)
+function localesForPost(slug) {
+  return LANGS.filter((l) =>
+    fs.existsSync(path.join(__dirname, 'content', 'blog', `${slug}.${l}.md`))
+  );
+}
+
 // Read blog posts for per-post pages
 let blogPosts = [];
 const postsPath = path.join(__dirname, 'content', 'blog', 'posts.json');
@@ -175,24 +184,49 @@ if (fs.existsSync(postsPath)) {
 const distDir = path.join(__dirname, 'dist');
 // Preserve the build output index.html so re-runs keep reading the real SPA HTML,
 // not the root-redirect shim we write at the end.
-const baseBackupPath = path.join(distDir, 'index.spa.html');
+//
+// This cache MUST stay outside dist/. Everything under dist/ is served by Apache,
+// and this file is a complete duplicate of the homepage carrying the JobPosting
+// JSON-LD that belongs only on /careers. It used to live at dist/index.spa.html
+// and was publicly indexable. (2026-09-15)
+const baseBackupPath = path.join(__dirname, '.prerender-base.html');
 const distIndexPath = path.join(distDir, 'index.html');
-if (!fs.existsSync(baseBackupPath)) {
-  fs.copyFileSync(distIndexPath, baseBackupPath);
+
+const distIndexHtml = fs.readFileSync(distIndexPath, 'utf-8');
+const isRedirectShim = distIndexHtml.includes("window.location.replace('/en')");
+
+if (!isRedirectShim) {
+  // fresh vite output — refresh the cache so it never goes stale after a rebuild
+  fs.writeFileSync(baseBackupPath, distIndexHtml);
+} else if (!fs.existsSync(baseBackupPath)) {
+  throw new Error(
+    'dist/index.html is the redirect shim and no .prerender-base.html exists. Run `vite build` first.'
+  );
 }
+
 const baseHtml = fs.readFileSync(baseBackupPath, 'utf-8');
+
+// remove the legacy copy that used to be written into the served tree
+const legacySpaShell = path.join(distDir, 'index.spa.html');
+if (fs.existsSync(legacySpaShell)) {
+  fs.unlinkSync(legacySpaShell);
+  console.log('  removed legacy dist/index.spa.html (was publicly served)');
+}
 
 function escapeAttr(s) {
   return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
-function renderHead({ lang, canonicalPath, title, description, hreflangBase, article }) {
+function renderHead({ lang, canonicalPath, title, description, hreflangBase, article, langs, noindex }) {
   const canonical = `${BASE_URL}${canonicalPath}`;
-  const altLinks = LANGS.map(
+  const altLangs = langs && langs.length ? langs : LANGS;
+  const altLinks = altLangs.map(
     (l) =>
       `    <link rel="alternate" hreflang="${l}" href="${BASE_URL}/${l}${hreflangBase}" />`
   ).join('\n');
-  const xDefault = `    <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${DEFAULT_LANG}${hreflangBase}" />`;
+  const xDefault = altLangs.includes(DEFAULT_LANG)
+    ? `    <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${DEFAULT_LANG}${hreflangBase}" />`
+    : '';
 
   const ogType = article ? 'article' : 'website';
   const ogImage = article && article.hero
@@ -228,7 +262,7 @@ function renderHead({ lang, canonicalPath, title, description, hreflangBase, art
     <title>${escapeAttr(title)}</title>
     <meta name="description" content="${escapeAttr(description)}" />
     <meta name="author" content="GEMBA Industrial Services" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow'}" />
     <link rel="canonical" href="${canonical}" />
 ${altLinks}
 ${xDefault}
@@ -267,8 +301,8 @@ const jobPostingJsonLd = jsonLdBlocks.filter((b) => /"JobPosting"/.test(b));
 
 const assetsBlock = extractAssetsBlock(baseHtml);
 
-function buildHtml({ lang, canonicalPath, title, description, hreflangBase, includeJobPosting, article, extraJsonLd }) {
-  const head = renderHead({ lang, canonicalPath, title, description, hreflangBase, article });
+function buildHtml({ lang, canonicalPath, title, description, hreflangBase, includeJobPosting, article, extraJsonLd, langs, noindex }) {
+  const head = renderHead({ lang, canonicalPath, title, description, hreflangBase, article, langs, noindex });
   const ld = [...commonJsonLd, ...(includeJobPosting ? jobPostingJsonLd : []), ...(extraJsonLd || [])].join('\n    ');
   return `<!doctype html>
 <html lang="${lang}">
@@ -383,7 +417,9 @@ for (const [pageKey, pageCfg] of Object.entries(pages)) {
 
 // Blog posts
 for (const post of blogPosts) {
+  const postLangs = localesForPost(post.slug);
   for (const lang of LANGS) {
+    const translated = postLangs.includes(lang);
     const canonicalPath = `/${lang}/blog/${post.slug}`;
     const hreflangBase = `/blog/${post.slug}`;
     const title = post.title?.[lang] || post.title?.en || post.slug;
@@ -395,6 +431,8 @@ for (const post of blogPosts) {
       description: excerpt,
       hreflangBase,
       includeJobPosting: false,
+      langs: postLangs,
+      noindex: !translated,
       article: {
         hero: post.hero || null,
         publishedAt: post.date,

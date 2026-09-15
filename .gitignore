@@ -1,4 +1,5 @@
 # deps / build
+.prerender-base.html
 node_modules/
 dist/
 build/
