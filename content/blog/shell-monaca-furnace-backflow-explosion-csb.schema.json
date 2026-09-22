@@ -1,0 +1,65 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Shell Monaca Furnace Explosion: One Digit, Two Open Valves",
+    "description": "CSB's September 2026 final report on the Shell Polymers Monaca furnace explosion: a wrong click on a valve screen, six minutes of backflow, lit pilots, and a contractor in the elevator next door.",
+    "image": "https://gembaindustrial.com/images/blog/shell-monaca-furnace-backflow-explosion-csb/hero.jpg",
+    "datePublished": "2026-09-22",
+    "dateModified": "2026-09-22",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/shell-monaca-furnace-backflow-explosion-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, shell-monaca, ethane-cracker, furnace-explosion, backflow, motor-operated-valve, human-machine-interface, administrative-controls, alarm-suppression, exclusion-zone, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the June 2025 furnace explosion at Shell Polymers Monaca?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to CSB Investigation Report No. 2025-05-I-PA, published 16 September 2026, the cause was the inadvertent simultaneous opening of both 36-inch motor-operated valves that isolated Furnace 5 from the quench tower. On 4 June 2025 a process control engineer, assigned the task for the first time, was trying to open the tower-side valve from a safety-system logic screen. A mode change refreshed the screen to the top, where the furnace-side valve's logic block looked identical except for the last digit of its tag, and the open command went to the wrong valve. Two minutes later the engineer also opened the tower-side valve. With four other furnaces producing cracked gas at about 5 psig and Furnace 5 at atmospheric pressure with its pilots lit, roughly 641 pounds of cracked gas backflowed into the firebox in about two and a half minutes and ignited. The explosion caused about $95 million in damage, evacuated 15 employees, and trapped a contractor in the adjacent elevator; nobody was injured."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did none of Shell's 11 safeguards stop the backflow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB found that all 11 controls Shell relied on were administrative controls: policies, procedures, job aids and operator responses to alarms, all depending on people recognising and acting correctly. On the day, the firebox high-pressure, carbon monoxide and methane alarms were automatically suppressed because the furnace was in pilot-only mode; the MOV unexpected-state alarm had text identical to the expected alarm except for one digit, so the console operator acknowledged it; the written job aid had its steps out of sequence; no safety-system bypass form was completed; and the furnace start-up procedure did not apply because the pilots were already lit. Shell's 2023 process hazard analysis had identified reverse flow into an offline furnace as a potentially fatal explosion but judged engineered controls 'grossly disproportional to the risk reduction'. The licensor had supplied a key interlock and a SIL 2 backflow interlock in the local field panel, but the panel was never programmed to remove the double isolation, so those engineered controls were not available."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why was there a contractor in the elevator next to the furnace when it exploded?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Shell's site policy required an exclusion zone, removing non-essential personnel, during start-ups and abnormal situations. The CSB report states that 'transitioning into and out of a maintenance activity is not considered a shutdown, start-up, or abnormal situation. As a result, no exclusion zone was initiated.' Returning Furnace 5 from its coke trap cleaning, with pilots lit and a control engineer overriding the safety system to move valves, fell into that gap. There were 529 contractors and 351 Shell employees on site that day; a craftsman was in the ethane cracking unit elevator next to Furnace 5 and had to be rescued, and other employees were around Furnaces 4, 5 and 6. For contractor crews the lesson is to ask what mode neighbouring equipment is in and who is moving its valves, and to treat a furnace with lit pilots coming out of maintenance as a start-up whether or not the site classifies it that way."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the CSB recommend after the Shell Monaca furnace explosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CSB issued two recommendations to Shell Polymers Monaca. First, review the ethane cracking unit process hazard analysis to identify every process deviation addressed solely with administrative controls, and implement an inherently safer design or an engineered control for any scenario that could cause a fatality, serious injury or substantial property damage. Second, based on licensor input and standards such as ANSI/ISA-61511-2-2018 / IEC 61511-2:2016, implement and maintain an engineered control that prevents backflow of cracked gas into a furnace during all modes of furnace operation. Shell has already reprogrammed the Furnace 5 field panel so operators can open and close all three MOVs from the field, added safety-system logic that keeps the tower-side valve closed if the furnace-side valve is opened by mistake, and issued a written 'Recovery from Double Isolation Maintenance' procedure. The report's four key lessons for industry cover controlling ignition sources such as lit pilots during maintenance, not suppressing safety-critical alarms without analysing each operating mode, not relying solely on administrative controls for potentially fatal scenarios, and designing HMIs with feedback and confirmation steps so users cannot select the wrong valve with a single click."
+        }
+      }
+    ]
+  }
+}

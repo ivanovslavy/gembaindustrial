@@ -1,5 +1,46 @@
 [
   {
+    "slug": "shell-monaca-furnace-backflow-explosion-csb",
+    "date": "2026-09-22",
+    "lastUpdated": "2026-09-22",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "shell-monaca",
+      "ethane-cracker",
+      "furnace-explosion",
+      "backflow",
+      "motor-operated-valve",
+      "human-machine-interface",
+      "administrative-controls",
+      "alarm-suppression",
+      "exclusion-zone",
+      "contractors"
+    ],
+    "title": {
+      "en": "Shell Monaca Furnace Explosion: One Digit, Two Open Valves",
+      "bg": "Експлозията в Shell Monaca: Една цифра, два отворени клапана",
+      "es": "Explosión en Shell Monaca: Un dígito, dos válvulas abiertas"
+    },
+    "excerpt": {
+      "en": "CSB's September 2026 final report on the Shell Polymers Monaca furnace explosion: a wrong click on a valve screen, six minutes of backflow, lit pilots, and a contractor in the elevator next door.",
+      "bg": "Окончателният доклад на CSB от септември 2026 г. за експлозията на пещ в Shell Polymers Monaca: грешен клик на екран с клапани, шест минути обратен поток, запалени пилотни горелки и изпълнител в съседния асансьор.",
+      "es": "El informe final de la CSB de septiembre de 2026 sobre la explosión de un horno en Shell Polymers Monaca: un clic equivocado en una pantalla de válvulas, seis minutos de retroceso, pilotos encendidos y un contratista en el ascensor de al lado."
+    },
+    "readingTime": 12,
+    "hero": "/images/blog/shell-monaca-furnace-backflow-explosion-csb/hero.jpg",
+    "heroRetina": "/images/blog/shell-monaca-furnace-backflow-explosion-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/assets/1/6/Shell_Investigation_Report_Publication.pdf",
+    "source_type": "csb_investigation",
+    "source_date": "2026-09-16",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2660,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "catalyst-refiners-h2s-update-p100-filter-csb",
     "date": "2026-09-15",
     "lastUpdated": "2026-09-15",
