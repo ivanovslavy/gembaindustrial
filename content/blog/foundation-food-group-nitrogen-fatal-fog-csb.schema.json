@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Fatal Fog: Six Died in a Room That Was Not a Confined Space",
+    "description": "CSB report 2021-03-I-GA on the Foundation Food Group liquid nitrogen release: a bent level tube, fog everyone ignored, ten E-stops inside the room, and 14 people who went in to help.",
+    "image": "https://gembaindustrial.com/images/blog/foundation-food-group-nitrogen-fatal-fog-csb/hero.webp",
+    "datePublished": "2026-09-29",
+    "dateModified": "2026-09-29",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/foundation-food-group-nitrogen-fatal-fog-csb",
+    "articleSection": "Safety & Compliance",
+    "keywords": "csb, nitrogen-asphyxiation, liquid-nitrogen, foundation-food-group, oxygen-deficient-atmosphere, emergency-stop, atmospheric-monitoring, inert-entry, breathing-apparatus, catalyst-changeout, rescue, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the January 2021 liquid nitrogen release at Foundation Food Group?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to CSB Investigation Report No. 2021-03-I-GA, published December 2023, the cause was the failure of the immersion freezer's liquid level control system, which resulted from a bent bubbler tube. The bubbler tube was the single sensor used both by the level controller and by the high-level safety interlock. Once it was bent above the overflow line, the controller read no liquid, called for maximum nitrogen flow, and the high-level trip never activated. Liquid nitrogen overflowed the freezer into a partially enclosed, unventilated room on 28 January 2021 in Gainesville, Georgia. The CSB could not determine exactly how or when the tube was bent, but concluded it happened during maintenance troubleshooting between about 8:20 and 9:30 a.m. that morning. Contributing factors included the freezer design that allowed a single component failure to cause an uncontrolled release, the plant's lack of any process safety management practices, the absence of regulatory coverage for liquid nitrogen, and the gas supplier's continued supply despite known safety deficiencies at the customer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did six people die if only two were in the freezer room when the release started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The two maintenance workers troubleshooting the freezer were asphyxiated first. Their bodies went undetected for 30 to 60 minutes because workers who saw white fog coming from the room assumed it was normal; one employee told the CSB that fog was regularly observed there. Once a worker found the first victim, the plant began evacuating by word of mouth, and at least 14 employees, about one in ten people on site, went towards the freezer room or the adjacent shipping and clean rooms to investigate or attempt a rescue. Four of them died from asphyxiation and three were seriously injured. The CSB found that the plant had no atmospheric monitoring or alarm, no warning signage, no rescue equipment such as SCBA, an emergency action plan that never mentioned nitrogen and was written only in English at a largely Spanish-speaking plant, and had never instructed employees not to respond to an emergency. The CSB concluded that with effective emergency preparedness the four additional fatalities and three of the four serious injuries could have been prevented."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does the CSB say the emergency stop placement at Foundation Food Group was unsafe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Line 4 freezer had ten E-stop buttons, any of which would have shut down the freezers and closed the nitrogen supply valves. All ten were inside the freezer room, on the freezers themselves or on the control panels. The CSB concluded that this placement required anyone responding to a release to enter the oxygen-deficient atmosphere to press a stop, and stated plainly that 'this design was unsafe'. During the incident the release was stopped only at about 10:15 a.m. when the maintenance manager, who had himself nearly fainted trying to rescue a colleague, walked to the bulk storage tanks outside the far end of the building and closed the discharge valves by hand. The first E-stop was pressed at 10:36 a.m. by a firefighter wearing SCBA. The CSB cites ISO 13850, which requires emergency stop devices at entrance and exit locations and positioned for non-hazardous actuation, and recommends that Messer verify E-stop siting so devices can be safely actuated during a release. For contractors working with nitrogen, the lesson is to identify before line-up where the flow can be stopped and whether the standby can reach that point without crossing the hazard area."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a catalyst changeout crew take from the Foundation Food Group nitrogen incident?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reactor catalyst changeouts deliberately put the vessel under nitrogen, and the entry permit, attendant and rescue plan cover the people inside on breathing apparatus. The Foundation Food Group case is about the people outside the vessel. Cold nitrogen from a vaporiser is heavier than air and flows into pipe trenches, sumps, reactor skirts and temporary tented enclosures, none of which appear on a confined space permit. The white fog marks only the cold, moist part of the gas, not its full extent, and a site where fog is a routine sight has a crew trained to ignore it. Practical steps: fit every crew member on the platform, not only the entrants, with a personal oxygen alarm set at 19.5 percent; install a fixed oxygen sensor with a horn and light at the lowest point near the vent or trench; walk the nitrogen path with the operator before line-up and confirm the standby can isolate the supply without entering the affected area; and deliver the toolbox talk in the crew's own language with an explicit instruction that nobody attempts a rescue without breathing apparatus. The CSB also recommends companies handling cryogenic asphyxiants follow CGA P-76 on signage and restricted access and CGA P-86 on process safety management."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is liquid nitrogen covered by OSHA's process safety management standard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The CSB report notes that nitrogen is not a highly hazardous chemical listed under OSHA's Process Safety Management standard (29 CFR 1910.119) or EPA's Risk Management Program, so Foundation Food Group was not legally required to conduct a process hazard analysis, write operating procedures, manage changes, or train workers on the asphyxiation hazard before starting the nitrogen freezer. The plant did none of these, and the CSB identified the lack of regulatory coverage for cryogenic asphyxiants as a contributing cause. The CSB issued recommendations to OSHA, including updating its poultry processing emphasis program to cover liquid nitrogen freezing and evaluating broader coverage of asphyxiant hazards, and to the Compressed Gas Association, NFPA and the International Code Council to strengthen guidance on atmospheric monitoring and ventilation. Its key lesson for industry is that regulations are minimum requirements and process safety practices are needed wherever hazardous chemicals are used, regardless of whether the law demands them."
+        }
+      }
+    ]
+  }
+}

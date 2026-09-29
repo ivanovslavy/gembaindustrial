@@ -1,5 +1,47 @@
 [
   {
+    "slug": "foundation-food-group-nitrogen-fatal-fog-csb",
+    "date": "2026-09-29",
+    "lastUpdated": "2026-09-29",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "csb",
+      "nitrogen-asphyxiation",
+      "liquid-nitrogen",
+      "foundation-food-group",
+      "oxygen-deficient-atmosphere",
+      "emergency-stop",
+      "atmospheric-monitoring",
+      "inert-entry",
+      "breathing-apparatus",
+      "catalyst-changeout",
+      "rescue",
+      "contractors"
+    ],
+    "title": {
+      "en": "Fatal Fog: Six Died in a Room That Was Not a Confined Space",
+      "bg": "Смъртоносна мъгла: шестима загинаха в стая, която не беше затворено пространство",
+      "es": "Niebla mortal: seis muertos en una sala que no era un espacio confinado"
+    },
+    "excerpt": {
+      "en": "CSB report 2021-03-I-GA on the Foundation Food Group liquid nitrogen release: a bent level tube, fog everyone ignored, ten E-stops inside the room, and 14 people who went in to help.",
+      "bg": "Доклад 2021-03-I-GA на CSB за изтичането на течен азот във Foundation Food Group: огъната тръба за ниво, мъгла, която всички пренебрегваха, десет аварийни стопа вътре в стаята и 14 души, които влязоха да помогнат.",
+      "es": "Informe 2021-03-I-GA de la CSB sobre la fuga de nitrógeno líquido en Foundation Food Group: un tubo de nivel doblado, una niebla que todos ignoraban, diez paradas de emergencia dentro de la sala y 14 personas que entraron a ayudar."
+    },
+    "readingTime": 12,
+    "hero": "/images/blog/foundation-food-group-nitrogen-fatal-fog-csb/hero.webp",
+    "heroRetina": "/images/blog/foundation-food-group-nitrogen-fatal-fog-csb/hero@2x.webp",
+    "source_url": "https://www.csb.gov/assets/1/20/ffg_investigation_report_publication_copy.pdf",
+    "source_type": "csb_investigation",
+    "source_date": "2026-08-25",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2661,
+    "first_hand_story_used": false,
+    "hero_status": "generated"
+  },
+  {
     "slug": "shell-monaca-furnace-backflow-explosion-csb",
     "date": "2026-09-22",
     "lastUpdated": "2026-09-22",
