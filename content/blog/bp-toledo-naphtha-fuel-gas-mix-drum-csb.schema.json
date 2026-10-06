@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Drain It As Fast As You Can: BP Toledo's Naphtha Lesson",
+    "description": "CSB report 2022-01-I-OH on the fatal 2022 BP-Husky Toledo fire: a level instrument changed on a turnaround, 3,712 alarms, a drum everyone thought held amine-water, and a maintenance valve opened to the ground.",
+    "image": "https://gembaindustrial.com/images/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb/hero.jpg",
+    "datePublished": "2026-10-06",
+    "dateModified": "2026-10-06",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb",
+    "articleSection": "On-the-Job Stories",
+    "keywords": "csb, bp-husky-toledo, naphtha, fuel-gas-mix-drum, vessel-overflow, alarm-flood, abnormal-situation-management, stop-work-authority, management-of-change, turnaround, level-instrumentation, refinery-fire, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What caused the September 2022 fatal fire at the BP-Husky Toledo refinery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to CSB Investigation Report No. 2022-01-I-OH, published June 2024, the cause was operators opening valves and removing a blind flange on the pressurised Fuel Gas Mix Drum to release flammable liquid naphtha directly to the ground on 20 September 2022. The naphtha vaporised, formed a cloud, drifted on a shifting wind to the Crude 1 furnace and ignited at 6:46 p.m., fatally burning an outside operator and an operator trainee. The drum normally held only fuel gas. It filled with naphtha because a board operator, trying to lower a high level in the Crude 1 overhead accumulator drum, opened a flow control valve to the Coker Gas Plant's idle Absorber Stripper Tower, which overflowed through an open bypass line into the mix drum at more than 18,700 barrels a day, faster than any drain could remove it. The CSB listed five contributing factors: no effective engineered safeguards against vessel overflow, no decision to shut down or go to hot circulation during a day-long upset, ineffective abnormal situation procedures, an alarm flood of 3,712 alarms in 12 hours, and failure to learn from a near-identical 2019 event."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did the operators think the liquid in the fuel gas mix drum was amine-water and not naphtha?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A fuel gas mix drum normally collects small amounts of amine-water solution knocked out of refinery fuel gas, so that is what the night shift supervisor and outside operators expected when the level alarm came in. The supervisor even told the two operators at the drum to put on self-contained breathing apparatus because amine-water can carry hydrogen sulphide. Nobody in the field knew that a board operator had routed the crude tower's naphtha into the Coker Gas Plant and that it was overflowing into the drum. The instruments did not help: the sight glass and guided wave radar only covered the bottom six feet of a nearly 15-foot drum and were over-range, and the differential-pressure level transmitter was calibrated for amine-water at a relative density of 0.998, so a drum full of naphtha at about 0.72 read only about 67 percent and never reached the high-high alarm. When a bleed on that transmitter was opened, the reading dropped to zero, giving the false impression the drum was emptying. The CSB concluded the two employees may have improvised in real time without being aware of the consequences of releasing naphtha to the ground."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How did the 2022 turnaround contribute to the BP Toledo incident?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "During the refinery's April-to-August 2022 turnaround, the water-phase level instrument on the Crude 1 overhead accumulator drum was changed from a displacer to a guided wave radar using the same vessel connections. The new device was calibrated differently: water now reached the top of the internal naphtha standpipe at an indicated 69 percent instead of 100 percent. The management-of-change was communicated before start-up, but the CSB found the communication did not include that the level would read differently than before. About six weeks later, on the night of 19 September 2022, the water level sat at 69 percent on the screen while water carried over into the naphtha stream, starting the chain of upsets that ended in the fatal fire. Separately, the two-inch gate valve the operators opened to release naphtha to the ground was a steam-out connection intended only for maintenance or turnaround use and normally kept closed with a bolted blind flange. For contractors, the lessons are to state plainly in handover notes when a replaced instrument reads differently, and to make sure blinded maintenance connections are tagged so they are not mistaken for drains."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is an alarm flood and how bad was it on the day of the BP Toledo fire?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An alarm flood is a situation in which more alarms are arriving than one console operator can process. BP's own alarm philosophy, following EEMUA 191 and ANSI/ISA-18.2 guidance, defined it as more than 10 alarms in 10 minutes. On 20 September 2022 the Crude 1 console, which also covered the vacuum unit, naphtha hydrotreater, gas plants, fuel gas mix drum and west flare, was above that threshold from about 7:00 a.m. until after the fire, with only two ten-minute exceptions. Between 6:50 a.m. and 6:49 p.m. it recorded 3,712 alarms, an average of 254.5 an hour. On the night shift the rate was between 24 and 281 alarms every ten minutes. In the seven minutes between the mix drum high level alarm at 6:10 p.m. and the radio call to the field at 6:17 p.m., 55 alarms came in, roughly one every nine seconds. The CSB concluded the flood overwhelmed and distracted the board operators and delayed critical responses, and recommended that the refinery and the ISA measure alarm flood performance per event rather than as a monthly average."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What did the CSB say about stop work authority and what does it mean for contractor crews?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The BP Toledo refinery had a written procedure stating that all BP refinery employees and all contractor employees have the right and the responsibility to stop any work that may be unsafe, and some operating procedures gave qualified operators authority to shut the unit down. The CSB found that nobody invoked it on the day despite an outside operator asking repeatedly on the radio for someone to make a call while a relief valve chattered, despite an afternoon meeting that considered shutdown and hot circulation but did neither, and despite a night shift board operator describing the situation as a normal upset. The CSB's key lesson is that companies must make sure employees are not only empowered to use stop work authority but understand they are expected to, especially during abnormal situations and alarm floods, while also warning that it is a last-resort human action and not a substitute for engineered safeguards. For contractor crews, the practical lesson is that a plant in a prolonged upset, with relief valves lifting and stacks smoking, is a hazard to anyone on site regardless of what their permit covers, and crews should set their own trigger for pulling back lower than the site's."
+        }
+      }
+    ]
+  }
+}

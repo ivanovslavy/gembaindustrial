@@ -313,6 +313,34 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb"/>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gembaindustrial.com/en/blog/foundation-food-group-nitrogen-fatal-fog-csb</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/foundation-food-group-nitrogen-fatal-fog-csb"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/foundation-food-group-nitrogen-fatal-fog-csb"/>

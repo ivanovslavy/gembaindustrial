@@ -1,5 +1,48 @@
 [
   {
+    "slug": "bp-toledo-naphtha-fuel-gas-mix-drum-csb",
+    "date": "2026-10-06",
+    "lastUpdated": "2026-10-06",
+    "author": "GEMBA Industrial crew",
+    "category": "On-the-Job Stories",
+    "cluster": "on-the-job",
+    "tags": [
+      "csb",
+      "bp-husky-toledo",
+      "naphtha",
+      "fuel-gas-mix-drum",
+      "vessel-overflow",
+      "alarm-flood",
+      "abnormal-situation-management",
+      "stop-work-authority",
+      "management-of-change",
+      "turnaround",
+      "level-instrumentation",
+      "refinery-fire",
+      "contractors"
+    ],
+    "title": {
+      "en": "Drain It As Fast As You Can: BP Toledo's Naphtha Lesson",
+      "bg": "Източете го колкото може по-бързо: урокът с нафтата в BP Toledo",
+      "es": "Drenadlo tan rápido como podáis: la lección de la nafta en BP Toledo"
+    },
+    "excerpt": {
+      "en": "CSB report 2022-01-I-OH on the fatal 2022 BP-Husky Toledo fire: a level instrument changed on a turnaround, 3,712 alarms, a drum everyone thought held amine-water, and a maintenance valve opened to the ground.",
+      "bg": "Доклад 2022-01-I-OH на CSB за смъртоносния пожар в BP-Husky Toledo през 2022 г.: нивомер, сменен по време на ремонт, 3712 аларми, барабан, за който всички мислеха, че съдържа аминово-воден разтвор, и ремонтен кран, отворен към земята.",
+      "es": "Informe 2022-01-I-OH de la CSB sobre el incendio mortal de 2022 en BP-Husky Toledo: un instrumento de nivel cambiado en una parada, 3.712 alarmas, un tambor que todos creían lleno de amina-agua y una válvula de mantenimiento abierta al suelo."
+    },
+    "readingTime": 18,
+    "hero": "/images/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb/hero.jpg",
+    "heroRetina": "/images/blog/bp-toledo-naphtha-fuel-gas-mix-drum-csb/hero@2x.jpg",
+    "source_url": "https://www.csb.gov/assets/1/6/final_report_-_20241.pdf",
+    "source_type": "csb_investigation",
+    "source_date": "2026-09-30",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 4040,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "foundation-food-group-nitrogen-fatal-fog-csb",
     "date": "2026-09-29",
     "lastUpdated": "2026-09-29",
