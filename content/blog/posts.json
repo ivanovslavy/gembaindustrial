@@ -1,5 +1,48 @@
 [
   {
+    "slug": "motor-oil-corinth-refinery-cover-explosion-contractors",
+    "date": "2026-10-13",
+    "lastUpdated": "2026-10-13",
+    "author": "GEMBA Industrial crew",
+    "category": "Industry Commentary",
+    "cluster": "industry-commentary",
+    "tags": [
+      "motor-oil-hellas",
+      "agioi-theodoroi",
+      "corinth-refinery",
+      "heat-exchanger",
+      "trapped-pressure",
+      "isolation",
+      "permit-to-work",
+      "hsg253",
+      "line-of-fire",
+      "maintenance",
+      "turnaround",
+      "greece",
+      "contractors"
+    ],
+    "title": {
+      "en": "Two Contractors, One Cover: The Motor Oil Corinth Lesson",
+      "bg": "Двама изпълнители, един капак: Урокът от Motor Oil в Коринт",
+      "es": "Dos contratistas, una tapa: la lección de Motor Oil en Corinto"
+    },
+    "excerpt": {
+      "en": "Two contract workers died after a heat exchanger cover came off under pressure at Motor Oil's Corinth refinery on 9 October 2026. No fire, four arrests, and the minute before the first bolt.",
+      "bg": "Двама работници на изпълнител загинаха, след като капак на топлообменник излетя под налягане в рафинерията на Motor Oil в Коринт на 9 октомври 2026 г. Без пожар, четири ареста и минутата преди първия болт.",
+      "es": "Dos trabajadores contratistas murieron cuando la tapa de un intercambiador salió despedida bajo presión en la refinería de Motor Oil en Corinto el 9 de octubre de 2026. Sin incendio, cuatro detenciones y el minuto antes del primer perno."
+    },
+    "readingTime": 12,
+    "hero": "/images/blog/motor-oil-corinth-refinery-cover-explosion-contractors/hero.jpg",
+    "heroRetina": "/images/blog/motor-oil-corinth-refinery-cover-explosion-contractors/hero@2x.jpg",
+    "source_url": "https://www.hydrocarbonprocessing.com/news/2026/10/two-seriously-injured-in-incident-at-oil-refinery-near-athens/",
+    "source_type": "industry_publication",
+    "source_date": "2026-10-09",
+    "emotional_hook": "what_looked_routine_went_sideways",
+    "word_count": 2300,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "bp-toledo-naphtha-fuel-gas-mix-drum-csb",
     "date": "2026-10-06",
     "lastUpdated": "2026-10-06",

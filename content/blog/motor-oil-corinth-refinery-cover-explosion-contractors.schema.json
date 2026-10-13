@@ -1,0 +1,81 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Two Contractors, One Cover: The Motor Oil Corinth Lesson",
+    "description": "Two contract workers died after a heat exchanger cover came off under pressure at Motor Oil's Corinth refinery on 9 October 2026. No fire, four arrests, and the minute before the first bolt.",
+    "image": "https://gembaindustrial.com/images/blog/motor-oil-corinth-refinery-cover-explosion-contractors/hero.jpg",
+    "datePublished": "2026-10-13",
+    "dateModified": "2026-10-13",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/motor-oil-corinth-refinery-cover-explosion-contractors",
+    "articleSection": "Industry Commentary",
+    "keywords": "motor-oil-hellas, agioi-theodoroi, corinth-refinery, heat-exchanger, trapped-pressure, isolation, permit-to-work, hsg253, line-of-fire, contractors, maintenance, turnaround, greece"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the Motor Oil refinery in Agioi Theodoroi on 9 October 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At about 11:00 on Friday 9 October 2026, during what Motor Oil Hellas described as extensive preventive maintenance at its refinery in Agioi Theodoroi near Corinth, Greece, two workers employed by an outside contractor were seriously injured. Greek media, including the state broadcaster ERT, reported that the crew was working on heat exchangers in a unit identified as U-607 and that a metal cover detached during depressurisation of a system still under pressure. There was no fire and the refinery continued operating. A 43-year-old worker died that afternoon and a 50-year-old colleague died on 11 October in an Athens hospital. The official cause has not been published."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who was arrested after the Motor Oil Corinth refinery explosion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to Greek press reports, prosecutors ordered the arrest of the contractor crew's 59-year-old site supervisor on 9 October 2026. On 10 October police arrested three Motor Oil employees: a foreman, the head of the health and safety department and a project manager. A fourth man was being sought. The reported charges are causing an explosion and causing damage that endangered public safety. The Greek Labour Inspectorate (SEPE) was notified and an autopsy was ordered. An arrest is not a finding of guilt and the investigation is ongoing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why can a heat exchanger cover come off during maintenance if the equipment was isolated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pressure can survive an isolation in several ways that incident reports see repeatedly: a block valve that is closed and tagged but passing; trapped liquid that warms up in a closed volume and builds pressure, as in the 2008 Goodyear heat exchanger rupture investigated by the CSB; a vent or drain that is blocked by scale or wax so that 'nothing came out' is read as 'empty'; a nitrogen or steam purge that was closed in behind and never relieved; or the wrong side being proved, for example the shell side but not the tube side, or a neighbouring exchanger on a shared header still being live. A bolted cover with pressure behind it acts as a piston when the bolts are loosened."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does HSE guidance HSG253 say about proving an isolation before breaking containment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HSG253, 'The safe isolation of plant and equipment', published by the UK Health and Safety Executive, says in paragraph 165 to prove the integrity of all isolation points of an isolation scheme before proceeding with intrusive work. Paragraph 168 says not to rely on an isolation that is unproved because the facilities are not present or because you lack confidence in the test, and instead to extend the isolation boundary or defer the work until shutdown. Paragraph 173 says that immediately prior to breaking containment a competent person should prove that there is no leakage and pressure build-up within the isolation envelope, using an appropriate method, and that this should be recorded on the isolation certificate. The IOGP Life-Saving Rules state the same principle as 'Verify isolation and zero energy before work begins.'"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a contractor crew do before unbolting a heat exchanger cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Treat the permit as a reference, not as proof. Ask to see the isolation certificate, check how and when each isolation point was proved, and walk the isolation together with the plant's isolation authority so every lock and tag is checked against the list. At the exchanger, immediately before the first bolt comes off, crack the bleed or vent with a gauge in sight and confirm zero pressure, then record it. Stand to the side of the cover, never in front of it, loosen the bolts on the far side first so the cover hinges away from you, and keep opposite studs engaged until the joint has been seen to be open and nothing is coming out. If anything unexpected happens, such as a hiss or liquid at the bleed, stop, step back, re-isolate and re-prove before continuing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Has the Motor Oil Agioi Theodoroi refinery had previous accidents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. On 17 September 2024 a fire in one of the refinery's crude distillation units injured several people and took the unit out of service for an extended repair. Press reports after the October 2026 incident also referred to a 2020 explosion at the site that killed one worker and injured three. The Agioi Theodoroi refinery is Greece's second-largest and accounts for more than a third of the country's refining capacity."
+        }
+      }
+    ]
+  }
+}
