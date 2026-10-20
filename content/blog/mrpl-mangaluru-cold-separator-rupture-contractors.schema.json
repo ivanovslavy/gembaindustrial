@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "MRPL Cold Separator Rupture: The Office Next Door",
+    "description": "A 70-bar cold separator ruptured in MRPL's coker hydrotreater near Mangaluru on 30 September 2026. Two contract workers died. Most of the injured were in an office next door.",
+    "image": "https://gembaindustrial.com/images/blog/mrpl-mangaluru-cold-separator-rupture-contractors/hero.jpg",
+    "datePublished": "2026-10-20",
+    "dateModified": "2026-10-20",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/mrpl-mangaluru-cold-separator-rupture-contractors",
+    "articleSection": "Industry Commentary",
+    "keywords": "mrpl, mangaluru, mangalore-refinery, coker-hydrotreater, cold-separator, pressure-vessel, wet-h2s, hic, api-571, api-rp-932-b, facility-siting, api-rp-753, contract-workers, hydrotreater-turnaround, india, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened at the MRPL refinery in Mangaluru on 30 September 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "At about 12:20 local time on 30 September 2026, the cold separator in the coker hydrotreater unit at Mangalore Refinery and Petrochemicals Limited (MRPL), near Jokatte north of Mangaluru in Karnataka, India, ruptured while operating at high pressure, reported locally as around 70 bar. The release ignited, causing an explosion heard several kilometres away and a fire that was fully extinguished at 14:47. The unit was isolated and evacuated and the rest of the 300,000 barrel-a-day refinery kept running. A 30-year-old contract electrical maintenance worker was found dead after the fire. A second contract worker with burns over about 35 percent of his body died in hospital on 17 October. Between eight and twelve others were injured, most of them office staff in a building next to the unit. Police registered a criminal case against the unit head and management for negligence; that is an investigation, not a finding of guilt. The cause of the rupture has not been established."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a cold separator in a hydrotreater and why does it run at such high pressure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A cold high-pressure separator is a thick-walled drum downstream of a hydrotreater reactor. The reactor effluent, a mix of treated oil, unreacted hydrogen, hydrogen sulphide and ammonia, is cooled in feed/effluent exchangers and an air cooler, with wash water injected to dissolve ammonium bisulphide salts. In the cold separator three phases settle out: hydrogen-rich gas goes back to the recycle compressor, liquid hydrocarbon goes to a product stripper, and sour water drains from the boot. The drum is cold, typically 40 to 60 degrees C, but it sits at close to reactor pressure, tens of bar on a gas oil hydrotreater, because the recycle gas has to return to the reactor loop without being recompressed from atmospheric. That combination of large hydrocarbon inventory under a hydrogen blanket at high pressure is what makes a shell failure so violent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What damage mechanisms can cause a hydrotreater cold separator to fail?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cause at MRPL has not been published. In general, API RP 571 lists several mechanisms that affect separators in sour hydrogen service. Wet H2S damage, where atomic hydrogen from the corrosion reaction enters carbon steel and forms blisters, hydrogen-induced cracking (HIC) and stress-oriented hydrogen-induced cracking (SOHIC) at welds, is the classic one; the 1984 amine absorber rupture at Lemont, Illinois, which killed 17 people, is the textbook case. Ammonium bisulphide corrosion, the subject of API RP 932-B, mainly attacks the reactor effluent air cooler and its outlet piping but can reach the separator inlet. Fabrication or repair weld defects that were never inspected can also grow in service. All of these are found, or missed, during internal inspection outages, which is why protecting the inspection window on sour-service vessels matters so much during a turnaround."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why were office workers injured in the MRPL blast if they were not working on the vessel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Press reports say seven or eight office staff in a building adjacent to the coker hydrotreater unit suffered minor injuries, and the police complaint was filed by a catering company employee. A high-pressure vessel failure produces a blast and fire that affect everyone within range regardless of whether they hold a permit for the equipment. This is the lesson the US Chemical Safety Board drew from the 2005 BP Texas City explosion, where all 15 fatalities were in or around contractor trailers sited near the isomerisation unit, some as close as 121 feet. That investigation produced an urgent recommendation to the American Petroleum Institute and led to API RP 753 on the siting of portable buildings, alongside API RP 752 for permanent buildings. Whether a siting study existed for the MRPL office is not public. For contractor crews, the practical takeaway is to ask where break cabins, tool containers and site offices sit relative to the nearest high-pressure unit, and to push for them to be outside its battery limit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should contractor crews change after the MRPL cold separator incident?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Four things, assuming the reported picture holds. First, crew leads should ask where their people sit, eat and shelter and whether a siting study covers that spot; if nobody can find one, push for cabins outside the battery limit of the nearest high-pressure unit. Second, young technicians should learn where the separators are and what pressure they run at, walk past them rather than under the nozzles, and treat a shimmer in the air above a flange as a hydrogen fire: raise the alarm and leave. Third, turnaround planners should protect the inspection window on sour-service vessels, put the cold separator cleaning crew on the first shift of the outage, and write full access for wet fluorescent magnetic particle testing of all internal welds into the scope rather than trading it for a day on the schedule. Fourth, crew members working abroad should see their own insurance documents, in a language they read, before travelling, and not assume the client's or agency's cover applies to them."
+        }
+      }
+    ]
+  }
+}
