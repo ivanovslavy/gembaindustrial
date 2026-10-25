@@ -1,5 +1,49 @@
 [
   {
+    "slug": "zeeland-refinery-inert-entry-catalyst-diver-dsb",
+    "date": "2026-10-25",
+    "lastUpdated": "2026-10-25",
+    "author": "GEMBA Industrial crew",
+    "category": "Safety & Compliance",
+    "cluster": "safety-compliance",
+    "tags": [
+      "dutch-safety-board",
+      "zeeland-refinery",
+      "inert-entry",
+      "catalyst-unloading",
+      "nitrogen",
+      "confined-space",
+      "rescue",
+      "breathing-apparatus",
+      "catalyst-changeout",
+      "hydrocracker",
+      "buried-under-catalyst",
+      "csb",
+      "valero-delaware-city",
+      "contractors"
+    ],
+    "title": {
+      "en": "Zeeland Refinery: The Diver Who Could Not Be Hoisted Out",
+      "bg": "Zeeland Refinery: „водолазът“, когото не успяха да изтеглят",
+      "es": "Zeeland Refinery: el «buzo» que no pudieron izar"
+    },
+    "excerpt": {
+      "en": "Dutch Safety Board report on the 2023 Zeeland Refinery inert-entry death: a catalyst diver buried under nitrogen, three failed rescue attempts, and a verdict that inert entry is inherently unsafe.",
+      "bg": "Докладът на Холандския съвет за безопасност за смъртния случай при инертно влизане в Zeeland Refinery през 2023 г.: техник, затрупан от катализатор под азот, три неуспешни опита за спасяване и присъда „по същество опасно“.",
+      "es": "Informe del Consejo de Seguridad neerlandés sobre la muerte por entrada inerte en Zeeland Refinery en 2023: un «buzo» sepultado bajo catalizador en nitrógeno, tres rescates fallidos y un veredicto de «intrínsecamente inseguro»."
+    },
+    "readingTime": 13,
+    "hero": "/images/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb/hero.jpg",
+    "heroRetina": "/images/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb/hero@2x.jpg",
+    "source_url": "https://onderzoeksraad.nl/wp-content/uploads/2025/06/Fatal-accident-in-a-reactor.pdf",
+    "source_type": "industry_publication",
+    "source_date": "2026-04-14",
+    "emotional_hook": "the_training_doesnt_cover_this",
+    "word_count": 3020,
+    "first_hand_story_used": false,
+    "hero_status": "unsplash"
+  },
+  {
     "slug": "mrpl-mangaluru-cold-separator-rupture-contractors",
     "date": "2026-10-20",
     "lastUpdated": "2026-10-20",

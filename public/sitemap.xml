@@ -313,6 +313,34 @@
 
   <!-- Blog posts -->
   <url>
+    <loc>https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/bg/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gembaindustrial.com/es/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gembaindustrial.com/es/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gembaindustrial.com/en/blog/mrpl-mangaluru-cold-separator-rupture-contractors</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gembaindustrial.com/en/blog/mrpl-mangaluru-cold-separator-rupture-contractors"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://gembaindustrial.com/bg/blog/mrpl-mangaluru-cold-separator-rupture-contractors"/>

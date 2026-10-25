@@ -1,0 +1,73 @@
+{
+  "articleSchema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Zeeland Refinery: The Diver Who Could Not Be Hoisted Out",
+    "description": "Dutch Safety Board report on the 2023 Zeeland Refinery inert-entry death: a catalyst diver buried under nitrogen, three failed rescue attempts, and a verdict that inert entry is inherently unsafe.",
+    "image": "https://gembaindustrial.com/images/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb/hero.jpg",
+    "datePublished": "2026-10-25",
+    "dateModified": "2026-10-25",
+    "author": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial crew",
+      "url": "https://gembaindustrial.com/en/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GEMBA Industrial Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://gembaindustrial.com/favicon.svg"
+      }
+    },
+    "mainEntityOfPage": "https://gembaindustrial.com/en/blog/zeeland-refinery-inert-entry-catalyst-diver-dsb",
+    "articleSection": "Safety & Compliance",
+    "keywords": "dutch-safety-board, zeeland-refinery, inert-entry, catalyst-unloading, nitrogen, confined-space, rescue, breathing-apparatus, catalyst-changeout, hydrocracker, buried-under-catalyst, csb, valero-delaware-city, contractors"
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happened in the fatal reactor accident at Zeeland Refinery on 3 February 2023?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "According to the Dutch Safety Board report Fatal accident in a reactor, published 9 April 2025, a catalyst-handling technician employed by the contractor T.I.M.E. Service Catalyst Handling was working as a 'diver' inside hydrotreating reactor 302R03 of the Zeeland Refinery hydrocracker near Vlissingen. The reactor was filled with nitrogen so that the spent, self-heating catalyst would not ignite, and the diver breathed through a helmet fed by two air hoses. He had been chipping caked catalyst on the lowest of three beds for about two and a half hours when, shortly after asking for the dump nozzles to be opened, he called over the radio that he was trapped. He had become buried under catalyst. Oxygen in the air leaving his helmet came into contact with the spent catalyst and it ignited. Colleagues made three rescue attempts; the first was abandoned when dust got into the rescuer's helmet, the second when the rescuer's umbilical tangled in the manholes. The third attempt brought him out at about 12:00, roughly 45 minutes after the alarm. The medical examiner recorded burns as the cause of death."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does the Dutch Safety Board say inert entry for catalyst unloading is inherently unsafe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Board's primary conclusion is that unloading reactors by inert entry is inherently unsafe for the person who goes in, and that the measures in place were not sufficiently robust. Its reasoning: the refinery's own risk matrix rated the consequences of an accident as very serious and accepted that they could hardly be reduced, so the only lever was the likelihood of an accident. That likelihood depended almost entirely on the diver following work instructions (stay clipped to the safety line, never let catalyst rise above hip height, leave the reactor before dumping) while doing strenuous work in a hot, dark, dusty space where disorientation is normal and the camera feed from the Life Support Unit was useless because of dust. The Board found that instructions are deviated from in practice, deliberately or not, that one key instruction about being inside during dumping was interpreted differently by different people, and that escape and rescue options from a lower bed are extremely limited. It therefore recommended that the contractor cease inert entry, that the refinery and contractor share the lessons and lead development of safer methods, and that the Dutch State Secretary ensure the sector stops the method."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why did the rescue plan fail at Zeeland Refinery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Board found that the rescue plan amounted to nothing more than the HSE plan and rested on three untested assumptions: that the diver could be winched up regardless of which bed he was on, that he was attached to his safety line, and that he was lying free rather than buried. None was true on 3 February 2023. The diver was on the third and lowest bed, reached through three stacked manholes that also carried the umbilical, camera cables and safety line; the safety line was found clipped to the ladder, not to his harness; and he was under so much catalyst that the first rescuer could not clear it because material kept flowing back, and hoisting by the umbilical proved impossible. Sector experts told the Board that recovering an unconscious diver from a second bed is very difficult and from a third bed or lower virtually impossible from above. The report states that extracting a person who cannot move from a third bed or lower is neither trained nor examined in the SIR breathing-protection certification, nor practised by the employer. The Board concluded that the parties overestimated the possibilities of a successful rescue."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What has changed in the industry since the Zeeland Refinery report, as of 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Board's follow-up note of 14 April 2026 (reference 26.0000548) scores each recommendation. Zeeland Refinery has followed the recommendations addressed to it: TotalEnergies, its 55 percent owner, banned inert entry at all its refineries after the accident, the site now uses wet unloading and no-entry unloading as the starting point, it shared its internal findings through sector bodies, and its tenders now give contractors room to propose and test alternative methods. The contractor T.I.M.E. has not followed the recommendation to stop inert entry, stating that a full stop is not yet possible because not every reactor is suited to alternatives, while minimising time inside and aiming to stop in future; the Board rates its work on developing new methods within the SIR working group as followed, and its sharing of lessons as not followed. The State Secretary partly followed the recommendation by endorsing the conclusions and committing the labour inspectorate to targeted inspections, which the Board calls insufficiently encouraging. A Board member told the Dutch press on 15 April 2026 that stopping this work is not going fast enough. At publication, NOS reported that tens of reactors in the Netherlands were still cleaned this way and that more than ten divers worldwide had died this way in fifteen years."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a catalyst-handling crew lead take from the Zeeland Refinery case before an inert entry?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Four practical points. First, ask where the rescue stops working: from which bed can an unconscious diver actually be recovered, and has it ever been practised with a dummy? If the honest answer is bed 1, an entry to bed 3 is an entry without a rescue, and the client should hear that in the permit meeting. Second, treat the hip-height rule as a barrier that will fail, because disorientation in a dark, dusty reactor is normal; push for controlled dumping a metre at a time with the diver out, rather than blind dumping that leaves pillars taller than a person. Third, limit time inside from outside: the Dutch labour inspectorate's guidance for strenuous industrial cleaning is one hour at a time and four hours a day, and the diver should never be the one deciding how long he stays. Fourth, remember nitrogen is dangerous on both sides of the manway: the CSB's Valero Delaware City case study (No. 2006-02-I-DE) describes a boilermaker and a foreman who died within minutes at an open reactor manway on nitrogen purge, and in one study cited by the CSB 34 of 88 confined-space fatalities were would-be rescuers. If the client's scope only allows unloading under nitrogen with inert entry, offer a wet-unloading or no-entry option in the bid with time and cost spelled out."
+        }
+      }
+    ]
+  }
+}
